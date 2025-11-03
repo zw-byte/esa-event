@@ -20,7 +20,8 @@ function Hero() {
         
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
           阿里云ESA边缘安全加速，集成CDN加速、DDoS防护、WAF安全防护于一体
-          <br />
+        </p>
+        <p className="text-lg md:text-xl text-blue-200 mb-8 max-w-3xl mx-auto">
           与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
         </p>
         
