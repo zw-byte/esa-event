@@ -10,20 +10,24 @@ function Hero() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
           ESA征文活动
-          <br />
-          <span className="gradient-text bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-            用数据说话，优质稿获ESA高级版
-          </span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-          阿里云ESA边缘安全加速，集成CDN加速、DDoS防护、WAF安全防护于一体
-        </p>
-        <p className="text-lg md:text-xl text-blue-200 mb-8 max-w-3xl mx-auto">
-          与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
-        </p>
+        <div className="mb-10">
+          <h2 className="text-2xl md:text-3xl font-semibold text-yellow-300 mb-6 leading-relaxed">
+            用数据说话，优质稿获ESA高级版
+          </h2>
+          
+          <div className="space-y-4 max-w-4xl mx-auto">
+            <p className="text-lg md:text-xl text-blue-100 leading-relaxed">
+              阿里云ESA边缘安全加速，集成CDN加速、DDoS防护、WAF安全防护于一体
+            </p>
+            <p className="text-base md:text-lg text-blue-200 leading-relaxed">
+              与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
+            </p>
+          </div>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <button className="btn-primary text-lg px-10 py-4">
