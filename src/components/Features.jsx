@@ -3,39 +3,39 @@ import React from 'react';
 function Features() {
   const features = [
     {
-      icon: 'fas fa-shield-alt',
-      title: '边缘安全防护',
-      description: '分享ESA在DDoS防护、Web应用防火墙、Bot管理等安全防护方面的实践经验',
+      icon: 'fas fa-route',
+      title: '智能路由',
+      description: '全球智能路由优化，自动选择最佳访问路径，降低延迟提升用户体验',
       color: 'from-blue-500 to-blue-600'
     },
     {
-      icon: 'fas fa-rocket',
-      title: '性能加速优化',
-      description: '探讨CDN加速、智能路由、缓存策略等性能优化技术的应用与实践',
+      icon: 'fas fa-database',
+      title: '内容缓存',
+      description: '边缘缓存分发，静态和动态内容智能缓存，大幅提升访问速度',
       color: 'from-green-500 to-green-600'
     },
     {
-      icon: 'fas fa-globe',
-      title: '全球网络覆盖',
-      description: '分享全球边缘节点部署、跨地域访问优化等网络架构设计经验',
+      icon: 'fas fa-shield-alt',
+      title: 'WAF防护',
+      description: 'Web应用防火墙，实时防护SQL注入、XSS攻击等各类Web安全威胁',
       color: 'from-purple-500 to-purple-600'
     },
     {
-      icon: 'fas fa-chart-line',
-      title: '监控与分析',
-      description: '讨论实时监控、数据分析、性能诊断等运维管理最佳实践',
+      icon: 'fas fa-shield-virus',
+      title: 'DDoS防护',
+      description: '分布式拒绝服务攻击防护，多层防护机制确保业务稳定运行',
       color: 'from-orange-500 to-orange-600'
     },
     {
-      icon: 'fas fa-cogs',
-      title: '技术架构设计',
-      description: '分享ESA技术架构、微服务设计、容器化部署等技术方案',
+      icon: 'fas fa-user-shield',
+      title: '访问控制',
+      description: '精细化访问控制策略，支持地理位置、IP白名单等多维度访问管理',
       color: 'from-red-500 to-red-600'
     },
     {
-      icon: 'fas fa-lightbulb',
-      title: '创新应用场景',
-      description: '探索ESA在新兴场景下的创新应用，如IoT、边缘计算等领域',
+      icon: 'fas fa-chart-line',
+      title: '全链路可观测',
+      description: '实时监控分析，提供详细的性能指标和安全报告，助力业务优化',
       color: 'from-indigo-500 to-indigo-600'
     }
   ];
@@ -45,11 +45,11 @@ function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            征文主题方向
+            阿里云ESA核心能力
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            我们欢迎围绕边缘安全加速(ESA)技术的各个方面进行深入分享，
-            包括但不限于以下主题方向
+            聚焦解决全球访问高延迟、攻击频发与中心化架构性能瓶颈，
+            适用于电商、内容社区、音视频、游戏、SaaS等多种业务场景
           </p>
         </div>
         
@@ -78,11 +78,11 @@ function Features() {
           <div className="bg-blue-50 rounded-2xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-blue-900 mb-4">
               <i className="fas fa-star text-yellow-500 mr-2"></i>
-              特别鼓励原创性内容
+              适用场景广泛
             </h3>
             <p className="text-blue-700 text-lg">
-              我们特别欢迎基于真实项目经验的技术分享、问题解决方案、
-              性能优化案例以及创新应用实践等原创性内容
+              适配网站与API的跨地域优化，帮助电商、内容社区、音视频、游戏、SaaS等业务
+              在全球范围内降低时延、提升稳定性并抵御攻击
             </p>
           </div>
         </div>

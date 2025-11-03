@@ -28,10 +28,10 @@ function Submission() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            立即参与投稿
+            立即参与活动
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            准备好分享你的技术见解了吗？填写下方表单，开始你的征文之旅
+            准备好体验阿里云ESA了吗？按照要求发布推荐内容，即可领取代金券
           </p>
         </div>
         
@@ -40,7 +40,7 @@ function Submission() {
           <div className="bg-white rounded-3xl p-8 shadow-xl">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               <i className="fas fa-pen-fancy text-blue-600 mr-3"></i>
-              投稿信息
+              快速参与
             </h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -76,7 +76,7 @@ function Submission() {
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  文章标题 *
+                  推荐标题 *
                 </label>
                 <input
                   type="text"
@@ -85,13 +85,13 @@ function Submission() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                  placeholder="请输入文章标题"
+                  placeholder="请输入推荐ESA的标题"
                 />
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  主题分类 *
+                  发布平台 *
                 </label>
                 <select
                   name="category"
@@ -100,19 +100,20 @@ function Submission() {
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
                 >
-                  <option value="">请选择主题分类</option>
-                  <option value="security">边缘安全防护</option>
-                  <option value="performance">性能加速优化</option>
-                  <option value="architecture">技术架构设计</option>
-                  <option value="monitoring">监控与分析</option>
-                  <option value="innovation">创新应用场景</option>
-                  <option value="network">全球网络覆盖</option>
+                  <option value="">请选择发布平台</option>
+                  <option value="weibo">微博</option>
+                  <option value="wechat">微信朋友圈</option>
+                  <option value="zhihu">知乎</option>
+                  <option value="csdn">CSDN</option>
+                  <option value="juejin">掘金</option>
+                  <option value="v2ex">V2EX</option>
+                  <option value="other">其他平台</option>
                 </select>
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  文章简介 *
+                  推荐内容 *
                 </label>
                 <textarea
                   name="description"
@@ -121,7 +122,7 @@ function Submission() {
                   required
                   rows={4}
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none"
-                  placeholder="请简要描述您的文章内容和技术要点（200字以内）"
+                  placeholder="请简要描述您的推荐内容，包括为什么推荐ESA、使用场景等"
                 />
               </div>
               
@@ -130,7 +131,7 @@ function Submission() {
                 className="w-full btn-primary text-lg py-4"
               >
                 <i className="fas fa-paper-plane mr-2"></i>
-                提交投稿
+                提交参与
               </button>
             </form>
           </div>
@@ -140,17 +141,17 @@ function Submission() {
             <div className="bg-white rounded-3xl p-8 shadow-xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
-                投稿指南
+                参与指南
               </h3>
               
               <div className="space-y-4">
                 {[
-                  '文章需为原创内容，严禁抄袭和剽窃',
-                  '字数要求不少于2000字，建议3000-5000字',
-                  '需包含实际案例、代码示例或架构图',
-                  '文章结构清晰，逻辑性强，易于理解',
-                  '技术内容准确，具有实用价值',
-                  '支持Markdown格式，图片需清晰可见'
+                  '在任一社交平台发布推荐ESA的帖子',
+                  '必须包含1张ESA元素图片（控制台截图/测试图等）',
+                  '推荐内容需附上官方领取链接',
+                  '可以是图文或视频形式的推荐内容',
+                  '简述推荐理由、使用场景或性能体验',
+                  '高阅读量内容有机会获得高级版代金券'
                 ].map((tip, index) => (
                   <div key={index} className="flex items-start">
                     <i className="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
@@ -162,25 +163,25 @@ function Submission() {
             
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">
-                <i className="fas fa-question-circle mr-3"></i>
-                需要帮助？
+                <i className="fas fa-link mr-3"></i>
+                重要链接
               </h3>
               <p className="mb-6">
-                如果您在投稿过程中遇到任何问题，或需要技术指导，
-                欢迎联系我们的技术支持团队。
+                参与活动必备链接，请务必在推荐内容中包含官方领取链接，
+                并前往活动页面提交参与信息。
               </p>
               <div className="space-y-3">
                 <div className="flex items-center">
-                  <i className="fas fa-envelope mr-3"></i>
-                  <span>support@esa-contest.com</span>
+                  <i className="fas fa-gift mr-3"></i>
+                  <span>领取链接：http://s.tb.cn/e6.0Fu67m</span>
                 </div>
                 <div className="flex items-center">
-                  <i className="fas fa-phone mr-3"></i>
-                  <span>400-123-4567</span>
+                  <i className="fas fa-file-alt mr-3"></i>
+                  <span>活动详情：https://help.aliyun.com/document_detail/2936616.html</span>
                 </div>
                 <div className="flex items-center">
-                  <i className="fas fa-comments mr-3"></i>
-                  <span>在线客服：工作日 9:00-18:00</span>
+                  <i className="fas fa-calendar mr-3"></i>
+                  <span>活动时间：持续进行中，每周结算</span>
                 </div>
               </div>
             </div>

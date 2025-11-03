@@ -3,44 +3,44 @@ import React from 'react';
 function Prizes() {
   const prizes = [
     {
-      rank: '一等奖',
-      count: '1名',
-      prize: '现金奖励 ¥20,000',
-      bonus: '+ ESA高级认证证书 + 技术大会演讲机会',
+      rank: '基础版代金券',
+      count: '所有参与者',
+      prize: '1个月基础版等值',
+      bonus: '可抵扣超量流量费用',
+      icon: 'fas fa-ticket-alt',
+      color: 'from-blue-400 to-blue-600',
+      bgColor: 'bg-gradient-to-br from-blue-50 to-indigo-50',
+      borderColor: 'border-blue-300'
+    },
+    {
+      rank: '高级版代金券',
+      count: '高阅读量内容',
+      prize: '1个月高级版等值',
+      bonus: '更多功能权限体验',
       icon: 'fas fa-crown',
       color: 'from-yellow-400 to-yellow-600',
       bgColor: 'bg-gradient-to-br from-yellow-50 to-orange-50',
       borderColor: 'border-yellow-300'
     },
     {
-      rank: '二等奖',
-      count: '3名',
-      prize: '现金奖励 ¥10,000',
-      bonus: '+ ESA专业认证证书 + 技术交流机会',
-      icon: 'fas fa-medal',
-      color: 'from-gray-400 to-gray-600',
-      bgColor: 'bg-gradient-to-br from-gray-50 to-slate-50',
-      borderColor: 'border-gray-300'
+      rank: '多次参与',
+      count: '不限次数',
+      prize: '每周结算发放',
+      bonus: '发布越多，机会越多',
+      icon: 'fas fa-sync-alt',
+      color: 'from-green-400 to-green-600',
+      bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50',
+      borderColor: 'border-green-300'
     },
     {
-      rank: '三等奖',
-      count: '5名',
-      prize: '现金奖励 ¥5,000',
-      bonus: '+ ESA基础认证证书 + 技术资料包',
-      icon: 'fas fa-award',
-      color: 'from-orange-400 to-orange-600',
-      bgColor: 'bg-gradient-to-br from-orange-50 to-red-50',
-      borderColor: 'border-orange-300'
-    },
-    {
-      rank: '优秀奖',
-      count: '10名',
-      prize: '现金奖励 ¥2,000',
-      bonus: '+ 精美纪念品 + 技术社区VIP',
-      icon: 'fas fa-star',
-      color: 'from-blue-400 to-blue-600',
-      bgColor: 'bg-gradient-to-br from-blue-50 to-indigo-50',
-      borderColor: 'border-blue-300'
+      rank: '零门槛参与',
+      count: '所有开发者',
+      prize: '简单2步操作',
+      bonus: '接入门槛低，适配性强',
+      icon: 'fas fa-users',
+      color: 'from-purple-400 to-purple-600',
+      bgColor: 'bg-gradient-to-br from-purple-50 to-violet-50',
+      borderColor: 'border-purple-300'
     }
   ];
 
@@ -49,10 +49,10 @@ function Prizes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            丰厚奖项等你来拿
+            轻松参与，即刻领券
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            总奖金池超过50万元，多重奖励机制，让每一份优质内容都能得到应有的回报
+            零门槛体验阿里云ESA，简单2步即可领取代金券，高阅读量内容还有机会获得更多福利
           </p>
         </div>
         
@@ -90,38 +90,38 @@ function Prizes() {
           ))}
         </div>
         
-        {/* 特别奖励 */}
+        {/* 参与优势 */}
         <div className="bg-white rounded-3xl p-8 shadow-xl">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
               <i className="fas fa-gift text-purple-600 mr-3"></i>
-              特别奖励
+              参与优势
             </h3>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-users text-white text-2xl"></i>
+                <i className="fas fa-clock text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">最佳人气奖</h4>
-              <p className="text-gray-600">获得最多点赞和评论的文章，额外奖励 ¥5,000</p>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">活动持续进行</h4>
+              <p className="text-gray-600">自7月启动至今持续进行，随时参与随时领取</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-lightbulb text-white text-2xl"></i>
+                <i className="fas fa-rocket text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">最佳创新奖</h4>
-              <p className="text-gray-600">最具创新性和前瞻性的技术方案，额外奖励 ¥5,000</p>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">接入门槛低</h4>
+              <p className="text-gray-600">简单配置即可体验全球加速与安全防护能力</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-code text-white text-2xl"></i>
+                <i className="fas fa-globe text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">最佳实践奖</h4>
-              <p className="text-gray-600">最具实用价值的实践案例分享，额外奖励 ¥5,000</p>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">全球覆盖</h4>
+              <p className="text-gray-600">3200+全球边缘节点，覆盖主要国家和地区</p>
             </div>
           </div>
         </div>

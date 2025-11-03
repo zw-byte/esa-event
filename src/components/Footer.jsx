@@ -14,8 +14,8 @@ function Footer() {
               <span className="text-2xl font-bold">ESA征文活动</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              边缘安全加速技术征文活动，汇聚行业精英，分享前沿技术，
-              推动ESA技术生态发展，共建安全高效的互联网基础设施。
+              阿里云ESA边缘安全加速平台，依托3200+全球边缘节点，
+              为各行业提供网络加速、安全防护与边缘计算的一体化能力。
             </p>
             <div className="flex space-x-4">
               {[
@@ -39,7 +39,7 @@ function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">快速链接</h3>
             <ul className="space-y-2">
-              {['活动介绍', '奖项设置', '参与规则', '时间安排', '投稿指南'].map((link) => (
+              {['ESA介绍', '参与方式', '奖励机制', '活动规则', '快速参与'].map((link) => (
                 <li key={link}>
                   <a
                     href={`#${link}`}
@@ -76,7 +76,7 @@ function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 ESA征文活动. 保留所有权利.
+              © 2024 阿里云ESA活动. 保留所有权利.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors duration-300">

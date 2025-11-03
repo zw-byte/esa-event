@@ -18,17 +18,17 @@ function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          ESA征文有奖活动
+          阿里云ESA征文活动
           <br />
           <span className="gradient-text bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-            分享你的技术见解
+            写下你的推荐，领代金券
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-          边缘安全加速技术正在改变互联网的未来，分享你的实践经验和技术洞察，
+          依托3200+全球边缘节点，为游戏、电商、金融、媒体等行业提供网络加速、安全防护与边缘计算的一体化能力
           <br />
-          赢取丰厚奖品，与技术大咖一起探讨前沿技术！
+          简单2步拿福利，发布越多，机会越多！
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -45,9 +45,9 @@ function Hero() {
         {/* 统计数据 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {[
-            { icon: 'fas fa-trophy', number: '50万+', label: '奖金池' },
-            { icon: 'fas fa-users', number: '1000+', label: '参与者' },
-            { icon: 'fas fa-calendar-alt', number: '30天', label: '活动周期' }
+            { icon: 'fas fa-globe', number: '3200+', label: '全球边缘节点' },
+            { icon: 'fas fa-users', number: '零门槛', label: '所有开发者' },
+            { icon: 'fas fa-gift', number: '持续中', label: '活动进行' }
           ].map((stat, index) => (
             <div key={index} className="bg-white bg-opacity-20 rounded-2xl p-6 backdrop-blur-sm">
               <i className={`${stat.icon} text-3xl text-yellow-400 mb-3`}></i>
