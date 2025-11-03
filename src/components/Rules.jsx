@@ -75,24 +75,30 @@ function Rules() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {[
-              { name: '个人博客', icon: 'fas fa-blog' },
-              { name: '微信公众号', icon: 'fab fa-weixin' },
-              { name: 'V2EX', icon: 'fas fa-comments' },
-              { name: 'CSDN', icon: 'fas fa-code' },
-              { name: '掘金', icon: 'fas fa-gem' },
-              { name: '知乎专栏', icon: 'fas fa-question-circle' },
-              { name: 'B站专栏', icon: 'fab fa-bilibili' },
-              { name: 'GitHub', icon: 'fab fa-github' },
-              { name: 'SegmentFault', icon: 'fas fa-terminal' },
-              { name: 'YouTube', icon: 'fab fa-youtube' },
-              { name: 'Twitter/X', icon: 'fab fa-twitter' },
-              { name: 'Facebook', icon: 'fab fa-facebook' },
-              { name: '开源中国', icon: 'fas fa-open-source' }
+              { name: '个人博客', icon: 'fas fa-blog', url: '#' },
+              { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
+              { name: 'V2EX', icon: 'fas fa-comments', url: 'https://www.v2ex.com' },
+              { name: 'CSDN', icon: 'fas fa-code', url: 'https://blog.csdn.net' },
+              { name: '掘金', icon: 'fas fa-gem', url: 'https://juejin.cn' },
+              { name: '知乎专栏', icon: 'fas fa-question-circle', url: 'https://zhuanlan.zhihu.com' },
+              { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
+              { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
+              { name: 'SegmentFault', icon: 'fas fa-terminal', url: 'https://segmentfault.com' },
+              { name: 'YouTube', icon: 'fab fa-youtube', url: 'https://www.youtube.com' },
+              { name: 'Twitter/X', icon: 'fab fa-twitter', url: 'https://twitter.com' },
+              { name: 'Facebook', icon: 'fab fa-facebook', url: 'https://www.facebook.com' },
+              { name: '开源中国', icon: 'fas fa-open-source', url: 'https://www.oschina.net' }
             ].map((platform, index) => (
-              <div key={index} className="text-center bg-white rounded-xl p-4 shadow-sm">
-                <i className={`${platform.icon} text-2xl text-blue-600 mb-2`}></i>
-                <div className="text-sm font-medium text-gray-700">{platform.name}</div>
-              </div>
+              <a 
+                key={index} 
+                href={platform.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
+              >
+                <i className={`${platform.icon} text-2xl text-blue-600 mb-2 group-hover:text-blue-700 transition-colors`}></i>
+                <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900">{platform.name}</div>
+              </a>
             ))}
           </div>
           
