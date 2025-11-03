@@ -28,10 +28,10 @@ function Submission() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            立即参与活动
+            立即参与ESA横向测评
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            准备好体验阿里云ESA了吗？按照要求发布推荐内容，即可领取代金券
+            分享你的ESA使用体验，与Cloudflare等竞品对比，用数据说话获得丰厚奖励
           </p>
         </div>
         
@@ -76,7 +76,7 @@ function Submission() {
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  推荐标题 *
+                  文章标题 *
                 </label>
                 <input
                   type="text"
@@ -85,7 +85,7 @@ function Submission() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                  placeholder="请输入推荐ESA的标题"
+                  placeholder="请输入ESA横向测评文章标题"
                 />
               </div>
               
@@ -101,19 +101,21 @@ function Submission() {
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
                 >
                   <option value="">请选择发布平台</option>
-                  <option value="weibo">微博</option>
-                  <option value="wechat">微信朋友圈</option>
-                  <option value="zhihu">知乎</option>
+                  <option value="blog">个人博客</option>
+                  <option value="wechat">微信公众号</option>
+                  <option value="zhihu">知乎专栏</option>
                   <option value="csdn">CSDN</option>
                   <option value="juejin">掘金</option>
                   <option value="v2ex">V2EX</option>
+                  <option value="bilibili">B站专栏</option>
+                  <option value="aliyun">阿里云社区</option>
                   <option value="other">其他平台</option>
                 </select>
               </div>
               
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  推荐内容 *
+                  文章内容简介 *
                 </label>
                 <textarea
                   name="description"
@@ -122,7 +124,7 @@ function Submission() {
                   required
                   rows={4}
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none"
-                  placeholder="请简要描述您的推荐内容，包括为什么推荐ESA、使用场景等"
+                  placeholder="请简要描述您的文章内容，包括测评方向、对比结果、使用心得等"
                 />
               </div>
               
@@ -141,17 +143,17 @@ function Submission() {
             <div className="bg-white rounded-3xl p-8 shadow-xl">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
-              推荐内容建议
+              征文内容建议
             </h3>
             
             <div className="space-y-4">
               {[
-                '分享你的ESA使用场景（出海、加速、安全等）',
-                '对比其他解决方案的优势体验',
-                '包含1张ESA相关图片（控制台/测试结果等）',
-                '推荐内容需附上官方领取链接',
-                '可以是技术分析、性能测试或使用心得',
-                '高质量内容有机会获得高级版代金券'
+                'ESA vs Cloudflare 性能对比测试数据',
+                '详细的使用教程和最佳实践分享',
+                '技术开发实践和场景应用案例',
+                '真实的使用体验和心得总结',
+                '长文图文、短视频、实验报告均可',
+                '中英文皆可，字数不少于800字（阿里云社区）'
               ].map((tip, index) => (
                   <div key={index} className="flex items-start">
                     <i className="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
@@ -163,29 +165,28 @@ function Submission() {
             
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">
-                <i className="fas fa-link mr-3"></i>
-                重要链接
+                <i className="fas fa-trophy mr-3"></i>
+                奖励提醒
               </h3>
               <p className="mb-6">
-                参与活动必备链接，请务必在推荐内容中包含官方领取链接，
-                并前往活动页面提交参与信息。
+                活动长期有效，每月评选，可累积。提交作品后7个工作日内发放奖励。
               </p>
               <div className="space-y-3">
                 <div className="flex items-center">
-                  <i className="fas fa-gift mr-3"></i>
-                  <span className="text-sm">领取链接：http://s.tb.cn/e6.0Fu67m</span>
+                  <i className="fas fa-medal mr-3"></i>
+                  <span className="text-sm">基础奖励：每位作者发布即可得1个月ESA基础版</span>
                 </div>
                 <div className="flex items-center">
-                  <i className="fas fa-file-alt mr-3"></i>
-                  <span className="text-sm">活动详情：https://help.aliyun.com/document_detail/2936616.html</span>
+                  <i className="fas fa-star mr-3"></i>
+                  <span className="text-sm">阅读量≥1000：ESA标准版+ESA先锋成员</span>
                 </div>
                 <div className="flex items-center">
-                  <i className="fas fa-calendar mr-3"></i>
-                  <span className="text-sm">活动时间：持续进行中，每周结算</span>
+                  <i className="fas fa-crown mr-3"></i>
+                  <span className="text-sm">阅读量≥10000：ESA高级版+官方署名转载</span>
                 </div>
                 <div className="flex items-center">
-                  <i className="fas fa-users mr-3"></i>
-                  <span className="text-sm">适合：运维、前端、全栈开发者参与</span>
+                  <i className="fas fa-share-alt mr-3"></i>
+                  <span className="text-sm">分享活动海报到社交平台也可获得基础版</span>
                 </div>
               </div>
             </div>

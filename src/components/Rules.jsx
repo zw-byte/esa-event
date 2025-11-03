@@ -3,34 +3,34 @@ import React from 'react';
 function Rules() {
   const rules = [
     {
-      icon: 'fas fa-edit',
-      title: '第一步：发布推荐',
-      content: '在任一社交平台发布推荐ESA的帖子，配1张包含ESA元素的图片'
+      icon: 'fas fa-globe',
+      title: '方式一：任意平台投稿',
+      content: '在任一公开平台发布文章，需显著标注参与本活动并附上官网活动文档链接'
     },
     {
-      icon: 'fas fa-paper-plane',
-      title: '第二步：提交领取',
-      content: '前往官方活动文档页面按要求提交，即可领取当周福利'
+      icon: 'fas fa-cloud',
+      title: '方式二：阿里云社区',
+      content: '在阿里云社区PC端发布不少于800字文章，标题前加上「ESA横向测评」'
     },
     {
-      icon: 'fas fa-users',
-      title: '参与资格',
-      content: '面向所有开发者，不限年龄、工作经验和技术背景'
+      icon: 'fas fa-book',
+      title: 'ESA使用教程',
+      content: 'ESA产品相关的使用教程，从入门到进阶的完整实践指南'
     },
     {
-      icon: 'fas fa-sync-alt',
-      title: '参与次数',
-      content: '任务不限次数，每周结算发放，发布越多机会越多'
+      icon: 'fas fa-code',
+      title: '技术开发实践',
+      content: '基于ESA产品的技术开发实践、场景应用，分享真实项目经验'
     },
     {
-      icon: 'fas fa-chart-line',
-      title: '奖励机制',
-      content: '基础版代金券人人可得，高阅读量内容有机会获得高级版'
+      icon: 'fas fa-heart',
+      title: '使用体验心得',
+      content: 'ESA产品使用的体验与心得，对比其他解决方案的优劣分析'
     },
     {
-      icon: 'fas fa-link',
-      title: '必要链接',
-      content: '推荐内容需附上官方领取链接：http://s.tb.cn/e6.0Fu67m'
+      icon: 'fas fa-balance-scale',
+      title: 'Cloudflare对比',
+      content: '与Cloudflare等竞品的全维度对比测试，用数据说话'
     }
   ];
 
@@ -39,10 +39,10 @@ function Rules() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            参与方式
+            投稿与发布规则
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            简单2步即可参与，零门槛体验阿里云ESA边缘加速与安全防护能力
+            两种投稿方式任选其一，长文图文、短视频、实验报告，中英文皆可
           </p>
         </div>
         
@@ -67,27 +67,44 @@ function Rules() {
           ))}
         </div>
         
-        {/* 参与流程 */}
+        {/* 投稿平台示例 */}
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            参与流程
+            推荐发布平台
           </h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {[
-              { step: '01', title: '发布推荐', desc: '在常用平台发布推荐ESA的内容' },
-              { step: '02', title: '配图要求', desc: '包含1张ESA元素图片（截图/测试图等）' },
-              { step: '03', title: '附上链接', desc: '添加官方领取链接到推荐内容中' },
-              { step: '04', title: '提交领取', desc: '前往官方页面提交并领取代金券' }
-            ].map((item, index) => (
-              <div key={index} className="text-center relative">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-lg">
-                  {item.step}
-                </div>
-                <h4 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h4>
-                <p className="text-gray-600 text-sm">{item.desc}</p>
+              { name: '个人博客', icon: 'fas fa-blog' },
+              { name: '微信公众号', icon: 'fab fa-weixin' },
+              { name: 'V2EX', icon: 'fas fa-comments' },
+              { name: 'CSDN', icon: 'fas fa-code' },
+              { name: '掘金', icon: 'fas fa-gem' },
+              { name: '知乎专栏', icon: 'fas fa-question-circle' },
+              { name: 'B站专栏', icon: 'fab fa-bilibili' },
+              { name: 'GitHub', icon: 'fab fa-github' },
+              { name: 'SegmentFault', icon: 'fas fa-terminal' },
+              { name: 'YouTube', icon: 'fab fa-youtube' },
+              { name: 'Facebook', icon: 'fab fa-facebook' },
+              { name: '开源中国', icon: 'fas fa-open-source' }
+            ].map((platform, index) => (
+              <div key={index} className="text-center bg-white rounded-xl p-4 shadow-sm">
+                <i className={`${platform.icon} text-2xl text-blue-600 mb-2`}></i>
+                <div className="text-sm font-medium text-gray-700">{platform.name}</div>
               </div>
             ))}
+          </div>
+          
+          <div className="mt-8 text-center">
+            <p className="text-gray-600 mb-4">
+              <i className="fas fa-info-circle text-blue-500 mr-2"></i>
+              文章正文需显著标注参与本活动，并附上官网活动文档链接
+            </p>
+            <div className="bg-white rounded-xl p-4 inline-block">
+              <code className="text-sm text-gray-800">
+                本文参与"ESA 横向测评征文活动"，活动详情见：[活动链接]
+              </code>
+            </div>
           </div>
         </div>
       </div>

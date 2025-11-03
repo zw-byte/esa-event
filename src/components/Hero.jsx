@@ -18,17 +18,17 @@ function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          阿里云ESA轻量创作活动
+          ESA横向测评征文活动
           <br />
           <span className="gradient-text bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-            零门槛体验边缘加速与安全
+            用数据说话，优质稿获ESA高级版
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-          全球分布式边缘网络平台，依托3200+边缘节点覆盖，提供比传统CDN更智能的加速与防护
+          Cloudflare vs ESA 全维度实测对比，别吵了，上数据！
           <br />
-          写下你的推荐，简单2步领代金券！
+          优质内容入选"ESA先锋成员"+官方署名转载
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -45,10 +45,10 @@ function Hero() {
         {/* 统计数据 */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {[
-            { icon: 'fas fa-globe', number: '3200+', label: '全球边缘节点' },
-            { icon: 'fas fa-shield-alt', number: '一体化', label: '加速+安全+计算' },
-            { icon: 'fas fa-users', number: '零门槛', label: '所有开发者' },
-            { icon: 'fas fa-gift', number: '持续中', label: '活动进行' }
+            { icon: 'fas fa-chart-line', number: '实测对比', label: '数据说话' },
+            { icon: 'fas fa-crown', number: '先锋成员', label: '优质内容' },
+            { icon: 'fas fa-trophy', number: '高级版', label: '1个月奖励' },
+            { icon: 'fas fa-fire', number: '长期有效', label: '多劳多得' }
           ].map((stat, index) => (
             <div key={index} className="bg-white bg-opacity-20 rounded-2xl p-6 backdrop-blur-sm">
               <i className={`${stat.icon} text-3xl text-yellow-400 mb-3`}></i>

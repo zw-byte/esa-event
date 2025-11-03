@@ -3,38 +3,38 @@ import React from 'react';
 function Timeline() {
   const timelineEvents = [
     {
-      date: '2024年7月',
-      title: '活动启动',
-      description: 'ESA轻量创作活动正式开始，面向所有开发者开放',
-      icon: 'fas fa-rocket',
-      status: 'completed'
+      date: '征文期',
+      title: '长期有效',
+      description: 'ESA横向测评征文活动长期有效，随时可以参与投稿',
+      icon: 'fas fa-infinity',
+      status: 'current'
     },
     {
-      date: '持续进行',
-      title: '发布推荐',
-      description: '在任一社交平台发布推荐ESA的内容，配ESA元素图片',
+      date: '投稿发布',
+      title: '两种方式',
+      description: '任意平台投稿或阿里云社区投稿，需标注参与活动',
       icon: 'fas fa-edit',
       status: 'current'
     },
     {
-      date: '每周结算',
-      title: '提交领取',
-      description: '前往官方页面提交参与信息，领取基础版代金券',
+      date: '评审期',
+      title: '每月评选',
+      description: '每月进行评选，可累积，根据阅读量和质量评定奖励',
+      icon: 'fas fa-search',
+      status: 'current'
+    },
+    {
+      date: '公布发放',
+      title: '7个工作日',
+      description: '提交作品后7个工作日内公布结果并发放奖励',
       icon: 'fas fa-gift',
       status: 'current'
     },
     {
-      date: '高阅读量',
+      date: '分享有礼',
       title: '额外奖励',
-      description: '优质内容有机会获得高级版代金券，发布越多机会越多',
-      icon: 'fas fa-crown',
-      status: 'current'
-    },
-    {
-      date: '长期有效',
-      title: '持续参与',
-      description: '活动长期进行，支持多次参与，每次都有机会获得奖励',
-      icon: 'fas fa-sync-alt',
+      description: '分享活动海报到社交平台，保留1周即可获得基础版',
+      icon: 'fas fa-share-alt',
       status: 'current'
     }
   ];
@@ -44,10 +44,10 @@ function Timeline() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            活动持续进行中
+            ESA横向测评时间安排
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            自7月启动至今持续进行，每周结算发放，随时参与随时领取
+            活动长期有效，每月评选可累积，提交作品后7个工作日内发放奖励
           </p>
         </div>
         
@@ -107,29 +107,34 @@ function Timeline() {
         
         {/* 参与提醒 */}
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-3xl p-8 max-w-3xl mx-auto">
+          <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-3xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">
               <i className="fas fa-bullhorn mr-2"></i>
-              现在就开始参与
+              ESA立志做到国际一线水准
             </h3>
             <p className="text-lg mb-6 opacity-90">
-              活动持续进行中，无截止时间限制。每周结算发放，越早参与越多收获！
+              批评是礼物，建议是养分。欢迎拍砖，我们把每条建设性反馈都当作迭代燃料
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
               <div className="bg-white bg-opacity-20 rounded-xl p-4">
-                <i className="fas fa-clock text-2xl mb-2"></i>
-                <div className="font-bold">随时参与</div>
-                <div className="text-sm opacity-80">无时间限制</div>
+                <i className="fas fa-globe text-2xl mb-2"></i>
+                <div className="font-bold">全球级能力</div>
+                <div className="text-sm opacity-80">本土落地</div>
               </div>
               <div className="bg-white bg-opacity-20 rounded-xl p-4">
-                <i className="fas fa-sync-alt text-2xl mb-2"></i>
-                <div className="font-bold">多次参与</div>
-                <div className="text-sm opacity-80">每周结算</div>
+                <i className="fas fa-balance-scale text-2xl mb-2"></i>
+                <div className="font-bold">国际对标</div>
+                <div className="text-sm opacity-80">同等水准</div>
               </div>
               <div className="bg-white bg-opacity-20 rounded-xl p-4">
-                <i className="fas fa-trophy text-2xl mb-2"></i>
-                <div className="font-bold">即时奖励</div>
-                <div className="text-sm opacity-80">快速到账</div>
+                <i className="fas fa-users text-2xl mb-2"></i>
+                <div className="font-bold">服务开发者</div>
+                <div className="text-sm opacity-80">本土生态</div>
+              </div>
+              <div className="bg-white bg-opacity-20 rounded-xl p-4">
+                <i className="fas fa-rocket text-2xl mb-2"></i>
+                <div className="font-bold">持续迭代</div>
+                <div className="text-sm opacity-80">用户反馈</div>
               </div>
             </div>
           </div>

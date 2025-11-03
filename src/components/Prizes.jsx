@@ -4,43 +4,43 @@ function Prizes() {
   const prizes = [
     {
       rank: '基础版代金券',
-      count: '所有参与者',
-      prize: '1个月基础版等值',
-      bonus: '可抵扣超量流量费用',
+      count: '每位作者',
+      prize: '1个月ESA基础版',
+      bonus: '只要发布便可得，多劳多得',
       icon: 'fas fa-ticket-alt',
       color: 'from-blue-400 to-blue-600',
       bgColor: 'bg-gradient-to-br from-blue-50 to-indigo-50',
       borderColor: 'border-blue-300'
     },
     {
-      rank: '高级版代金券',
-      count: '高阅读量内容',
-      prize: '1个月高级版等值',
-      bonus: '更多功能权限体验',
-      icon: 'fas fa-crown',
-      color: 'from-yellow-400 to-yellow-600',
-      bgColor: 'bg-gradient-to-br from-yellow-50 to-orange-50',
-      borderColor: 'border-yellow-300'
-    },
-    {
-      rank: '多次参与',
-      count: '不限次数',
-      prize: '每周结算发放',
-      bonus: '发布越多，机会越多',
-      icon: 'fas fa-sync-alt',
+      rank: '阿里云周边',
+      count: '阅读量≥500',
+      prize: '水杯、T恤、帽子',
+      bonus: '精美实物礼品',
+      icon: 'fas fa-gift',
       color: 'from-green-400 to-green-600',
       bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50',
       borderColor: 'border-green-300'
     },
     {
-      rank: '零门槛参与',
-      count: '所有开发者',
-      prize: '简单2步操作',
-      bonus: '接入门槛低，适配性强',
-      icon: 'fas fa-users',
+      rank: 'ESA标准版+先锋成员',
+      count: '阅读量≥1000',
+      prize: '1个月标准版+定制礼品',
+      bonus: '成为ESA先锋成员',
+      icon: 'fas fa-star',
       color: 'from-purple-400 to-purple-600',
       bgColor: 'bg-gradient-to-br from-purple-50 to-violet-50',
       borderColor: 'border-purple-300'
+    },
+    {
+      rank: 'ESA高级版+官方转载',
+      count: '阅读量≥10000',
+      prize: '1个月高级版+署名转载',
+      bonus: '官方账号署名转发',
+      icon: 'fas fa-crown',
+      color: 'from-yellow-400 to-yellow-600',
+      bgColor: 'bg-gradient-to-br from-yellow-50 to-orange-50',
+      borderColor: 'border-yellow-300'
     }
   ];
 
@@ -49,12 +49,12 @@ function Prizes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            体验ESA，分享你的推荐理由
+            ESA横向测评奖励机制
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            无论是出海业务、跨地域访问优化，还是安全防护需求，分享你的ESA使用体验
+            用数据说话，优质内容获得丰厚奖励。每位作者可投稿多篇，多劳多得
             <br />
-            <span className="text-blue-600 font-semibold">让更多开发者了解边缘计算的价值</span>
+            <span className="text-blue-600 font-semibold">成为ESA先锋成员，享受官方特权</span>
           </p>
         </div>
         
@@ -92,47 +92,47 @@ function Prizes() {
           ))}
         </div>
         
-        {/* 参与优势 */}
+        {/* ESA先锋成员特权 */}
         <div className="bg-white rounded-3xl p-8 shadow-xl">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
-              推荐ESA的理由
+              <i className="fas fa-crown text-yellow-500 mr-3"></i>
+              ESA先锋成员特权
             </h3>
-            <p className="text-gray-600">分享你的真实体验，帮助更多开发者做出明智选择</p>
+            <p className="text-gray-600">优质内容作者将成为ESA先锋成员，享受官方特权</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-shipping-fast text-white text-2xl"></i>
+                <i className="fas fa-id-card text-white text-2xl"></i>
               </div>
-              <h4 className="text-lg font-bold text-gray-900 mb-2">出海加速</h4>
-              <p className="text-gray-600 text-sm">跨境业务访问优化，解决海外用户访问慢的问题</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">官方展示</h4>
+              <p className="text-gray-600 text-sm">官方文档页展示姓名/ID，获得官方认可</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-shield-alt text-white text-2xl"></i>
+                <i className="fas fa-flask text-white text-2xl"></i>
               </div>
-              <h4 className="text-lg font-bold text-gray-900 mb-2">安全防护</h4>
-              <p className="text-gray-600 text-sm">DDoS、WAF一体化防护，比单独购买更经济</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">内测优先</h4>
+              <p className="text-gray-600 text-sm">优先参与新功能内测，第一时间体验新特性</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-chart-line text-white text-2xl"></i>
+                <i className="fas fa-share-alt text-white text-2xl"></i>
               </div>
-              <h4 className="text-lg font-bold text-gray-900 mb-2">性能提升</h4>
-              <p className="text-gray-600 text-sm">智能缓存和路由，显著提升网站响应速度</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">署名转载</h4>
+              <p className="text-gray-600 text-sm">内容被官方账号署名转发，扩大影响力</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-cogs text-white text-2xl"></i>
+                <i className="fas fa-star text-white text-2xl"></i>
               </div>
-              <h4 className="text-lg font-bold text-gray-900 mb-2">易于集成</h4>
-              <p className="text-gray-600 text-sm">简单DNS配置，无需复杂的代码改动</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">更多特权</h4>
+              <p className="text-gray-600 text-sm">持续享受更多专属特权和优先服务</p>
             </div>
           </div>
         </div>
