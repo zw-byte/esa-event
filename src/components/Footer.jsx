@@ -75,10 +75,16 @@ function Footer() {
         {/* 分割线 */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 阿里云ESA活动. 保留所有权利.
+            <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+              <div className="text-gray-400 text-sm">
+                © 2024 阿里云ESA活动. 保留所有权利.
+              </div>
+              <div className="flex items-center text-gray-500 text-xs">
+                <i className="fas fa-bolt mr-1 text-blue-400"></i>
+                <span>Powered by ESA Functions and Pages</span>
+              </div>
             </div>
-            <div className="flex space-x-6 text-sm text-gray-400">
+            <div className="flex space-x-6 text-sm text-gray-400 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition-colors duration-300">
                 隐私政策
               </a>
