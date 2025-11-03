@@ -45,11 +45,12 @@ function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            阿里云ESA核心能力
+            为什么选择阿里云ESA
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            聚焦解决全球访问高延迟、攻击频发与中心化架构性能瓶颈，
-            适用于电商、内容社区、音视频、游戏、SaaS等多种业务场景
+            全球分布式边缘网络平台，聚焦解决跨地域访问高延迟、攻击频发与中心化计算性能瓶颈
+            <br />
+            <span className="text-blue-600 font-semibold">接入门槛低，适配网站与API的跨地域优化</span>
           </p>
         </div>
         
@@ -75,15 +76,28 @@ function Features() {
         </div>
         
         <div className="text-center mt-12">
-          <div className="bg-blue-50 rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-blue-900 mb-4">
-              <i className="fas fa-star text-yellow-500 mr-2"></i>
-              适用场景广泛
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 max-w-5xl mx-auto">
+            <h3 className="text-2xl font-bold text-blue-900 mb-6">
+              <i className="fas fa-rocket text-blue-600 mr-2"></i>
+              ESA vs 传统解决方案
             </h3>
-            <p className="text-blue-700 text-lg">
-              适配网站与API的跨地域优化，帮助电商、内容社区、音视频、游戏、SaaS等业务
-              在全球范围内降低时延、提升稳定性并抵御攻击
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <i className="fas fa-tachometer-alt text-green-500 text-2xl mb-3"></i>
+                <h4 className="font-bold text-gray-900 mb-2">性能优势</h4>
+                <p className="text-gray-600 text-sm">智能路由算法，比传统CDN更快的全球访问速度</p>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <i className="fas fa-cogs text-blue-500 text-2xl mb-3"></i>
+                <h4 className="font-bold text-gray-900 mb-2">一体化能力</h4>
+                <p className="text-gray-600 text-sm">加速+安全+计算三合一，无需多厂商集成</p>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <i className="fas fa-dollar-sign text-purple-500 text-2xl mb-3"></i>
+                <h4 className="font-bold text-gray-900 mb-2">成本优化</h4>
+                <p className="text-gray-600 text-sm">统一平台管理，降低运维成本和技术复杂度</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

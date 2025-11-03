@@ -3,39 +3,39 @@ import React from 'react';
 function Timeline() {
   const timelineEvents = [
     {
-      date: '2024年1月1日',
+      date: '2024年7月',
       title: '活动启动',
-      description: '征文活动正式开始，开放投稿通道',
+      description: 'ESA轻量创作活动正式开始，面向所有开发者开放',
       icon: 'fas fa-rocket',
       status: 'completed'
     },
     {
-      date: '2024年1月15日',
-      title: '宣传推广',
-      description: '全平台宣传推广，邀请技术大咖参与',
-      icon: 'fas fa-bullhorn',
+      date: '持续进行',
+      title: '发布推荐',
+      description: '在任一社交平台发布推荐ESA的内容，配ESA元素图片',
+      icon: 'fas fa-edit',
       status: 'current'
     },
     {
-      date: '2024年1月31日',
-      title: '投稿截止',
-      description: '所有参赛作品提交截止，开始评审工作',
-      icon: 'fas fa-flag-checkered',
-      status: 'upcoming'
+      date: '每周结算',
+      title: '提交领取',
+      description: '前往官方页面提交参与信息，领取基础版代金券',
+      icon: 'fas fa-gift',
+      status: 'current'
     },
     {
-      date: '2024年2月15日',
-      title: '评审阶段',
-      description: '专家评审团进行作品评选和打分',
-      icon: 'fas fa-search',
-      status: 'upcoming'
+      date: '高阅读量',
+      title: '额外奖励',
+      description: '优质内容有机会获得高级版代金券，发布越多机会越多',
+      icon: 'fas fa-crown',
+      status: 'current'
     },
     {
-      date: '2024年2月28日',
-      title: '结果公布',
-      description: '公布获奖名单，举办颁奖典礼',
-      icon: 'fas fa-trophy',
-      status: 'upcoming'
+      date: '长期有效',
+      title: '持续参与',
+      description: '活动长期进行，支持多次参与，每次都有机会获得奖励',
+      icon: 'fas fa-sync-alt',
+      status: 'current'
     }
   ];
 
@@ -44,10 +44,10 @@ function Timeline() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            活动时间安排
+            活动持续进行中
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            清晰的时间节点，让你不错过任何重要环节
+            自7月启动至今持续进行，每周结算发放，随时参与随时领取
           </p>
         </div>
         
@@ -105,25 +105,32 @@ function Timeline() {
           </div>
         </div>
         
-        {/* 倒计时 */}
+        {/* 参与提醒 */}
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-8 max-w-2xl mx-auto">
+          <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-3xl p-8 max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">
-              <i className="fas fa-hourglass-half mr-2"></i>
-              距离投稿截止还有
+              <i className="fas fa-bullhorn mr-2"></i>
+              现在就开始参与
             </h3>
-            <div className="grid grid-cols-4 gap-4 text-center">
-              {[
-                { value: '15', label: '天' },
-                { value: '08', label: '时' },
-                { value: '32', label: '分' },
-                { value: '45', label: '秒' }
-              ].map((time, index) => (
-                <div key={index} className="bg-white bg-opacity-20 rounded-xl p-4">
-                  <div className="text-3xl font-bold">{time.value}</div>
-                  <div className="text-sm opacity-80">{time.label}</div>
-                </div>
-              ))}
+            <p className="text-lg mb-6 opacity-90">
+              活动持续进行中，无截止时间限制。每周结算发放，越早参与越多收获！
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+              <div className="bg-white bg-opacity-20 rounded-xl p-4">
+                <i className="fas fa-clock text-2xl mb-2"></i>
+                <div className="font-bold">随时参与</div>
+                <div className="text-sm opacity-80">无时间限制</div>
+              </div>
+              <div className="bg-white bg-opacity-20 rounded-xl p-4">
+                <i className="fas fa-sync-alt text-2xl mb-2"></i>
+                <div className="font-bold">多次参与</div>
+                <div className="text-sm opacity-80">每周结算</div>
+              </div>
+              <div className="bg-white bg-opacity-20 rounded-xl p-4">
+                <i className="fas fa-trophy text-2xl mb-2"></i>
+                <div className="font-bold">即时奖励</div>
+                <div className="text-sm opacity-80">快速到账</div>
+              </div>
             </div>
           </div>
         </div>

@@ -49,10 +49,12 @@ function Prizes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            轻松参与，即刻领券
+            体验ESA，分享你的推荐理由
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            零门槛体验阿里云ESA，简单2步即可领取代金券，高阅读量内容还有机会获得更多福利
+            无论是出海业务、跨地域访问优化，还是安全防护需求，分享你的ESA使用体验
+            <br />
+            <span className="text-blue-600 font-semibold">让更多开发者了解边缘计算的价值</span>
           </p>
         </div>
         
@@ -94,34 +96,43 @@ function Prizes() {
         <div className="bg-white rounded-3xl p-8 shadow-xl">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              <i className="fas fa-gift text-purple-600 mr-3"></i>
-              参与优势
+              <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
+              推荐ESA的理由
             </h3>
+            <p className="text-gray-600">分享你的真实体验，帮助更多开发者做出明智选择</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-clock text-white text-2xl"></i>
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-shipping-fast text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">活动持续进行</h4>
-              <p className="text-gray-600">自7月启动至今持续进行，随时参与随时领取</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">出海加速</h4>
+              <p className="text-gray-600 text-sm">跨境业务访问优化，解决海外用户访问慢的问题</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-rocket text-white text-2xl"></i>
+                <i className="fas fa-shield-alt text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">接入门槛低</h4>
-              <p className="text-gray-600">简单配置即可体验全球加速与安全防护能力</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">安全防护</h4>
+              <p className="text-gray-600 text-sm">DDoS、WAF一体化防护，比单独购买更经济</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-chart-line text-white text-2xl"></i>
+              </div>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">性能提升</h4>
+              <p className="text-gray-600 text-sm">智能缓存和路由，显著提升网站响应速度</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-globe text-white text-2xl"></i>
+                <i className="fas fa-cogs text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">全球覆盖</h4>
-              <p className="text-gray-600">3200+全球边缘节点，覆盖主要国家和地区</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">易于集成</h4>
+              <p className="text-gray-600 text-sm">简单DNS配置，无需复杂的代码改动</p>
             </div>
           </div>
         </div>

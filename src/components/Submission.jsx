@@ -139,20 +139,20 @@ function Submission() {
           {/* 投稿指南 */}
           <div className="space-y-8">
             <div className="bg-white rounded-3xl p-8 shadow-xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
-                参与指南
-              </h3>
-              
-              <div className="space-y-4">
-                {[
-                  '在任一社交平台发布推荐ESA的帖子',
-                  '必须包含1张ESA元素图片（控制台截图/测试图等）',
-                  '推荐内容需附上官方领取链接',
-                  '可以是图文或视频形式的推荐内容',
-                  '简述推荐理由、使用场景或性能体验',
-                  '高阅读量内容有机会获得高级版代金券'
-                ].map((tip, index) => (
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
+              推荐内容建议
+            </h3>
+            
+            <div className="space-y-4">
+              {[
+                '分享你的ESA使用场景（出海、加速、安全等）',
+                '对比其他解决方案的优势体验',
+                '包含1张ESA相关图片（控制台/测试结果等）',
+                '推荐内容需附上官方领取链接',
+                '可以是技术分析、性能测试或使用心得',
+                '高质量内容有机会获得高级版代金券'
+              ].map((tip, index) => (
                   <div key={index} className="flex items-start">
                     <i className="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
                     <span className="text-gray-700">{tip}</span>
@@ -173,15 +173,19 @@ function Submission() {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <i className="fas fa-gift mr-3"></i>
-                  <span>领取链接：http://s.tb.cn/e6.0Fu67m</span>
+                  <span className="text-sm">领取链接：http://s.tb.cn/e6.0Fu67m</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-file-alt mr-3"></i>
-                  <span>活动详情：https://help.aliyun.com/document_detail/2936616.html</span>
+                  <span className="text-sm">活动详情：https://help.aliyun.com/document_detail/2936616.html</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-calendar mr-3"></i>
-                  <span>活动时间：持续进行中，每周结算</span>
+                  <span className="text-sm">活动时间：持续进行中，每周结算</span>
+                </div>
+                <div className="flex items-center">
+                  <i className="fas fa-users mr-3"></i>
+                  <span className="text-sm">适合：运维、前端、全栈开发者参与</span>
                 </div>
               </div>
             </div>

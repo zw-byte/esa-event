@@ -18,17 +18,17 @@ function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          阿里云ESA征文活动
+          阿里云ESA轻量创作活动
           <br />
           <span className="gradient-text bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-            写下你的推荐，领代金券
+            零门槛体验边缘加速与安全
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-          依托3200+全球边缘节点，为游戏、电商、金融、媒体等行业提供网络加速、安全防护与边缘计算的一体化能力
+          全球分布式边缘网络平台，依托3200+边缘节点覆盖，提供比传统CDN更智能的加速与防护
           <br />
-          简单2步拿福利，发布越多，机会越多！
+          写下你的推荐，简单2步领代金券！
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -43,9 +43,10 @@ function Hero() {
         </div>
         
         {/* 统计数据 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {[
             { icon: 'fas fa-globe', number: '3200+', label: '全球边缘节点' },
+            { icon: 'fas fa-shield-alt', number: '一体化', label: '加速+安全+计算' },
             { icon: 'fas fa-users', number: '零门槛', label: '所有开发者' },
             { icon: 'fas fa-gift', number: '持续中', label: '活动进行' }
           ].map((stat, index) => (
