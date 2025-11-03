@@ -22,8 +22,8 @@ function Features() {
     },
     {
       icon: 'fas fa-balance-scale',
-      title: '同类产品对比',
-      description: '与主流边缘加速产品的全维度对比测试，用数据说话',
+      title: '横向对比评测',
+      description: '与业界主流边缘加速解决方案的全维度对比测试，用数据说话',
       color: 'from-orange-500 to-orange-600'
     },
     {

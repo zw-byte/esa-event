@@ -29,8 +29,8 @@ function Rules() {
     },
     {
       icon: 'fas fa-balance-scale',
-      title: 'Cloudflare对比',
-      content: '与Cloudflare等竞品的全维度对比测试，用数据说话'
+      title: '横向对比测试',
+      content: '与主流边缘加速产品的全维度对比测试，用数据说话'
     }
   ];
 
@@ -125,16 +125,16 @@ function Rules() {
               </h4>
               <div className="bg-white rounded-xl p-4 border-l-4 border-blue-500">
                 <p className="text-gray-800 mb-3">
-                  🚀 Just published my comprehensive comparison: "ESA vs Major Edge Acceleration Platforms - Performance Benchmark Report"
+                  🚀 Just published my comprehensive comparison: "ESA vs Leading Edge Platforms - Performance Benchmark Report"
                 </p>
                 <p className="text-gray-800 mb-3">
-                  📊 Real data shows ESA's advantages in:
+                  📊 Real data shows ESA's competitive advantages:
                   • Global latency optimization
-                  • Security integration
-                  • Cost efficiency
+                  • Integrated security features
+                  • Cost-effective solutions
                 </p>
                 <p className="text-gray-800 mb-3">
-                  Participating in #ESABenchmark contest for a chance to win ESA Premium + Pioneer Member status!
+                  Participating in #ESABenchmark contest for ESA Premium + Pioneer Member status!
                 </p>
                 <p className="text-blue-600 font-medium">
                   Details: [活动链接] #EdgeComputing #CDN #WebPerformance

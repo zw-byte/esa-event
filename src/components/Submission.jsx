@@ -146,9 +146,9 @@ function Submission() {
               征文内容建议
             </h3>
             
-            <div className="space-y-4">
+              <div className="space-y-4">
               {[
-                'ESA vs 主流边缘加速产品性能对比测试数据',
+                'ESA与业界主流边缘加速产品性能对比测试数据',
                 '详细的使用教程和最佳实践分享',
                 '技术开发实践和场景应用案例',
                 '真实的使用体验和心得总结',
