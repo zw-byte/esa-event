@@ -5,7 +5,7 @@ function Timeline() {
     {
       date: '征文期',
       title: '长期有效',
-      description: 'ESA横向测评征文活动长期有效，随时可以参与投稿',
+      description: 'ESA横轴征文活动长期有效，随时可以参与投稿',
       icon: 'fas fa-infinity',
       status: 'current'
     },
@@ -44,7 +44,7 @@ function Timeline() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            ESA横向测评时间安排
+            ESA横轴时间安排
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             活动长期有效，每月评选可累积，提交作品后7个工作日内发放奖励

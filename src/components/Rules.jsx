@@ -103,7 +103,7 @@ function Rules() {
             </p>
             <div className="bg-white rounded-xl p-4 inline-block">
               <code className="text-sm text-gray-800">
-                本文参与"ESA 横向测评征文活动"，活动详情见：[活动链接]
+                本文参与"ESA 横轴征文活动"，活动详情见：[活动链接]
               </code>
             </div>
           </div>
@@ -159,7 +159,7 @@ function Rules() {
                   • 成本效益比
                 </p>
                 <p className="text-gray-800 mb-3">
-                  参与 #ESA横向测评 征文活动，优质内容可获ESA高级版+先锋成员！
+                  参与 #ESA横轴 征文活动，优质内容可获ESA高级版+先锋成员！
                 </p>
                 <p className="text-blue-600 font-medium">
                   活动详情：[活动链接] #边缘计算 #CDN #性能优化
@@ -180,7 +180,7 @@ function Rules() {
                   <i className="fas fa-hashtag text-white"></i>
                 </div>
                 <h5 className="font-bold text-gray-900 mb-2">使用标签</h5>
-                <p className="text-gray-600 text-sm">#ESA横向测评 #EdgeComputing #CDN #WebPerformance</p>
+                <p className="text-gray-600 text-sm">#ESA横轴 #EdgeComputing #CDN #WebPerformance</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">

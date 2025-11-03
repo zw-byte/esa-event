@@ -28,7 +28,7 @@ function Submission() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            立即参与ESA横向测评
+            立即参与ESA横轴
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             分享你的ESA使用体验，与主流边缘加速产品对比，用数据说话获得丰厚奖励
@@ -85,7 +85,7 @@ function Submission() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                  placeholder="请输入ESA横向测评文章标题"
+                  placeholder="请输入ESA横轴文章标题"
                 />
               </div>
               
@@ -141,10 +141,10 @@ function Submission() {
           {/* 投稿指南 */}
           <div className="space-y-8">
             <div className="bg-white rounded-3xl p-8 shadow-xl">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
-              征文内容建议
-            </h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                <i className="fas fa-lightbulb text-yellow-500 mr-3"></i>
+                征文内容建议
+              </h3>
             
               <div className="space-y-4">
               {[
