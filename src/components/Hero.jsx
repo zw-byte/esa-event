@@ -26,6 +26,8 @@ function Hero() {
         </h1>
         
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+          阿里云ESA（Edge Security Acceleration）边缘安全加速，集成全球CDN加速、DDoS防护、WAF安全防护于一体的边缘计算平台
+          <br />
           ESA与主流边缘加速产品全维度实测对比，别吵了，上数据！
           <br />
           优质内容入选"ESA先锋成员"+官方署名转载
