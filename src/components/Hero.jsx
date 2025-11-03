@@ -31,7 +31,7 @@ function Hero() {
           优质内容入选"ESA先锋成员"+官方署名转载
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <button className="btn-primary text-lg px-10 py-4">
             <i className="fas fa-pen-fancy mr-2"></i>
             立即投稿
@@ -40,6 +40,14 @@ function Hero() {
             <i className="fas fa-info-circle mr-2"></i>
             了解详情
           </button>
+        </div>
+        
+        {/* ESA技术标识 */}
+        <div className="mb-12">
+          <div className="inline-flex items-center bg-white bg-opacity-20 rounded-full px-8 py-3 backdrop-blur-sm">
+            <i className="fas fa-bolt text-yellow-400 mr-3 text-xl"></i>
+            <span className="text-white font-semibold text-lg">Powered by ESA Functions and Pages</span>
+          </div>
         </div>
         
         {/* 统计数据 */}
