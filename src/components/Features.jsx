@@ -45,10 +45,10 @@ function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            ESA横轴征文主题
+            ESA征文主题
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            面向所有开发者、IT从业人员、高校学生，分享你的ESA使用体验与横轴
+            面向所有开发者、IT从业人员、高校学生，分享你的ESA使用体验与评测
             <br />
             <span className="text-blue-600 font-semibold">长文图文、短视频、实验报告，中英文皆可</span>
           </p>

@@ -18,7 +18,7 @@ function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          ESA横轴征文活动
+          ESA征文活动
           <br />
           <span className="gradient-text bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
             用数据说话，优质稿获ESA高级版
