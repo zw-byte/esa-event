@@ -10,13 +10,6 @@ function Hero() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <div className="mb-8">
-          <div className="inline-flex items-center bg-white bg-opacity-20 rounded-full px-6 py-2 mb-6">
-            <i className="fas fa-fire text-orange-400 mr-2"></i>
-            <span className="text-white font-medium">热门活动进行中</span>
-          </div>
-        </div>
-        
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           ESA征文活动
           <br />
@@ -26,11 +19,9 @@ function Hero() {
         </h1>
         
         <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-          阿里云ESA（Edge Security Acceleration）边缘安全加速，集成全球CDN加速、DDoS防护、WAF安全防护于一体的边缘计算平台
+          阿里云ESA边缘安全加速，集成CDN加速、DDoS防护、WAF安全防护于一体
           <br />
-          ESA与主流边缘加速产品全维度实测对比，别吵了，上数据！
-          <br />
-          优质内容入选"ESA先锋成员"+官方署名转载
+          与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
@@ -53,17 +44,17 @@ function Hero() {
         </div>
         
         {/* 统计数据 */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
           {[
             { icon: 'fas fa-chart-line', number: '实测对比', label: '数据说话' },
             { icon: 'fas fa-crown', number: '先锋成员', label: '优质内容' },
-            { icon: 'fas fa-trophy', number: '高级版', label: '1个月奖励' },
+            { icon: 'fas fa-trophy', number: '高级版', label: '奖励丰厚' },
             { icon: 'fas fa-fire', number: '长期有效', label: '多劳多得' }
           ].map((stat, index) => (
-            <div key={index} className="bg-white bg-opacity-20 rounded-2xl p-6 backdrop-blur-sm">
-              <i className={`${stat.icon} text-3xl text-yellow-400 mb-3`}></i>
-              <div className="text-3xl font-bold text-white mb-1">{stat.number}</div>
-              <div className="text-blue-200">{stat.label}</div>
+            <div key={index} className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
+              <i className={`${stat.icon} text-2xl text-yellow-400 mb-2`}></i>
+              <div className="text-lg font-bold text-white mb-1">{stat.number}</div>
+              <div className="text-blue-200 text-sm">{stat.label}</div>
             </div>
           ))}
         </div>
