@@ -29,7 +29,7 @@ function Header() {
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            {['活动介绍', '奖项设置', '参与规则', '时间安排'].map((item) => (
+            {['活动介绍', '奖项设置', '参与规则'].map((item) => (
               <a
                 key={item}
                 href={`#${item}`}

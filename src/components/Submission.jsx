@@ -169,7 +169,7 @@ function Submission() {
                 奖励提醒
               </h3>
               <p className="mb-6">
-                活动长期有效，每月评选，可累积。提交作品后7个工作日内发放奖励。
+                活动长期有效，每月评选，可累积。优质内容获得丰厚奖励。
               </p>
               <div className="space-y-3">
                 <div className="flex items-center">
