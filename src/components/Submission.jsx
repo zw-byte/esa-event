@@ -31,7 +31,7 @@ function Submission() {
             立即参与ESA横向测评
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            分享你的ESA使用体验，与Cloudflare等竞品对比，用数据说话获得丰厚奖励
+            分享你的ESA使用体验，与主流边缘加速产品对比，用数据说话获得丰厚奖励
           </p>
         </div>
         
@@ -148,7 +148,7 @@ function Submission() {
             
             <div className="space-y-4">
               {[
-                'ESA vs Cloudflare 性能对比测试数据',
+                'ESA vs 主流边缘加速产品性能对比测试数据',
                 '详细的使用教程和最佳实践分享',
                 '技术开发实践和场景应用案例',
                 '真实的使用体验和心得总结',

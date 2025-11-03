@@ -113,7 +113,8 @@ function Timeline() {
               ESA立志做到国际一线水准
             </h3>
             <p className="text-lg mb-6 opacity-90">
-              批评是礼物，建议是养分。欢迎拍砖，我们把每条建设性反馈都当作迭代燃料
+              批评是礼物，建议是养分。欢迎拍砖，我们把每条建设性反馈都当作迭代燃料。
+              ESA立志做到与国际一线边缘网络同等水准，把"全球级能力"稳稳落地在本土。
             </p>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
               <div className="bg-white bg-opacity-20 rounded-xl p-4">

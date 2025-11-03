@@ -22,8 +22,8 @@ function Features() {
     },
     {
       icon: 'fas fa-balance-scale',
-      title: 'Cloudflare对比',
-      description: '与Cloudflare等竞品的全维度对比测试，用数据说话',
+      title: '同类产品对比',
+      description: '与主流边缘加速产品的全维度对比测试，用数据说话',
       color: 'from-orange-500 to-orange-600'
     },
     {
@@ -48,7 +48,7 @@ function Features() {
             ESA横向测评征文主题
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            面向所有开发者、IT从业人员、高校学生，分享你的ESA使用体验与对比测试
+            面向所有开发者、IT从业人员、高校学生，分享你的ESA使用体验与横向评测
             <br />
             <span className="text-blue-600 font-semibold">长文图文、短视频、实验报告，中英文皆可</span>
           </p>
