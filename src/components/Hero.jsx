@@ -33,6 +33,9 @@ function Hero() {
         </h1>
         
         <div className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-4 leading-relaxed">
+            实战征文重磅来袭！
+          </h2>
           <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-10 leading-relaxed">
             用数据说话，优质稿获ESA高级版！
           </h2>
