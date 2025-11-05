@@ -13,11 +13,6 @@ function Rules() {
       content: '在阿里云社区PC端发布不少于800字文章，标题前加上「玩透ESA」'
     },
     {
-      icon: 'fas fa-code',
-      title: '技术开发实践',
-      content: '基于ESA产品的技术开发实践、场景应用，分享真实项目经验'
-    },
-    {
       icon: 'fas fa-heart',
       title: '使用体验心得',
       content: 'ESA产品使用的体验与心得，对比其他解决方案的优劣分析'
