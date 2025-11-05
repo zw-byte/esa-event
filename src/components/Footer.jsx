@@ -102,7 +102,7 @@ function Footer() {
               <div className="bg-white rounded-2xl p-6 shadow-xl">
                 <div className="w-48 h-48 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
                   <img 
-                    src="https://img.alicdn.com/imgextra/i3/O1CN01lL8Rqy1nZqF0YZOQHa_!!6000000005106-0-tps-430-430.jpg" 
+                    src="https://mdn.alipayobjects.com/huamei_2fq7mt/afts/img/A*TvJnRZih-1oAAAAAAAAAAAAADh58AQ/original" 
                     alt="ESA交流群二维码" 
                     className="w-full h-full rounded-lg object-cover"
                   />
