@@ -5,7 +5,7 @@ function Rules() {
     {
       icon: 'fas fa-globe',
       title: '方式一：任意平台投稿',
-      content: '在任一公开平台发布文章，需显著标注参与本活动并附上官网活动文档链接'
+      content: '在任一公开平台发布文章，需显著标注参与本活动并附上官方活动链接'
     },
     {
       icon: 'fas fa-cloud',
