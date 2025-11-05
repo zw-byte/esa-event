@@ -72,7 +72,7 @@ function Submission() {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <i className="fas fa-medal mr-3"></i>
-                  <span className="text-sm">基础奖励：每位作者发布即可得1个月ESA基础版</span>
+                  <span className="text-sm">基础奖励：每位作者发布即可得 50GB ESA基础版加量包</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-star mr-3"></i>
