@@ -112,7 +112,7 @@ function Rules() {
             <div className="mt-8 text-center">
               <p className="text-gray-600 mb-4">
                 <i className="fas fa-info-circle text-blue-500 mr-2"></i>
-                文章正文需显著标注参与本活动，并附上官网活动文档链接
+                文章正文需显著标注参与本活动，并附上官网活动页面链接
               </p>
               <div className="bg-white rounded-xl p-4 inline-block">
                 <code className="text-sm text-gray-800 whitespace-nowrap">
