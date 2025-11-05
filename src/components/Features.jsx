@@ -69,7 +69,7 @@ function Features() {
               </h3>
               
               <p className="text-gray-600 leading-relaxed">
-                {feature.description}
+                从入门到进阶的完整实践指南、新手避坑与操作技巧
               </p>
             </div>
           ))}
