@@ -75,10 +75,6 @@ function Submission() {
                   <span className="text-sm">基础奖励：每位作者发布即可得 50GB ESA基础版加量包</span>
                 </div>
                 <div className="flex items-center">
-                  <i className="fas fa-crown mr-3"></i>
-                  <span className="text-sm">阅读量≥10000：ESA高级版+官方署名转载</span>
-                </div>
-                <div className="flex items-center">
                   <i className="fas fa-share-alt mr-3"></i>
                   <span className="text-sm">分享活动海报到社交平台也可获得基础版</span>
                 </div>
