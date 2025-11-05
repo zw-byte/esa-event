@@ -64,9 +64,9 @@ function Features() {
                 <i className={`${feature.icon} text-white text-2xl`}></i>
               </div>
               
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                {feature.title}
-              </h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">
+              {feature.title}
+            </h3>
               
               <p className="text-gray-600 leading-relaxed">
                 {feature.description}
