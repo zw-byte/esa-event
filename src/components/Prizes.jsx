@@ -23,7 +23,7 @@ function Prizes() {
       borderColor: 'border-green-300'
     },
     {
-      rank: 'ESA标准版+先锋成员',
+      rank: '加量包代金劵+先锋成员',
       count: '阅读量≥1000',
       prize: '1个月标准版+定制礼品',
       bonus: '成为ESA先锋成员',
