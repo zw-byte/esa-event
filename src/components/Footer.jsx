@@ -11,7 +11,7 @@ function Footer() {
               <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <i className="fas fa-shield-alt text-white text-xl"></i>
               </div>
-              <span className="text-2xl font-bold">ESA征文活动</span>
+              <span className="text-2xl font-bold">什么是阿里云ESA？</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               阿里云ESA边缘安全加速平台，依托3200+全球边缘节点，
