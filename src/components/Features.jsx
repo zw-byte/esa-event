@@ -3,39 +3,39 @@ import React from 'react';
 function Features() {
   const features = [
     {
-      icon: 'fas fa-book',
-      title: 'ESA使用教程',
-      description: 'ESA产品相关的使用教程，从入门到进阶的完整实践指南',
+      icon: 'fas fa-shield-alt',
+      title: '边缘安全防护',
+      description: '分享ESA在DDoS防护、Web应用防火墙、Bot管理等安全防护方面的实践经验',
       color: 'from-blue-500 to-blue-600'
     },
     {
-      icon: 'fas fa-code',
-      title: '技术开发实践',
-      description: '基于ESA产品的技术开发实践、场景应用，分享真实项目经验',
+      icon: 'fas fa-rocket',
+      title: '性能加速优化',
+      description: '探讨CDN加速、智能路由、缓存策略等性能优化技术的应用与实践',
       color: 'from-green-500 to-green-600'
     },
     {
-      icon: 'fas fa-heart',
-      title: '使用体验心得',
-      description: 'ESA产品使用的体验与心得，对比其他解决方案的优劣分析',
+      icon: 'fas fa-globe',
+      title: '全球网络覆盖',
+      description: '分享全球边缘节点部署、跨地域访问优化等网络架构设计经验',
       color: 'from-purple-500 to-purple-600'
     },
     {
-      icon: 'fas fa-balance-scale',
-      title: '横轴对比',
-      description: '与业界主流边缘加速解决方案的全维度对比测试，用数据说话',
+      icon: 'fas fa-chart-line',
+      title: '监控与分析',
+      description: '讨论实时监控、数据分析、性能诊断等运维管理最佳实践',
       color: 'from-orange-500 to-orange-600'
     },
     {
-      icon: 'fas fa-flask',
-      title: '性能测试报告',
-      description: '详细的性能测试数据，包括延迟、吞吐量、稳定性等指标对比',
+      icon: 'fas fa-cogs',
+      title: '技术架构设计',
+      description: '分享ESA技术架构、微服务设计、容器化部署等技术方案',
       color: 'from-red-500 to-red-600'
     },
     {
-      icon: 'fas fa-globe-asia',
-      title: '出海场景应用',
-      description: '跨境业务场景下的ESA应用实践，解决海外访问优化问题',
+      icon: 'fas fa-lightbulb',
+      title: '创新应用场景',
+      description: '探索ESA在新兴场景下的创新应用，如IoT、边缘计算等领域',
       color: 'from-indigo-500 to-indigo-600'
     }
   ];
@@ -45,12 +45,11 @@ function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            ESA征文主题
+            征文主题方向
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            面向所有开发者、IT从业人员、高校学生，分享你的ESA使用体验与评测
-            <br />
-            <span className="text-blue-600 font-semibold">长文图文、短视频、实验报告，中英文皆可</span>
+            我们欢迎围绕边缘安全加速(ESA)技术的各个方面进行深入分享，
+            包括但不限于以下主题方向
           </p>
         </div>
         
@@ -76,33 +75,15 @@ function Features() {
         </div>
         
         <div className="text-center mt-12">
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 max-w-5xl mx-auto">
-            <h3 className="text-2xl font-bold text-blue-900 mb-6">
-              <i className="fas fa-users text-blue-600 mr-2"></i>
-              适合参与的开发者
+          <div className="bg-blue-50 rounded-2xl p-8 max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold text-blue-900 mb-4">
+              <i className="fas fa-star text-yellow-500 mr-2"></i>
+              特别鼓励原创性内容
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <i className="fas fa-server text-green-500 text-2xl mb-3"></i>
-                <h4 className="font-bold text-gray-900 mb-2">后端/运维</h4>
-                <p className="text-gray-600 text-sm">DevOps、架构师</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <i className="fas fa-laptop-code text-blue-500 text-2xl mb-3"></i>
-                <h4 className="font-bold text-gray-900 mb-2">全栈开发</h4>
-                <p className="text-gray-600 text-sm">前端性能优化工程师</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <i className="fas fa-graduation-cap text-purple-500 text-2xl mb-3"></i>
-                <h4 className="font-bold text-gray-900 mb-2">高校学生</h4>
-                <p className="text-gray-600 text-sm">IT从业人员</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <i className="fas fa-heart text-red-500 text-2xl mb-3"></i>
-                <h4 className="font-bold text-gray-900 mb-2">科技爱好者</h4>
-                <p className="text-gray-600 text-sm">喜欢尝新的开发者</p>
-              </div>
-            </div>
+            <p className="text-blue-700 text-lg">
+              我们特别欢迎基于真实项目经验的技术分享、问题解决方案、
+              性能优化案例以及创新应用实践等原创性内容
+            </p>
           </div>
         </div>
       </div>

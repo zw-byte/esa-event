@@ -10,60 +10,49 @@ function Hero() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight">
-          ESA征文活动
+        <div className="mb-8">
+          <div className="inline-flex items-center bg-white bg-opacity-20 rounded-full px-6 py-2 mb-6">
+            <i className="fas fa-fire text-orange-400 mr-2"></i>
+            <span className="text-white font-medium">热门活动进行中</span>
+          </div>
+        </div>
+        
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          ESA征文有奖活动
+          <br />
+          <span className="gradient-text bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+            分享你的技术见解
+          </span>
         </h1>
         
-        <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-10 leading-relaxed">
-            用数据说话，优质稿获ESA高级版！
-          </h2>
-          
-          <div className="space-y-8 max-w-5xl mx-auto">
-            <p className="text-xl md:text-2xl text-blue-100 leading-relaxed font-medium">
-              阿里云ESA边缘安全加速
-            </p>
-            <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
-              集成CDN加速、DDoS防护、WAF安全防护于一体
-            </p>
-            <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
-              与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
-            </p>
-          </div>
-        </div>
+        <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+          边缘安全加速技术正在改变互联网的未来，分享你的实践经验和技术洞察，
+          <br />
+          赢取丰厚奖品，与技术大咖一起探讨前沿技术！
+        </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <a 
-            href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/how-to-get-esa-for-free?spm=5176.29099518.console-base_help.dexternal.52bc20670w9iXX#1846164d47wbq"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary text-lg px-10 py-4 inline-flex items-center"
-          >
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <button className="btn-primary text-lg px-10 py-4">
             <i className="fas fa-pen-fancy mr-2"></i>
             立即投稿
-          </a>
-        </div>
-        
-        {/* ESA技术标识 */}
-        <div className="mb-12">
-          <div className="inline-flex items-center bg-white bg-opacity-20 rounded-full px-8 py-3 backdrop-blur-sm">
-            <i className="fas fa-bolt text-yellow-400 mr-3 text-xl"></i>
-            <span className="text-white font-semibold text-lg">本站点由 AI 生成并部署在 ESA 函数和 Pages上</span>
-          </div>
+          </button>
+          <button className="btn-secondary text-lg px-10 py-4">
+            <i className="fas fa-info-circle mr-2"></i>
+            了解详情
+          </button>
         </div>
         
         {/* 统计数据 */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {[
-            { icon: 'fas fa-chart-line', number: '横向评测', label: '数据说话' },
-            { icon: 'fas fa-crown', number: '先锋成员', label: '优质内容' },
-            { icon: 'fas fa-trophy', number: '高级版', label: '奖励丰厚' },
-            { icon: 'fas fa-fire', number: '长期有效', label: '多劳多得' }
+            { icon: 'fas fa-trophy', number: '50万+', label: '奖金池' },
+            { icon: 'fas fa-users', number: '1000+', label: '参与者' },
+            { icon: 'fas fa-calendar-alt', number: '30天', label: '活动周期' }
           ].map((stat, index) => (
-            <div key={index} className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
-              <i className={`${stat.icon} text-2xl text-yellow-400 mb-2`}></i>
-              <div className="text-lg font-bold text-white mb-1">{stat.number}</div>
-              <div className="text-blue-200 text-sm">{stat.label}</div>
+            <div key={index} className="bg-white bg-opacity-20 rounded-2xl p-6 backdrop-blur-sm">
+              <i className={`${stat.icon} text-3xl text-yellow-400 mb-3`}></i>
+              <div className="text-3xl font-bold text-white mb-1">{stat.number}</div>
+              <div className="text-blue-200">{stat.label}</div>
             </div>
           ))}
         </div>
