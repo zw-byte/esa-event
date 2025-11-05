@@ -35,7 +35,7 @@ function Prizes() {
     {
       rank: '官方转载+代金劵',
       count: '阅读量≥10000',
-      prize: '1个月高级版+署名转载',
+      prize: '10TB ESA基础版加量包+署名转载',
       bonus: '官方账号署名转发',
       icon: 'fas fa-crown',
       color: 'from-yellow-400 to-yellow-600',
@@ -90,6 +90,11 @@ function Prizes() {
                         </div>
                       )}
                       <div>定制礼品</div>
+                    </>
+                  ) : prize.rank === '官方转载+代金劵' ? (
+                    <>
+                      <div>10TB ESA基础版加量包</div>
+                      <div>署名转载</div>
                     </>
                   ) : (
                     <>
