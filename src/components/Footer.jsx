@@ -19,18 +19,34 @@ function Footer() {
             </p>
             <div className="flex space-x-4">
               {[
-                { icon: 'fab fa-weixin', color: 'hover:text-green-400' },
+                { icon: 'fab fa-weixin', color: 'hover:text-green-400', hasQR: true },
                 { icon: 'fab fa-weibo', color: 'hover:text-red-400' },
                 { icon: 'fab fa-github', color: 'hover:text-gray-400' },
                 { icon: 'fab fa-twitter', color: 'hover:text-blue-400' }
               ].map((social, index) => (
-                <a
-                  key={index}
-                  href="#"
-                  className={`w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition-colors duration-300 ${social.color}`}
-                >
-                  <i className={`${social.icon} text-lg`}></i>
-                </a>
+                <div key={index} className="relative group">
+                  <a
+                    href="#"
+                    className={`w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition-colors duration-300 ${social.color}`}
+                  >
+                    <i className={`${social.icon} text-lg`}></i>
+                  </a>
+                  {social.hasQR && (
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                      <div className="bg-white p-3 rounded-lg shadow-xl border">
+                        <div className="w-32 h-32 bg-gray-100 rounded flex items-center justify-center mb-2">
+                          <img 
+                            src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://mp.weixin.qq.com/s/ESA-campaign-wechat" 
+                            alt="微信二维码" 
+                            className="w-full h-full rounded"
+                          />
+                        </div>
+                        <p className="text-xs text-gray-600 text-center">扫码关注微信</p>
+                        <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-white"></div>
+                      </div>
+                    </div>
+                  )}
+                </div>
               ))}
             </div>
           </div>
