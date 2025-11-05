@@ -15,7 +15,7 @@ function Prizes() {
     {
       rank: '加量包代金劵',
       count: '阅读量≥500',
-      prize: '水杯、T恤、帽子',
+      prize: '500GB ESA基础版加量包',
       bonus: '精美实物礼品',
       icon: 'fas fa-gift',
       color: 'from-green-400 to-green-600',
