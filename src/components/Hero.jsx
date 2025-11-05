@@ -55,7 +55,7 @@ function Hero() {
         {/* 统计数据 */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
           {[
-            { icon: 'fas fa-chart-line', number: '实测对比', label: '数据说话' },
+            { icon: 'fas fa-chart-line', number: '横向评测', label: '数据说话' },
             { icon: 'fas fa-crown', number: '先锋成员', label: '优质内容' },
             { icon: 'fas fa-trophy', number: '高级版', label: '奖励丰厚' },
             { icon: 'fas fa-fire', number: '长期有效', label: '多劳多得' }
