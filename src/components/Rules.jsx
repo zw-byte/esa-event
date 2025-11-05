@@ -140,7 +140,7 @@ function Rules() {
                 rel="noopener noreferrer"
                 className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
               >
-                <i className={`${platform.icon} text-2xl ${platform.name === '开源中国' ? 'text-green-600 group-hover:text-green-700' : 'text-blue-600 group-hover:text-blue-700'} mb-2 transition-colors`}></i>
+                <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900">{platform.name}</div>
               </a>
             ))}
