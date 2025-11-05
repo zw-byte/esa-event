@@ -90,6 +90,46 @@ function Footer() {
           </div>
         </div>
         
+        {/* 微信二维码区域 */}
+        <div className="border-t border-gray-800 pt-8 pb-8">
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-white mb-6">
+              <i className="fab fa-weixin text-green-400 mr-3"></i>
+              ESA 交流群 & 小助手
+            </h3>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-8 max-w-4xl mx-auto">
+              {/* ESA交流群 */}
+              <div className="bg-white rounded-2xl p-6 shadow-xl">
+                <div className="w-48 h-48 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                  <img 
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://mp.weixin.qq.com/s/ESA-group-wechat" 
+                    alt="ESA交流群二维码" 
+                    className="w-full h-full rounded-lg"
+                  />
+                </div>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">ESA 交流群</h4>
+                <p className="text-sm text-gray-600">扫码加入技术交流群</p>
+              </div>
+              
+              {/* ESA小助手 */}
+              <div className="bg-white rounded-2xl p-6 shadow-xl">
+                <div className="w-48 h-48 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                  <img 
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://mp.weixin.qq.com/s/ESA-assistant-wechat" 
+                    alt="ESA小助手二维码" 
+                    className="w-full h-full rounded-lg"
+                  />
+                </div>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">ESA 的小助手们</h4>
+                <p className="text-sm text-gray-600">扫码添加专属小助手</p>
+              </div>
+            </div>
+            <p className="text-gray-400 text-sm mt-6">
+              加入ESA社区，获取最新资讯和技术支持
+            </p>
+          </div>
+        </div>
+        
         {/* 分割线 */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
