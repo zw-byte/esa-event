@@ -10,20 +10,23 @@ function Hero() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight">
           ESA征文活动
         </h1>
         
-        <div className="mb-10">
-          <h2 className="text-2xl md:text-3xl font-semibold text-yellow-300 mb-6 leading-relaxed">
+        <div className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-10 leading-relaxed">
             用数据说话，优质稿获ESA高级版
           </h2>
           
-          <div className="space-y-4 max-w-4xl mx-auto">
-            <p className="text-lg md:text-xl text-blue-100 leading-relaxed">
-              阿里云ESA边缘安全加速，集成CDN加速、DDoS防护、WAF安全防护于一体
+          <div className="space-y-8 max-w-5xl mx-auto">
+            <p className="text-xl md:text-2xl text-blue-100 leading-relaxed font-medium">
+              阿里云ESA边缘安全加速
             </p>
-            <p className="text-base md:text-lg text-blue-200 leading-relaxed">
+            <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
+              集成CDN加速、DDoS防护、WAF安全防护于一体
+            </p>
+            <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
               与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
             </p>
           </div>
