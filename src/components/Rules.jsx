@@ -115,7 +115,7 @@ function Rules() {
                 文章正文需显著标注参与本活动，并附上官网活动文档链接
               </p>
               <div className="bg-white rounded-xl p-4 inline-block">
-                <code className="text-sm text-gray-800">
+                <code className="text-sm text-gray-800 whitespace-nowrap">
                   参考标注：本文参与"「 玩透 ESA 」有奖征文活动"，活动详情见：https://esa-website.40154c26.er.aliyun-esa.net/?spm=5176.29099518.0.0.25a12067rM25wn
                 </code>
               </div>
