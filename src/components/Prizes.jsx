@@ -23,7 +23,7 @@ function Prizes() {
       borderColor: 'border-green-300'
     },
             {
-              rank: '代金劵+先锋成员',
+              rank: '先锋成员+代金劵',
               count: '阅读量≥1000',
               prize: '1个月标准版+定制礼品',
               bonus: '成为ESA先锋成员',
@@ -84,7 +84,7 @@ function Prizes() {
                   {prize.prize}
                 </div>
                 
-                {(prize.rank === '加量包代金劵' || prize.rank === '代金劵+先锋成员') && (
+                {(prize.rank === '加量包代金劵' || prize.rank === '先锋成员+代金劵') && (
                   <div className="text-xs text-gray-500 mb-4">
                     （有效期：1年）
                   </div>
