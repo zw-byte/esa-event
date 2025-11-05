@@ -10,7 +10,7 @@ function Hero() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 mt-12">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight relative">
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight relative tracking-wider">
           <span className="relative inline-block">
             <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-white bg-clip-text text-transparent animate-pulse">
               「玩透ESA」
