@@ -115,7 +115,7 @@ function Footer() {
               <div className="bg-white rounded-2xl p-6 shadow-xl">
                 <div className="w-48 h-48 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
                   <img 
-                    src="https://img.alicdn.com/imgextra/i2/O1CN01987654321fedcba_!!6000000000000-0-tps-400-400.jpg" 
+                    src="https://img.alicdn.com/imgextra/i1/O1CN01lL8Rqy1nZqF0YZOQH_!!6000000005106-0-tps-430-430.jpg" 
                     alt="ESA小助手二维码" 
                     className="w-full h-full rounded-lg object-cover"
                   />
