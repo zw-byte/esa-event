@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "npm run build && node deploy.js",
+    "deploy:esa": "npm run build && echo '请将 dist 目录上传到 ESA Functions and Pages'"
   },
   "dependencies": {
     "react": "^18.2.0",

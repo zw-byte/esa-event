@@ -3,34 +3,34 @@ import React from 'react';
 function Rules() {
   const rules = [
     {
-      icon: 'fas fa-user-check',
-      title: '参与资格',
-      content: '面向所有技术从业者、学生、研究人员等，不限年龄和工作经验'
+      icon: 'fas fa-globe',
+      title: '方式一：任意平台投稿',
+      content: '在任一公开平台发布文章，需显著标注参与本活动并附上官网活动文档链接'
     },
     {
-      icon: 'fas fa-file-alt',
-      title: '文章要求',
-      content: '原创技术文章，字数不少于2000字，需包含实际案例或代码示例'
+      icon: 'fas fa-cloud',
+      title: '方式二：阿里云社区',
+      content: '在阿里云社区PC端发布不少于800字文章，标题前加上「ESA横向测评」'
     },
     {
-      icon: 'fas fa-tags',
-      title: '主题范围',
-      content: '围绕ESA相关技术，包括安全防护、性能优化、架构设计等方向'
+      icon: 'fas fa-book',
+      title: 'ESA使用教程',
+      content: 'ESA产品相关的使用教程，从入门到进阶的完整实践指南'
     },
     {
-      icon: 'fas fa-upload',
-      title: '提交方式',
-      content: '通过官方平台提交，支持Markdown格式，需包含完整的技术方案'
+      icon: 'fas fa-code',
+      title: '技术开发实践',
+      content: '基于ESA产品的技术开发实践、场景应用，分享真实项目经验'
     },
     {
-      icon: 'fas fa-calendar-check',
-      title: '截止时间',
-      content: '活动截止日期前提交有效，逾期提交将不参与评选'
+      icon: 'fas fa-heart',
+      title: '使用体验心得',
+      content: 'ESA产品使用的体验与心得，对比其他解决方案的优劣分析'
     },
     {
-      icon: 'fas fa-gavel',
-      title: '评选标准',
-      content: '技术深度、创新性、实用性、文章质量等多维度综合评估'
+      icon: 'fas fa-balance-scale',
+      title: '横向对比测试',
+      content: '与主流边缘加速产品的全维度对比测试，用数据说话'
     }
   ];
 
@@ -39,10 +39,10 @@ function Rules() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            参与规则
+            投稿与发布规则
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            简单明了的参与规则，让每个人都能轻松参与，公平公正的评选机制
+            两种投稿方式任选其一，长文图文、短视频、实验报告，中英文皆可
           </p>
         </div>
         
@@ -67,30 +67,142 @@ function Rules() {
           ))}
         </div>
         
-        {/* 评选流程 */}
+        {/* 投稿平台示例 */}
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            评选流程
+            推荐发布平台
           </h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {[
-              { step: '01', title: '作品提交', desc: '参与者提交原创技术文章' },
-              { step: '02', title: '初步筛选', desc: '技术团队进行初步审核' },
-              { step: '03', title: '专家评审', desc: '行业专家进行专业评估' },
-              { step: '04', title: '结果公布', desc: '公布获奖名单并颁发奖励' }
-            ].map((item, index) => (
-              <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-lg">
-                  {item.step}
-                </div>
-                <h4 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h4>
-                <p className="text-gray-600 text-sm">{item.desc}</p>
-                {index < 3 && (
-                  <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-blue-300 to-purple-300 transform translate-x-4"></div>
-                )}
-              </div>
+              { name: '个人博客', icon: 'fas fa-blog', url: '#' },
+              { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
+              { name: 'V2EX', icon: 'fas fa-comments', url: 'https://www.v2ex.com' },
+              { name: 'CSDN', icon: 'fas fa-code', url: 'https://blog.csdn.net' },
+              { name: '掘金', icon: 'fas fa-gem', url: 'https://juejin.cn' },
+              { name: '知乎专栏', icon: 'fas fa-question-circle', url: 'https://zhuanlan.zhihu.com' },
+              { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
+              { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
+              { name: 'SegmentFault', icon: 'fas fa-terminal', url: 'https://segmentfault.com' },
+              { name: 'YouTube', icon: 'fab fa-youtube', url: 'https://www.youtube.com' },
+              { name: 'Twitter/X', icon: 'fab fa-twitter', url: 'https://twitter.com' },
+              { name: 'Facebook', icon: 'fab fa-facebook', url: 'https://www.facebook.com' },
+              { name: '开源中国', icon: 'fas fa-open-source', url: 'https://www.oschina.net' }
+            ].map((platform, index) => (
+              <a 
+                key={index} 
+                href={platform.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
+              >
+                <i className={`${platform.icon} text-2xl text-blue-600 mb-2 group-hover:text-blue-700 transition-colors`}></i>
+                <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900">{platform.name}</div>
+              </a>
             ))}
+          </div>
+          
+          <div className="mt-8 text-center">
+            <p className="text-gray-600 mb-4">
+              <i className="fas fa-info-circle text-blue-500 mr-2"></i>
+              文章正文需显著标注参与本活动，并附上官网活动文档链接
+            </p>
+            <div className="bg-white rounded-xl p-4 inline-block">
+              <code className="text-sm text-gray-800">
+                本文参与"ESA征文活动"，活动详情见：[活动链接]
+              </code>
+            </div>
+          </div>
+        </div>
+        
+        {/* 推特发文示例 */}
+        <div className="mt-8 bg-white rounded-3xl p-8 shadow-xl">
+          <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            <i className="fab fa-twitter text-blue-400 mr-3"></i>
+            推特发文示例
+          </h3>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* 英文示例 */}
+            <div className="bg-gray-50 rounded-2xl p-6">
+              <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <i className="fas fa-globe mr-2 text-blue-500"></i>
+                English Example
+              </h4>
+              <div className="bg-white rounded-xl p-4 border-l-4 border-blue-500">
+                <p className="text-gray-800 mb-3">
+                  🚀 Just published my comprehensive comparison: "ESA vs Leading Edge Platforms - Performance Benchmark Report"
+                </p>
+                <p className="text-gray-800 mb-3">
+                  📊 Real data shows ESA's competitive advantages:
+                  • Global latency optimization
+                  • Integrated security features
+                  • Cost-effective solutions
+                </p>
+                <p className="text-gray-800 mb-3">
+                  Participating in #ESABenchmark contest for ESA Premium + Pioneer Member status!
+                </p>
+                <p className="text-blue-600 font-medium">
+                  Details: [活动链接] #EdgeComputing #CDN #WebPerformance
+                </p>
+              </div>
+            </div>
+            
+            {/* 中文示例 */}
+            <div className="bg-gray-50 rounded-2xl p-6">
+              <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <i className="fas fa-flag mr-2 text-red-500"></i>
+                中文示例
+              </h4>
+              <div className="bg-white rounded-xl p-4 border-l-4 border-red-500">
+                <p className="text-gray-800 mb-3">
+                  🔥 刚发布了ESA与主流边缘加速产品的全维度对比测试报告！
+                </p>
+                <p className="text-gray-800 mb-3">
+                  📈 实测数据证明ESA在以下方面表现优异：
+                  • 全球延迟优化 
+                  • 安全防护集成
+                  • 成本效益比
+                </p>
+                <p className="text-gray-800 mb-3">
+                  参与 #ESA征文 活动，优质内容可获ESA高级版+先锋成员！
+                </p>
+                <p className="text-blue-600 font-medium">
+                  活动详情：[活动链接] #边缘计算 #CDN #性能优化
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          {/* 发文技巧 */}
+          <div className="mt-8 bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-6">
+            <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+              <i className="fas fa-lightbulb text-yellow-500 mr-2"></i>
+              推特发文技巧
+            </h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <i className="fas fa-hashtag text-white"></i>
+                </div>
+                <h5 className="font-bold text-gray-900 mb-2">使用标签</h5>
+                <p className="text-gray-600 text-sm">#ESA征文 #EdgeComputing #CDN #WebPerformance</p>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <i className="fas fa-chart-bar text-white"></i>
+                </div>
+                <h5 className="font-bold text-gray-900 mb-2">突出数据</h5>
+                <p className="text-gray-600 text-sm">分享具体的性能测试数据和对比结果</p>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <i className="fas fa-link text-white"></i>
+                </div>
+                <h5 className="font-bold text-gray-900 mb-2">附上链接</h5>
+                <p className="text-gray-600 text-sm">包含活动链接和你的详细文章链接</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -3,44 +3,44 @@ import React from 'react';
 function Prizes() {
   const prizes = [
     {
-      rank: '一等奖',
-      count: '1名',
-      prize: '现金奖励 ¥20,000',
-      bonus: '+ ESA高级认证证书 + 技术大会演讲机会',
+      rank: '基础版代金券',
+      count: '参与有奖',
+      prize: '1个月ESA基础版',
+      bonus: '只要发布便可得，多劳多得',
+      icon: 'fas fa-ticket-alt',
+      color: 'from-blue-400 to-blue-600',
+      bgColor: 'bg-gradient-to-br from-blue-50 to-indigo-50',
+      borderColor: 'border-blue-300'
+    },
+    {
+      rank: '阿里云周边',
+      count: '阅读量≥500',
+      prize: '水杯、T恤、帽子',
+      bonus: '精美实物礼品',
+      icon: 'fas fa-gift',
+      color: 'from-green-400 to-green-600',
+      bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50',
+      borderColor: 'border-green-300'
+    },
+    {
+      rank: 'ESA标准版+先锋成员',
+      count: '阅读量≥1000',
+      prize: '1个月标准版+定制礼品',
+      bonus: '成为ESA先锋成员',
+      icon: 'fas fa-star',
+      color: 'from-purple-400 to-purple-600',
+      bgColor: 'bg-gradient-to-br from-purple-50 to-violet-50',
+      borderColor: 'border-purple-300'
+    },
+    {
+      rank: 'ESA高级版+官方转载',
+      count: '阅读量≥10000',
+      prize: '1个月高级版+署名转载',
+      bonus: '官方账号署名转发',
       icon: 'fas fa-crown',
       color: 'from-yellow-400 to-yellow-600',
       bgColor: 'bg-gradient-to-br from-yellow-50 to-orange-50',
       borderColor: 'border-yellow-300'
-    },
-    {
-      rank: '二等奖',
-      count: '3名',
-      prize: '现金奖励 ¥10,000',
-      bonus: '+ ESA专业认证证书 + 技术交流机会',
-      icon: 'fas fa-medal',
-      color: 'from-gray-400 to-gray-600',
-      bgColor: 'bg-gradient-to-br from-gray-50 to-slate-50',
-      borderColor: 'border-gray-300'
-    },
-    {
-      rank: '三等奖',
-      count: '5名',
-      prize: '现金奖励 ¥5,000',
-      bonus: '+ ESA基础认证证书 + 技术资料包',
-      icon: 'fas fa-award',
-      color: 'from-orange-400 to-orange-600',
-      bgColor: 'bg-gradient-to-br from-orange-50 to-red-50',
-      borderColor: 'border-orange-300'
-    },
-    {
-      rank: '优秀奖',
-      count: '10名',
-      prize: '现金奖励 ¥2,000',
-      bonus: '+ 精美纪念品 + 技术社区VIP',
-      icon: 'fas fa-star',
-      color: 'from-blue-400 to-blue-600',
-      bgColor: 'bg-gradient-to-br from-blue-50 to-indigo-50',
-      borderColor: 'border-blue-300'
     }
   ];
 
@@ -49,10 +49,12 @@ function Prizes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            丰厚奖项等你来拿
+            ESA征文奖励机制
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            总奖金池超过50万元，多重奖励机制，让每一份优质内容都能得到应有的回报
+            用数据说话，优质内容获得丰厚奖励。每位作者可投稿多篇，多劳多得
+            <br />
+            <span className="text-blue-600 font-semibold">成为ESA先锋成员，享受官方特权</span>
           </p>
         </div>
         
@@ -90,38 +92,47 @@ function Prizes() {
           ))}
         </div>
         
-        {/* 特别奖励 */}
+        {/* ESA先锋成员特权 */}
         <div className="bg-white rounded-3xl p-8 shadow-xl">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              <i className="fas fa-gift text-purple-600 mr-3"></i>
-              特别奖励
+              <i className="fas fa-crown text-yellow-500 mr-3"></i>
+              ESA先锋成员特权
             </h3>
+            <p className="text-gray-600">优质内容作者将成为ESA先锋成员，享受官方特权</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-users text-white text-2xl"></i>
+              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-id-card text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">最佳人气奖</h4>
-              <p className="text-gray-600">获得最多点赞和评论的文章，额外奖励 ¥5,000</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">官方展示</h4>
+              <p className="text-gray-600 text-sm">官方文档页展示姓名/ID，获得官方认可</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-lightbulb text-white text-2xl"></i>
+                <i className="fas fa-flask text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">最佳创新奖</h4>
-              <p className="text-gray-600">最具创新性和前瞻性的技术方案，额外奖励 ¥5,000</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">内测优先</h4>
+              <p className="text-gray-600 text-sm">优先参与新功能内测，第一时间体验新特性</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-share-alt text-white text-2xl"></i>
+              </div>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">署名转载</h4>
+              <p className="text-gray-600 text-sm">内容被官方账号署名转发，扩大影响力</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-code text-white text-2xl"></i>
+                <i className="fas fa-star text-white text-2xl"></i>
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">最佳实践奖</h4>
-              <p className="text-gray-600">最具实用价值的实践案例分享，额外奖励 ¥5,000</p>
+              <h4 className="text-lg font-bold text-gray-900 mb-2">更多特权</h4>
+              <p className="text-gray-600 text-sm">持续享受更多专属特权和优先服务</p>
             </div>
           </div>
         </div>
