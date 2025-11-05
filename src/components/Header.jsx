@@ -24,7 +24,7 @@ function Header() {
             <span className={`text-lg md:text-xl font-bold whitespace-nowrap ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              ESA征文活动
+              ESA有奖征文活动
             </span>
           </div>
           
