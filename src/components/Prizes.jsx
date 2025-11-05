@@ -3,16 +3,6 @@ import React from 'react';
 function Prizes() {
   const prizes = [
     {
-      rank: '基础版代金券',
-      count: '参与有奖',
-      prize: '1个月ESA基础版',
-      bonus: '只要发布便可得，多劳多得',
-      icon: 'fas fa-ticket-alt',
-      color: 'from-blue-400 to-blue-600',
-      bgColor: 'bg-gradient-to-br from-blue-50 to-indigo-50',
-      borderColor: 'border-blue-300'
-    },
-    {
       rank: '阿里云周边',
       count: '阅读量≥500',
       prize: '水杯、T恤、帽子',
