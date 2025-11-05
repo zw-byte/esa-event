@@ -25,7 +25,7 @@ function Prizes() {
             {
               rank: '先锋成员+代金劵',
               count: '阅读量≥1000',
-              prize: '1个月标准版+定制礼品',
+              prize: '1TB ESA基础版加量包+定制礼品',
               bonus: '成为ESA先锋成员',
               icon: 'fas fa-star',
               color: 'from-purple-400 to-purple-600',
