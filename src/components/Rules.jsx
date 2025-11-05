@@ -249,6 +249,110 @@ function Rules() {
             </div>
           </div>
         </div>
+        
+        {/* 参与征文活动文章 */}
+        <div className="mt-8 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-3xl p-8 shadow-xl">
+          <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">
+            <i className="fas fa-newspaper text-indigo-600 mr-3"></i>
+            参与征文活动文章
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* 示例文章卡片 */}
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mr-4">
+                  <i className="fas fa-chart-line text-white text-lg"></i>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900">性能对比测试</h4>
+                  <p className="text-sm text-gray-500">张**</p>
+                </div>
+              </div>
+              <h5 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
+                ESA vs CloudFlare 全维度性能对比测试报告
+              </h5>
+              <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                通过真实数据对比ESA与CloudFlare在全球节点延迟、安全防护、成本效益等方面的表现...
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded-full">CSDN</span>
+                <span className="text-xs text-gray-500">阅读量: 1,250</span>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mr-4">
+                  <i className="fas fa-book text-white text-lg"></i>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900">使用教程</h4>
+                  <p className="text-sm text-gray-500">李**</p>
+                </div>
+              </div>
+              <h5 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
+                ESA边缘安全加速从入门到实战
+              </h5>
+              <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                详细介绍ESA的配置流程、最佳实践和常见问题解决方案，适合初学者快速上手...
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-green-600 bg-green-50 px-2 py-1 rounded-full">掘金</span>
+                <span className="text-xs text-gray-500">阅读量: 890</span>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mr-4">
+                  <i className="fas fa-heart text-white text-lg"></i>
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900">使用体验</h4>
+                  <p className="text-sm text-gray-500">王**</p>
+                </div>
+              </div>
+              <h5 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
+                从零开始的ESA配置与优化心得
+              </h5>
+              <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                分享在实际项目中使用ESA的配置经验和性能优化技巧，包含踩坑记录...
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-purple-600 bg-purple-50 px-2 py-1 rounded-full">知乎</span>
+                <span className="text-xs text-gray-500">阅读量: 756</span>
+              </div>
+            </div>
+          </div>
+          
+          {/* 投稿入口 */}
+          <div className="mt-8 text-center">
+            <div className="bg-white rounded-2xl p-6 max-w-2xl mx-auto">
+              <h4 className="text-xl font-bold text-gray-900 mb-4">
+                <i className="fas fa-plus-circle text-indigo-600 mr-2"></i>
+                分享你的ESA文章
+              </h4>
+              <p className="text-gray-600 mb-6">
+                已经发布了ESA相关文章？快来分享你的链接，让更多人看到你的优质内容！
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <input 
+                  type="url" 
+                  placeholder="请输入你的文章链接" 
+                  className="flex-1 max-w-md px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                />
+                <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
+                  <i className="fas fa-paper-plane mr-2"></i>
+                  提交文章
+                </button>
+              </div>
+              <p className="text-xs text-gray-500 mt-3">
+                提交后我们会审核并展示在活动页面，优质内容将获得更多曝光机会
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
