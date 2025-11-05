@@ -44,9 +44,14 @@ function Header() {
             ))}
           </nav>
           
-          <button className="btn-primary">
+          <a 
+            href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/how-to-get-esa-for-free?spm=5176.29099518.console-base_help.dexternal.52bc20670w9iXX#1846164d47wbq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary inline-flex items-center"
+          >
             立即参与
-          </button>
+          </a>
         </div>
       </div>
     </header>
