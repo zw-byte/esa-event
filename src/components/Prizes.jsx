@@ -80,8 +80,15 @@ function Prizes() {
                   {prize.count}
                 </div>
                 
-                <div className="text-3xl font-bold text-gray-900 mb-2">
-                  {prize.prize}
+                <div className="text-2xl font-bold text-gray-900 mb-2">
+                  {prize.rank === '先锋成员+代金劵' ? (
+                    <>
+                      <div>1TB ESA基础版加量包</div>
+                      <div>定制礼品</div>
+                    </>
+                  ) : (
+                    prize.prize
+                  )}
                 </div>
                 
                 {(prize.rank === '加量包代金劵' || prize.rank === '先锋成员+代金劵') && (
