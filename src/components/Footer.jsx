@@ -120,7 +120,7 @@ function Footer() {
                     className="w-full h-full rounded-lg object-cover"
                   />
                 </div>
-                <h4 className="text-lg font-bold text-gray-900 mb-2">ESA 的小助手们</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">ESA小助手</h4>
                 <p className="text-sm text-gray-600">扫码添加专属小助手</p>
               </div>
             </div>
