@@ -11,7 +11,7 @@ function Hero() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 mt-12">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight">
-          ESA征文活动
+          「玩透ESA」有奖征文活动
         </h1>
         
         <div className="mb-16">
