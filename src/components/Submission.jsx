@@ -76,7 +76,7 @@ function Submission() {
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-star mr-3"></i>
-                  <span className="text-sm">阅读量≥1000：ESA标准版+ESA先锋成员</span>
+                  <span className="text-sm">阅读量≥1000：1TB ESA基础版加量包+定制礼品+ESA先锋成员</span>
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-crown mr-3"></i>
