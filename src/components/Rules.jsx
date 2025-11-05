@@ -47,6 +47,21 @@ function Rules() {
           ))}
         </div>
         
+        {/* 版权说明 */}
+        <div className="bg-blue-50 rounded-2xl p-6 mb-12 border border-blue-200">
+          <div className="flex items-start">
+            <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+              <i className="fas fa-info-circle text-white text-lg"></i>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-blue-900 mb-2">版权说明</h3>
+              <p className="text-blue-800 leading-relaxed">
+                作者可以分享文章链接至各平台，获得更多曝光。作品版权归作者所有，阿里云 ESA 拥有非商业性展示权。
+              </p>
+            </div>
+          </div>
+        </div>
+        
         {/* 投稿平台示例 */}
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-8">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">
