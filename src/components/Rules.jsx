@@ -251,7 +251,7 @@ function Rules() {
         </div>
         
         {/* 参与征文活动文章 */}
-        <div className="mt-8 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-3xl p-8 shadow-xl">
+        <div id="参与征文活动文章" className="mt-8 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-3xl p-8 shadow-xl">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">
             <i className="fas fa-newspaper text-indigo-600 mr-3"></i>
             参与征文活动文章
