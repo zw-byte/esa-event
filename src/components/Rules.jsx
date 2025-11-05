@@ -54,6 +54,21 @@ function Rules() {
           ))}
         </div>
         
+        {/* 小贴士区块 */}
+        <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 mb-8 border border-green-200">
+          <div className="flex items-start">
+            <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+              <i className="fas fa-lightbulb text-white text-lg"></i>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-green-900 mb-2">小贴士</h3>
+              <p className="text-green-800 leading-relaxed">
+                作者可以分享文章链接至各平台，获得更多曝光。
+              </p>
+            </div>
+          </div>
+        </div>
+        
         {/* 版权说明 */}
         <div className="bg-blue-50 rounded-2xl p-6 mb-12 border border-blue-200">
           <div className="flex items-start">
