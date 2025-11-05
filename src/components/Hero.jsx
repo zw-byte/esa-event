@@ -48,7 +48,7 @@ function Hero() {
         <div className="mb-12">
           <div className="inline-flex items-center bg-white bg-opacity-20 rounded-full px-8 py-3 backdrop-blur-sm">
             <i className="fas fa-bolt text-yellow-400 mr-3 text-xl"></i>
-            <span className="text-white font-semibold text-lg">本站点由 AI 生成，部署在 ESA 函数和 Pages上</span>
+            <span className="text-white font-semibold text-lg">本站点由 AI 生成，部署在 ESA 函数和 Pages</span>
           </div>
         </div>
         
