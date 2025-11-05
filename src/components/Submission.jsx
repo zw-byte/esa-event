@@ -64,7 +64,7 @@ function Submission() {
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">
                 <i className="fas fa-trophy mr-3"></i>
-                奖励提醒
+                奖励提醒&分享有礼
               </h3>
               <p className="mb-6">
                 活动长期有效，每月评选，可累积。优质内容获得丰厚奖励。
