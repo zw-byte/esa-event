@@ -19,7 +19,7 @@ function Hero() {
           </span>
           <br />
           <span className="relative inline-block mt-4">
-            <span className="bg-gradient-to-r from-white via-yellow-300 via-pink-300 to-white bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-white via-yellow-400 via-pink-400 to-white bg-clip-text text-transparent">
               有奖征文活动
             </span>
           </span>
