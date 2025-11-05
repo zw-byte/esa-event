@@ -62,9 +62,16 @@ function Rules() {
             </div>
             <div>
               <h3 className="text-lg font-bold text-green-900 mb-2">小贴士</h3>
-              <p className="text-green-800 leading-relaxed">
-                作者可以分享文章链接至各平台，获得更多曝光。
-              </p>
+              <div className="text-green-800 leading-relaxed">
+                <p className="flex items-start mb-2">
+                  <span className="w-2 h-2 bg-green-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  作者可以分享文章链接至各平台，获得更多曝光。
+                </p>
+                <p className="flex items-start">
+                  <span className="w-2 h-2 bg-green-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  每位作者可投稿多篇，按文章篇数获得参与奖励，多劳多得。
+                </p>
+              </div>
             </div>
           </div>
         </div>
