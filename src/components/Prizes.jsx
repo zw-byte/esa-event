@@ -22,16 +22,16 @@ function Prizes() {
       bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50',
       borderColor: 'border-green-300'
     },
-    {
-      rank: '加量包代金劵+先锋成员',
-      count: '阅读量≥1000',
-      prize: '1个月标准版+定制礼品',
-      bonus: '成为ESA先锋成员',
-      icon: 'fas fa-star',
-      color: 'from-purple-400 to-purple-600',
-      bgColor: 'bg-gradient-to-br from-purple-50 to-violet-50',
-      borderColor: 'border-purple-300'
-    },
+            {
+              rank: '代金劵+先锋成员',
+              count: '阅读量≥1000',
+              prize: '1个月标准版+定制礼品',
+              bonus: '成为ESA先锋成员',
+              icon: 'fas fa-star',
+              color: 'from-purple-400 to-purple-600',
+              bgColor: 'bg-gradient-to-br from-purple-50 to-violet-50',
+              borderColor: 'border-purple-300'
+            },
     {
       rank: 'ESA高级版+官方转载',
       count: '阅读量≥10000',
@@ -84,7 +84,7 @@ function Prizes() {
                   {prize.prize}
                 </div>
                 
-                {prize.rank === '加量包代金劵' && (
+                {(prize.rank === '加量包代金劵' || prize.rank === '代金劵+先锋成员') && (
                   <div className="text-xs text-gray-500 mb-4">
                     （有效期：1年）
                   </div>
