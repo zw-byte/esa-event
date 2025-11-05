@@ -13,7 +13,7 @@ function Prizes() {
       borderColor: 'border-blue-300'
     },
     {
-      rank: '阿里云周边',
+      rank: '加量包代金劵',
       count: '阅读量≥500',
       prize: '水杯、T恤、帽子',
       bonus: '精美实物礼品',
