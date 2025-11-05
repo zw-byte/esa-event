@@ -54,6 +54,21 @@ function Rules() {
           ))}
         </div>
         
+        {/* 稿件说明区块 */}
+        <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-6 mb-8 border border-orange-200">
+          <div className="flex items-start">
+            <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+              <i className="fas fa-exclamation-triangle text-white text-lg"></i>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-orange-900 mb-2">稿件说明</h3>
+              <p className="text-orange-800 leading-relaxed">
+                同篇文章跨平台发布仅计数为1篇，按平台总数据参与评审，活动时间内发布的所有文章内容重复度需低于80%，否则不予累计数量。
+              </p>
+            </div>
+          </div>
+        </div>
+        
         {/* 小贴士区块 */}
         <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 mb-8 border border-green-200">
           <div className="flex items-start">
