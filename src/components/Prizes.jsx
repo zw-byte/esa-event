@@ -5,7 +5,7 @@ function Prizes() {
     {
       rank: '基础版代金券',
       count: '参与有奖',
-      prize: '1个月ESA基础版',
+      prize: '50GB ESA基础版加量包',
       bonus: '只要发布便可得，多劳多得',
       icon: 'fas fa-ticket-alt',
       color: 'from-blue-400 to-blue-600',

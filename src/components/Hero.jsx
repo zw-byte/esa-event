@@ -10,8 +10,26 @@ function Hero() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 mt-12">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight">
-          「玩透ESA」有奖征文活动
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight relative">
+          <span className="relative inline-block">
+            <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent animate-pulse">
+              「玩透ESA」
+            </span>
+            <span className="absolute -top-2 -right-2 w-4 h-4 bg-yellow-400 rounded-full animate-bounce opacity-80"></span>
+          </span>
+          <br />
+          <span className="relative inline-block mt-4">
+            <span className="bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 bg-clip-text text-transparent">
+              有奖征文活动
+            </span>
+            <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-yellow-400 via-pink-400 to-blue-400 rounded-full opacity-60 animate-pulse"></div>
+          </span>
+          
+          {/* 装饰性元素 */}
+          <div className="absolute -top-8 -left-8 w-16 h-16 border-4 border-yellow-300 rounded-full opacity-30 animate-spin"></div>
+          <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-pink-400 rounded-full opacity-20 animate-bounce" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/2 -left-12 w-2 h-2 bg-blue-300 rounded-full animate-ping"></div>
+          <div className="absolute top-1/4 -right-8 w-3 h-3 bg-purple-300 rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
         </h1>
         
         <div className="mb-16">
