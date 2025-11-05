@@ -102,9 +102,9 @@ function Footer() {
               <div className="bg-white rounded-2xl p-6 shadow-xl">
                 <div className="w-48 h-48 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
                   <img 
-                    src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://mp.weixin.qq.com/s/ESA-group-wechat" 
+                    src="https://img.alicdn.com/imgextra/i1/O1CN01234567890abcdef_!!6000000000000-0-tps-400-400.jpg" 
                     alt="ESA交流群二维码" 
-                    className="w-full h-full rounded-lg"
+                    className="w-full h-full rounded-lg object-cover"
                   />
                 </div>
                 <h4 className="text-lg font-bold text-gray-900 mb-2">ESA 交流群</h4>
@@ -115,9 +115,9 @@ function Footer() {
               <div className="bg-white rounded-2xl p-6 shadow-xl">
                 <div className="w-48 h-48 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
                   <img 
-                    src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://mp.weixin.qq.com/s/ESA-assistant-wechat" 
+                    src="https://img.alicdn.com/imgextra/i2/O1CN01987654321fedcba_!!6000000000000-0-tps-400-400.jpg" 
                     alt="ESA小助手二维码" 
-                    className="w-full h-full rounded-lg"
+                    className="w-full h-full rounded-lg object-cover"
                   />
                 </div>
                 <h4 className="text-lg font-bold text-gray-900 mb-2">ESA 的小助手们</h4>
