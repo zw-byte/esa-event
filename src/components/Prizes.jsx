@@ -17,7 +17,7 @@ function Prizes() {
       count: '阅读量≥500',
       prize: '500GB ESA基础版加量包',
       bonus: '精美实物礼品',
-      icon: 'fas fa-gift',
+      icon: 'fas fa-ticket-alt',
       color: 'from-green-400 to-green-600',
       bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50',
       borderColor: 'border-green-300'
