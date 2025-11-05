@@ -43,7 +43,7 @@ function Hero() {
             参与即有奖,ESA基础版流量包、定制礼品、成为"ESA先锋成员"、官方署名转载...超多福利,等你来拿
           </p>
           
-          <div className="space-y-4 max-w-5xl mx-auto">
+          <div className="space-y-4 max-w-5xl mx-auto bg-white bg-opacity-10 backdrop-blur-md rounded-3xl p-8 border border-white border-opacity-20 shadow-2xl">
             <p className="text-2xl md:text-3xl text-yellow-300 leading-relaxed font-bold tracking-wide">
               阿里云ESA边缘安全加速
             </p>
