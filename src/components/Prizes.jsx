@@ -4,7 +4,7 @@ function Prizes() {
   const prizes = [
     {
       rank: '基础版代金券',
-      count: '每位作者',
+      count: '参与有奖',
       prize: '1个月ESA基础版',
       bonus: '只要发布便可得，多劳多得',
       icon: 'fas fa-ticket-alt',
