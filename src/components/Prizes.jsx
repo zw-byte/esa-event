@@ -84,18 +84,24 @@ function Prizes() {
                   {prize.rank === '先锋成员+代金劵' ? (
                     <>
                       <div>1TB ESA基础版加量包</div>
+                      {prize.rank === '先锋成员+代金劵' && (
+                        <div className="text-xs text-gray-500 mb-2">
+                          （有效期：1年）
+                        </div>
+                      )}
                       <div>定制礼品</div>
                     </>
                   ) : (
-                    prize.prize
+                    <>
+                      {prize.prize}
+                      {prize.rank === '加量包代金劵' && (
+                        <div className="text-xs text-gray-500 mt-1">
+                          （有效期：1年）
+                        </div>
+                      )}
+                    </>
                   )}
                 </div>
-                
-                {(prize.rank === '加量包代金劵' || prize.rank === '先锋成员+代金劵') && (
-                  <div className="text-xs text-gray-500 mb-4">
-                    （有效期：1年）
-                  </div>
-                )}
                 
                 <div className="text-sm text-gray-600 leading-relaxed">
                   {prize.bonus}
