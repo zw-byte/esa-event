@@ -33,7 +33,7 @@ function Prizes() {
               borderColor: 'border-purple-300'
             },
     {
-      rank: 'ESA高级版+官方转载',
+      rank: '官方转载+代金劵',
       count: '阅读量≥10000',
       prize: '1个月高级版+署名转载',
       bonus: '官方账号署名转发',
