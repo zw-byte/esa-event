@@ -50,9 +50,6 @@ function Hero() {
             <p className="text-lg md:text-xl text-blue-200 leading-snug">
               集成CDN加速、DDoS防护、WAF安全防护于一体
             </p>
-            <p className="text-lg md:text-xl text-blue-200 leading-snug">
-              与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
-            </p>
           </div>
         </div>
         
