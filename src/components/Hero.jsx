@@ -16,7 +16,7 @@ function Hero() {
         
         <div className="mb-16">
           <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-10 leading-relaxed">
-            用数据说话，优质稿获ESA高级版
+            用数据说话，优质稿获ESA高级版！
           </h2>
           
           <div className="space-y-8 max-w-5xl mx-auto">
