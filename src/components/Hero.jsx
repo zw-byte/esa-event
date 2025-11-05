@@ -19,14 +19,14 @@ function Hero() {
             用数据说话，优质稿获ESA高级版！
           </h2>
           
-          <div className="space-y-8 max-w-5xl mx-auto">
+          <div className="space-y-4 max-w-5xl mx-auto">
             <p className="text-xl md:text-2xl text-blue-100 leading-relaxed font-medium">
               阿里云ESA边缘安全加速
             </p>
-            <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
+            <p className="text-lg md:text-xl text-blue-200 leading-snug">
               集成CDN加速、DDoS防护、WAF安全防护于一体
             </p>
-            <p className="text-lg md:text-xl text-blue-200 leading-relaxed">
+            <p className="text-lg md:text-xl text-blue-200 leading-snug">
               与主流边缘加速产品实测对比，优质内容获ESA先锋成员+官方转载
             </p>
           </div>
