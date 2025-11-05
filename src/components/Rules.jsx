@@ -13,11 +13,6 @@ function Rules() {
       content: '在阿里云社区PC端发布不少于800字文章，标题前加上「ESA横向测评」'
     },
     {
-      icon: 'fas fa-book',
-      title: 'ESA使用教程',
-      content: 'ESA产品相关的使用教程，从入门到进阶的完整实践指南'
-    },
-    {
       icon: 'fas fa-code',
       title: '技术开发实践',
       content: '基于ESA产品的技术开发实践、场景应用，分享真实项目经验'
