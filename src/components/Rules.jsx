@@ -61,7 +61,7 @@ function Rules() {
               <i className="fas fa-info-circle text-white text-lg"></i>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-blue-900 mb-2">版权说明</h3>
+              <h3 className="text-lg font-bold text-blue-900 mb-2">版权归属与授权</h3>
               <p className="text-blue-800 leading-relaxed">
                 作者可以分享文章链接至各平台，获得更多曝光。作品版权归作者所有，阿里云 ESA 拥有非商业性展示权。
               </p>
