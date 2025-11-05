@@ -13,11 +13,6 @@ function Rules() {
       content: '在阿里云社区PC端发布不少于800字文章，标题前加上「玩透ESA」'
     },
     {
-      icon: 'fas fa-heart',
-      title: '使用体验心得',
-      content: 'ESA产品使用的体验与心得，对比其他解决方案的优劣分析'
-    },
-    {
       icon: 'fas fa-balance-scale',
       title: '横向对比测试',
       content: '与主流边缘加速产品的全维度对比测试，用数据说话'
