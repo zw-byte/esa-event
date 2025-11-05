@@ -10,7 +10,7 @@ function Rules() {
     {
       icon: 'fas fa-cloud',
       title: '方式二：阿里云社区',
-      content: '在阿里云社区PC端发布不少于800字文章，标题前加上「玩转ESA」'
+      content: '在阿里云社区PC端发布不少于800字文章，标题前加上「玩透ESA」'
     },
     {
       icon: 'fas fa-code',
