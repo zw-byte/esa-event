@@ -10,13 +10,9 @@ function Hero() {
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 mt-12">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-12 leading-tight">
           ESA征文活动
         </h1>
-        
-        <p className="text-lg md:text-xl text-blue-200 mb-12 font-light">
-          阿里云ESA诚邀你，用文字或视频记录下你与ESA的开发故事
-        </p>
         
         <div className="mb-16">
           <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-10 leading-relaxed">
