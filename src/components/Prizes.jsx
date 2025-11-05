@@ -3,7 +3,7 @@ import React from 'react';
 function Prizes() {
   const prizes = [
     {
-      rank: '代金劵',
+      rank: '加量包代金劵',
       count: '参与有奖',
       prize: '50GB ESA基础版加量包',
       bonus: '只要发布便可得，多劳多得',
@@ -84,7 +84,7 @@ function Prizes() {
                   {prize.prize}
                 </div>
                 
-                {prize.rank === '代金劵' && (
+                {prize.rank === '加量包代金劵' && (
                   <div className="text-xs text-gray-500 mb-4">
                     （有效期：1年）
                   </div>
