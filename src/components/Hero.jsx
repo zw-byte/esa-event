@@ -36,9 +36,12 @@ function Hero() {
           <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-4 leading-relaxed">
             实战征文重磅来袭！
           </h2>
-          <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-10 leading-relaxed">
+          <h2 className="text-3xl md:text-4xl font-semibold text-yellow-300 mb-4 leading-relaxed">
             用数据说话，优质稿获10TB ESA 基础版流量包！
           </h2>
+          <p className="text-sm md:text-base text-blue-200 mb-10 leading-relaxed">
+            参与即有奖，ESA基础版流量包、定制礼品、成为"ESA先锋成员"、官方署名转载...超多福利，等你来拿
+          </p>
           
           <div className="space-y-4 max-w-5xl mx-auto">
             <p className="text-xl md:text-2xl text-blue-100 leading-relaxed font-medium">
