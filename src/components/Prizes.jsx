@@ -80,9 +80,15 @@ function Prizes() {
                   {prize.count}
                 </div>
                 
-                <div className="text-3xl font-bold text-gray-900 mb-4">
+                <div className="text-3xl font-bold text-gray-900 mb-2">
                   {prize.prize}
                 </div>
+                
+                {prize.rank === '基础版代金券' && (
+                  <div className="text-xs text-gray-500 mb-4">
+                    （有效期：1年）
+                  </div>
+                )}
                 
                 <div className="text-sm text-gray-600 leading-relaxed">
                   {prize.bonus}
