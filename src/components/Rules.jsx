@@ -116,7 +116,7 @@ function Rules() {
               </p>
               <div className="bg-white rounded-xl p-4 inline-block">
                 <code className="text-sm text-gray-800 whitespace-nowrap">
-                  参考标注：本文参与"「 玩透 ESA 」有奖征文活动"，活动详情见：https://esa-website.40154c26.er.aliyun-esa.net/?spm=5176.29099518.0.0.25a12067rM25wn
+                  参考标注：本文参与"「 玩透 ESA 」有奖征文活动"，活动详情见：&lt;官方活动页面链接&gt;
                 </code>
               </div>
             </div>
