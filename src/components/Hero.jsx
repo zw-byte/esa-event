@@ -78,7 +78,7 @@ function Hero() {
           {[
             { icon: 'fas fa-chart-line', number: '横向评测', label: '数据说话' },
             { icon: 'fas fa-crown', number: '先锋成员', label: '优质内容' },
-            { icon: 'fas fa-trophy', number: '高级版', label: '奖励丰厚' },
+            { icon: 'fas fa-trophy', number: '超大加量包', label: '奖励丰厚' },
             { icon: 'fas fa-fire', number: '长期有效', label: '多劳多得' }
           ].map((stat, index) => (
             <div key={index} className="bg-white bg-opacity-20 rounded-xl p-4 backdrop-blur-sm text-center">
