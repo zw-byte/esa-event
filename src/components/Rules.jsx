@@ -63,7 +63,7 @@ function Rules() {
             <div>
               <h3 className="text-lg font-bold text-blue-900 mb-2">版权归属与授权</h3>
               <p className="text-blue-800 leading-relaxed">
-                作者可以分享文章链接至各平台，获得更多曝光。作品版权归作者所有，阿里云 ESA 拥有非商业性展示权。
+                投稿作品的著作权归属于作者所有，阿里云 ESA 享有作品的使用权，有权将优秀作品收录至官网文档实践案例库、或发布于官方技术自媒体账号、活动页、官方博客站点等渠道进行宣传推广。投稿即视为同意主办⽅在合规范围内使⽤内容，不作商业转售。
               </p>
             </div>
           </div>
