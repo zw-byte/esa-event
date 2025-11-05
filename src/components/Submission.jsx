@@ -80,6 +80,27 @@ function Submission() {
                 </div>
               </div>
             </div>
+            
+            {/* 注意事项区块 */}
+            <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-3xl p-8 border border-orange-200">
+              <h3 className="text-2xl font-bold text-orange-900 mb-4">
+                <i className="fas fa-exclamation-triangle text-orange-600 mr-3"></i>
+                注意事项
+              </h3>
+              <div className="bg-white rounded-2xl p-6 shadow-sm">
+                <div className="flex items-start">
+                  <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                    <i className="fas fa-user-check text-white text-lg"></i>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-gray-900 mb-2">代金券发放对象</h4>
+                    <p className="text-gray-700 leading-relaxed">
+                      代金券发放对象为：阿里云用户（协作者、子账号、代客与代理商账号除外）。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
