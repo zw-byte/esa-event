@@ -109,17 +109,17 @@ function Rules() {
             ))}
           </div>
           
-          <div className="mt-8 text-center">
-            <p className="text-gray-600 mb-4">
-              <i className="fas fa-info-circle text-blue-500 mr-2"></i>
-              文章正文需显著标注参与本活动，并附上官网活动文档链接
-            </p>
-            <div className="bg-white rounded-xl p-4 inline-block">
-              <code className="text-sm text-gray-800">
-                本文参与"ESA征文活动"，活动详情见：[活动链接]
-              </code>
+            <div className="mt-8 text-center">
+              <p className="text-gray-600 mb-4">
+                <i className="fas fa-info-circle text-blue-500 mr-2"></i>
+                文章正文需显著标注参与本活动，并附上官网活动文档链接
+              </p>
+              <div className="bg-white rounded-xl p-4 inline-block">
+                <code className="text-sm text-gray-800">
+                  参考标注：本文参与"「 玩透 ESA 」有奖征文活动"，活动详情见：https://esa-website.40154c26.er.aliyun-esa.net/?spm=5176.29099518.0.0.25a12067rM25wn
+                </code>
+              </div>
             </div>
-          </div>
         </div>
         
         {/* 推特发文示例 */}
