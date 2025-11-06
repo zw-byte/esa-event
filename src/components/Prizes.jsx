@@ -135,7 +135,11 @@ function Prizes() {
                 <i className="fas fa-id-card text-white text-2xl"></i>
               </div>
               <h4 className="text-lg font-bold text-gray-900 mb-2">官方展示</h4>
-              <p className="text-gray-600 text-sm">官方文档页展示姓名/ID，获得官方认可</p>
+              <p className="text-gray-600 text-sm">
+                官方文档页展示姓名/ID
+                <br />
+                获得官方认可
+              </p>
             </div>
             
             <div className="text-center">
