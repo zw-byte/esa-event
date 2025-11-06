@@ -173,15 +173,15 @@ function Rules() {
                 <i className="fas fa-chart-line mr-2 text-blue-600"></i>
                 性能对比测试类
               </h4>
-              <div className="bg-white rounded-xl p-5 shadow-sm">
-                <h5 className="text-lg font-bold text-gray-900 mb-3">
-                  ESA vs CloudFlare：全球CDN性能深度对比
-                </h5>
-                <div className="space-y-2 text-sm text-gray-700 mb-4">
-                  <p className="flex items-start">
-                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
-                    <span>详细的测试环境说明（地域、网络、设备）</span>
-                  </p>
+            <div className="bg-white rounded-xl p-5 shadow-sm">
+              <h5 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
+                ESA vs XX CDN 全维度性能对比测试报告
+              </h5>
+              <div className="space-y-2 text-sm text-gray-700 mb-4">
+                <p className="flex items-start">
+                  <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                  <span>通过真实数据对比ESA与XX CDN在全球节点延迟、安全防护、成本效益等方面的表现...</span>
+                </p>
                   <p className="flex items-start">
                     <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
                     <span>多维度性能指标对比（延迟、吞吐量、稳定性）</span>
@@ -209,8 +209,8 @@ function Rules() {
                 实战教程类
               </h4>
               <div className="bg-white rounded-xl p-5 shadow-sm">
-                <h5 className="text-lg font-bold text-gray-900 mb-3">
-                  从零搭建：ESA加速你的全球化网站
+                <h5 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
+                  ESA vs XX CDN：全球CDN性能深度对比
                 </h5>
                 <div className="space-y-2 text-sm text-gray-700 mb-4">
                   <p className="flex items-start">
@@ -367,10 +367,10 @@ function Rules() {
                 </div>
               </div>
               <h5 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                ESA vs CloudFlare 全维度性能对比测试报告
+                ESA vs XX CDN 全维度性能对比测试报告
               </h5>
               <p className="text-gray-600 text-sm mb-4 line-clamp-3">
-                通过真实数据对比ESA与CloudFlare在全球节点延迟、安全防护、成本效益等方面的表现...
+                通过真实数据对比ESA与XX CDN在全球节点延迟、安全防护、成本效益等方面的表现...
               </p>
               <div className="flex items-center justify-between">
                 <span className="text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded-full">CSDN</span>
