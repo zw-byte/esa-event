@@ -112,7 +112,15 @@ function Prizes() {
                 </div>
                 
                 <div className="text-sm text-gray-600 leading-relaxed">
-                  {prize.bonus}
+                  {prize.bonus === '只要发布便可得，多劳多得' ? (
+                    <>
+                      只要发布便可得
+                      <br />
+                      多劳多得
+                    </>
+                  ) : (
+                    prize.bonus
+                  )}
                 </div>
               </div>
             </div>
