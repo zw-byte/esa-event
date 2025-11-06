@@ -50,6 +50,21 @@ function Rules() {
                   参考标注：本文参与"「 玩透 ESA 」有奖征文活动"，活动详情见：&lt;官方活动页面链接&gt;
                 </p>
               )}
+              
+              {/* 阿里云社区链接 */}
+              {index === 1 && (
+                <p className="text-sm text-gray-500 mt-3">
+                  阿里云社区：
+                  <a 
+                    href="https://developer.aliyun.com/?spm=5176.28200048.nav-v2-dropdown-menu-3.d_main_3.6c0a1832UgpgFi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:text-blue-600 underline ml-1"
+                  >
+                    https://developer.aliyun.com
+                  </a>
+                </p>
+              )}
             </div>
           ))}
         </div>
