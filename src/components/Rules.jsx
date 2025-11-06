@@ -147,7 +147,7 @@ function Rules() {
               { name: 'YouTube', icon: 'fab fa-youtube', url: 'https://www.youtube.com' },
               { name: 'Twitter/X', icon: 'fab fa-twitter', url: 'https://twitter.com' },
               { name: 'Facebook', icon: 'fab fa-facebook', url: 'https://www.facebook.com' },
-              { name: '开源中国', icon: 'https://static.oschina.net/new-osc/img/logo_new.svg', url: 'https://www.oschina.net', isImage: true }
+              { name: '开源中国', icon: 'https://1d-static.alibaba-inc.com/oneday/source/81d17790-b741-4604-b909-b5f3fb641387.png', url: 'https://www.oschina.net', isImage: true }
             ].map((platform, index) => (
               <a 
                 key={index} 
