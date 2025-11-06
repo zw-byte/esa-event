@@ -19,7 +19,6 @@ function Footer() {
             </p>
             <div className="flex space-x-4">
               {[
-                { icon: 'fab fa-weixin', color: 'hover:text-green-400', hasQR: true },
                 { icon: 'fas fa-brain', color: 'hover:text-blue-500', url: 'https://bailian.console.aliyun.com/?spm=5176.29597918.J_SEsSjsNv72yRuRFS2VknO.2.6b947b08LeiXzS&tab=mcp#/mcp-market/detail/aliyun-esa', title: '阿里云百炼' },
                 { icon: 'fab fa-bilibili', color: 'hover:text-pink-400', url: 'https://space.bilibili.com/3632312197581781', title: 'B站' }
               ].map((social, index) => (
@@ -33,21 +32,6 @@ function Footer() {
                   >
                     <i className={`${social.icon} text-lg`}></i>
                   </a>
-                  {social.hasQR && (
-                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-                      <div className="bg-white p-3 rounded-lg shadow-xl border">
-                        <div className="w-32 h-32 bg-gray-100 rounded flex items-center justify-center mb-2">
-                          <img 
-                            src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://mp.weixin.qq.com/s/ESA-campaign-wechat" 
-                            alt="微信二维码" 
-                            className="w-full h-full rounded"
-                          />
-                        </div>
-                        <p className="text-xs text-gray-600 text-center">扫码关注微信</p>
-                        <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-white"></div>
-                      </div>
-                    </div>
-                  )}
                 </div>
               ))}
             </div>
