@@ -65,6 +65,18 @@ function Hero() {
           </a>
         </div>
         
+        {/* 投稿流程说明 */}
+        <div className="text-center mb-8">
+          <p className="text-blue-100 text-lg font-semibold">
+            <i className="fas fa-arrow-right text-yellow-300 mr-2"></i>
+            加入微信群
+            <i className="fas fa-arrow-right text-yellow-300 mx-2"></i>
+            发出你的链接
+            <i className="fas fa-arrow-right text-yellow-300 mx-2"></i>
+            领取奖励
+          </p>
+        </div>
+        
         {/* ESA技术标识 */}
         <div className="mb-12">
           <a 
