@@ -53,9 +53,7 @@ function Header() {
             </button>
             
             <a 
-              href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/how-to-get-esa-for-free?spm=5176.29099518.console-base_help.dexternal.52bc20670w9iXX#1846164d47wbq"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#esa-contact"
               className="btn-primary inline-flex items-center text-sm md:text-base px-4 md:px-6 py-2 md:py-3 flex-shrink-0"
             >
               <span className="hidden sm:inline">立即加群参与</span>
