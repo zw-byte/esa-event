@@ -36,13 +36,11 @@ function Footer() {
               ))}
             </div>
           </div>
-        </div>
-        
-        {/* 快速链接 */}
-        <div className="border-t border-gray-800 pt-8 pb-8">
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-lg font-bold mb-4 text-center">快速链接</h3>
-            <div className="flex justify-center">
+          
+          {/* 快速链接 */}
+          <div className="col-span-1">
+            <h3 className="text-lg font-bold mb-4">快速链接</h3>
+            <div>
               <a
                 href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=5176.30371578.J_XmGx2FZCDAeIy2ZCWL7sW.32.e939154aTprw9p&scm=20140722.S_help@@%E6%96%87%E6%A1%A3@@2794340._.RL_esa-LOC_2024NSHelpLink-OR_ser-PAR1_213e052917623133331917157e44c6-V_4-P0_0-P1_0"
                 target="_blank"
