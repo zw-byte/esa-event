@@ -124,7 +124,7 @@ function Prizes() {
           <div className="text-center mb-8">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
               <i className="fas fa-crown text-yellow-500 mr-3"></i>
-              ESA先锋成员特权
+              ESA 先锋成员特权
             </h3>
             <p className="text-gray-600">优质内容作者将成为ESA先锋成员，享受官方特权</p>
           </div>
