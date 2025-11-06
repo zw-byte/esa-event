@@ -154,7 +154,7 @@ function Rules() {
                 href={platform.name === 'Linux.do' ? 'https://linux.do/' : platform.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
+                className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group flex flex-col items-center"
               >
                 {platform.isImage ? (
                   <img 
@@ -165,7 +165,7 @@ function Rules() {
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 )}
-                <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900">{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
+                <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900 flex items-end h-10">{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
               </a>
             ))}
           </div>
