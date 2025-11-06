@@ -132,7 +132,7 @@ function Rules() {
             {[
               { name: '个人博客', icon: 'fas fa-blog', url: '#' },
               { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
-              { name: 'V2EX', icon: 'fas fa-comments', url: 'https://www.v2ex.com' },
+              { name: 'V2EX', icon: 'https://www.v2ex.com/static/img/icon_rayps_64.png', url: 'https://www.v2ex.com', isImage: true },
               { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
               { name: '掘金', icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg', url: 'https://juejin.cn', isImage: true },
               { name: '知乎专栏', icon: 'fab fa-zhihu', url: 'https://zhuanlan.zhihu.com' },
@@ -156,7 +156,11 @@ function Rules() {
                 rel="noopener noreferrer"
                 className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
               >
-                <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
+                {platform.isImage ? (
+                  <img src={platform.icon} alt={platform.name} className="w-8 h-8 mx-auto mb-2 object-contain" />
+                ) : (
+                  <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
+                )}
                 <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900">{platform.name}</div>
               </a>
             ))}
