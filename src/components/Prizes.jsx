@@ -147,7 +147,11 @@ function Prizes() {
                 <i className="fas fa-flask text-white text-2xl"></i>
               </div>
               <h4 className="text-lg font-bold text-gray-900 mb-2">内测优先</h4>
-              <p className="text-gray-600 text-sm">优先参与新功能内测，第一时间体验新特性</p>
+              <p className="text-gray-600 text-sm">
+                优先参与新功能内测
+                <br />
+                第一时间体验新特性
+              </p>
             </div>
             
             <div className="text-center">
