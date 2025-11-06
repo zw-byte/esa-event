@@ -355,7 +355,11 @@ function Rules() {
                   <i className="fas fa-images text-white"></i>
                 </div>
                 <h5 className="font-bold text-gray-900 mb-2">图文并茂</h5>
-                <p className="text-gray-600 text-sm">配合截图、图表，让内容更直观易懂</p>
+                <p className="text-gray-600 text-sm">
+                  配合截图、图表
+                  <br />
+                  让内容更直观易懂
+                </p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
