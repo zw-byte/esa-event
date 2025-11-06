@@ -21,8 +21,8 @@ function Footer() {
                 </p>
               </div>
               
-              {/* 快速链接 - 移到右侧并与文字顶端对齐 */}
-              <div className="hidden md:block">
+              {/* 快速链接 - 移到右侧并向下移动 */}
+              <div className="hidden md:block mt-6">
                 <h3 className="text-lg font-bold mb-4">快速链接</h3>
                 <div>
                   <a
