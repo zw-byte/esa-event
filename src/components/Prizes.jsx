@@ -171,7 +171,11 @@ function Prizes() {
                 <i className="fas fa-star text-white text-2xl"></i>
               </div>
               <h4 className="text-lg font-bold text-gray-900 mb-2">更多特权</h4>
-              <p className="text-gray-600 text-sm">持续享受更多专属特权和优先服务</p>
+              <p className="text-gray-600 text-sm">
+                持续享受更多专属特权
+                <br />
+                优先服务
+              </p>
             </div>
           </div>
         </div>
