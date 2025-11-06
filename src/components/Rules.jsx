@@ -344,7 +344,11 @@ function Rules() {
                   <i className="fas fa-database text-white"></i>
                 </div>
                 <h5 className="font-bold text-gray-900 mb-2">数据说话</h5>
-                <p className="text-gray-600 text-sm">用真实测试数据支撑观点，增加可信度</p>
+                <p className="text-gray-600 text-sm">
+                  用真实测试数据支撑观点
+                  <br />
+                  增加可信度
+                </p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
