@@ -3,7 +3,7 @@ import React from 'react';
 function Prizes() {
   const prizes = [
     {
-      rank: '加量包代金劵',
+      rank: '流量包代金券',
       count: '参与有奖',
       prize: '50GB ESA基础版加量包',
       bonus: '只要发布便可得，多劳多得',
@@ -13,7 +13,7 @@ function Prizes() {
       borderColor: 'border-blue-300'
     },
     {
-      rank: '加量包代金劵',
+      rank: '流量包代金券',
       count: '阅读量≥500',
       prize: '500GB ESA基础版加量包',
       bonus: '精美实物礼品',
@@ -23,7 +23,7 @@ function Prizes() {
       borderColor: 'border-green-300'
     },
             {
-              rank: '先锋成员+代金劵',
+              rank: '先锋成员+代金券',
               count: '阅读量≥1000',
               prize: '1TB ESA基础版加量包+定制礼品',
               bonus: '成为ESA先锋成员',
@@ -33,7 +33,7 @@ function Prizes() {
               borderColor: 'border-purple-300'
             },
     {
-      rank: '官方转载+代金劵',
+      rank: '官方转载+代金券',
       count: '阅读量≥10000',
       prize: '10TB ESA基础版加量包+署名转载',
       bonus: '官方账号署名转发',
@@ -81,17 +81,17 @@ function Prizes() {
                 </div>
                 
                 <div className="text-2xl font-bold text-gray-900 mb-2">
-                  {prize.rank === '先锋成员+代金劵' ? (
+                  {prize.rank === '先锋成员+代金券' ? (
                     <>
                       <div>1TB ESA基础版加量包</div>
-                      {prize.rank === '先锋成员+代金劵' && (
+                      {prize.rank === '先锋成员+代金券' && (
                         <div className="text-xs text-gray-500 mb-2">
                           （有效期：1年）
                         </div>
                       )}
                       <div>定制礼品</div>
                     </>
-                  ) : prize.rank === '官方转载+代金劵' ? (
+                  ) : prize.rank === '官方转载+代金券' ? (
                     <>
                       <div>10TB ESA基础版加量包</div>
                       <div className="text-xs text-gray-500 mb-2">
@@ -102,7 +102,7 @@ function Prizes() {
                   ) : (
                     <>
                       {prize.prize}
-                      {prize.rank === '加量包代金劵' && (
+                      {prize.rank === '流量包代金券' && (
                         <div className="text-xs text-gray-500 mt-1">
                           （有效期：1年）
                         </div>
