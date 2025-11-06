@@ -157,7 +157,11 @@ function Rules() {
                 className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
               >
                 {platform.isImage ? (
-                  <img src={platform.icon} alt={platform.name} className="w-8 h-8 mx-auto mb-2 object-contain" />
+                  <img 
+                    src={platform.icon} 
+                    alt={platform.name} 
+                    className={`mx-auto mb-2 object-contain ${platform.name === 'InfoQ' ? 'w-10 h-10' : 'w-8 h-8'}`} 
+                  />
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 )}
