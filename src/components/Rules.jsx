@@ -160,7 +160,8 @@ function Rules() {
                   <img 
                     src={platform.icon} 
                     alt={platform.name}
-                    className="w-8 h-8 mx-auto mb-2"
+                    className="w-8 h-8 mx-auto mb-2 filter-blue"
+                    style={{filter: 'brightness(0) saturate(100%) invert(38%) sepia(98%) saturate(1789%) hue-rotate(201deg) brightness(95%) contrast(92%)'}}
                   />
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
