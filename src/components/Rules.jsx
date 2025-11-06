@@ -159,92 +159,189 @@ function Rules() {
             </div>
         </div>
         
-        {/* 推特发文示例 */}
+        {/* 博客优质文章示例 */}
         <div className="mt-8 bg-white rounded-3xl p-8 shadow-xl">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-8">
-            <i className="fab fa-twitter text-blue-400 mr-3"></i>
-            推特发文示例
+            <i className="fas fa-blog text-indigo-600 mr-3"></i>
+            博客优质文章示例
           </h3>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* 英文示例 */}
-            <div className="bg-gray-50 rounded-2xl p-6">
+            {/* 性能对比类 */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border-2 border-blue-200">
               <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                <i className="fas fa-globe mr-2 text-blue-500"></i>
-                English Example
+                <i className="fas fa-chart-line mr-2 text-blue-600"></i>
+                性能对比测试类
               </h4>
-              <div className="bg-white rounded-xl p-4 border-l-4 border-blue-500">
-                <p className="text-gray-800 mb-3">
-                  🚀 Just published my comprehensive comparison: "ESA vs Leading Edge Platforms - Performance Benchmark Report"
-                </p>
-                <p className="text-gray-800 mb-3">
-                  📊 Real data shows ESA's competitive advantages:
-                  • Global latency optimization
-                  • Integrated security features
-                  • Cost-effective solutions
-                </p>
-                <p className="text-gray-800 mb-3">
-                  Participating in #ESABenchmark contest for ESA Premium + Pioneer Member status!
-                </p>
-                <p className="text-blue-600 font-medium">
-                  Details: [活动链接] #EdgeComputing #CDN #WebPerformance
-                </p>
+              <div className="bg-white rounded-xl p-5 shadow-sm">
+                <h5 className="text-lg font-bold text-gray-900 mb-3">
+                  ESA vs CloudFlare：全球CDN性能深度对比
+                </h5>
+                <div className="space-y-2 text-sm text-gray-700 mb-4">
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>详细的测试环境说明（地域、网络、设备）</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>多维度性能指标对比（延迟、吞吐量、稳定性）</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>真实数据图表展示（折线图、柱状图）</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>客观分析优劣势，给出使用建议</span>
+                  </p>
+                </div>
+                <div className="flex items-center justify-between pt-3 border-t border-gray-200">
+                  <span className="text-xs text-blue-600 bg-blue-50 px-3 py-1 rounded-full">推荐指数 ⭐⭐⭐⭐⭐</span>
+                  <span className="text-xs text-gray-500">阅读量易达标</span>
+                </div>
               </div>
             </div>
             
-            {/* 中文示例 */}
-            <div className="bg-gray-50 rounded-2xl p-6">
+            {/* 实战教程类 */}
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border-2 border-green-200">
               <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                <i className="fas fa-flag mr-2 text-red-500"></i>
-                中文示例
+                <i className="fas fa-book-open mr-2 text-green-600"></i>
+                实战教程类
               </h4>
-              <div className="bg-white rounded-xl p-4 border-l-4 border-red-500">
-                <p className="text-gray-800 mb-3">
-                  🔥 刚发布了ESA与主流边缘加速产品的全维度对比测试报告！
-                </p>
-                <p className="text-gray-800 mb-3">
-                  📈 实测数据证明ESA在以下方面表现优异：
-                  • 全球延迟优化 
-                  • 安全防护集成
-                  • 成本效益比
-                </p>
-                <p className="text-gray-800 mb-3">
-                  参与 #ESA征文 活动，优质内容可获ESA高级版+先锋成员！
-                </p>
-                <p className="text-blue-600 font-medium">
-                  活动详情：[活动链接] #边缘计算 #CDN #性能优化
-                </p>
+              <div className="bg-white rounded-xl p-5 shadow-sm">
+                <h5 className="text-lg font-bold text-gray-900 mb-3">
+                  从零搭建：ESA加速你的全球化网站
+                </h5>
+                <div className="space-y-2 text-sm text-gray-700 mb-4">
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>完整的配置步骤（截图+代码）</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>常见问题解决方案</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>性能优化技巧分享</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>实际效果对比（优化前后）</span>
+                  </p>
+                </div>
+                <div className="flex items-center justify-between pt-3 border-t border-gray-200">
+                  <span className="text-xs text-green-600 bg-green-50 px-3 py-1 rounded-full">推荐指数 ⭐⭐⭐⭐⭐</span>
+                  <span className="text-xs text-gray-500">实用性强</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 场景应用类 */}
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border-2 border-purple-200">
+              <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <i className="fas fa-rocket mr-2 text-purple-600"></i>
+                场景应用类
+              </h4>
+              <div className="bg-white rounded-xl p-5 shadow-sm">
+                <h5 className="text-lg font-bold text-gray-900 mb-3">
+                  电商大促：ESA如何扛住流量洪峰
+                </h5>
+                <div className="space-y-2 text-sm text-gray-700 mb-4">
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>真实业务场景描述</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>技术方案选型过程</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>实施过程中的挑战与解决</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>最终效果数据展示</span>
+                  </p>
+                </div>
+                <div className="flex items-center justify-between pt-3 border-t border-gray-200">
+                  <span className="text-xs text-purple-600 bg-purple-50 px-3 py-1 rounded-full">推荐指数 ⭐⭐⭐⭐</span>
+                  <span className="text-xs text-gray-500">案例价值高</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 技术深度类 */}
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-6 border-2 border-orange-200">
+              <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <i className="fas fa-microscope mr-2 text-orange-600"></i>
+                技术深度类
+              </h4>
+              <div className="bg-white rounded-xl p-5 shadow-sm">
+                <h5 className="text-lg font-bold text-gray-900 mb-3">
+                  深入解析：ESA边缘计算架构设计
+                </h5>
+                <div className="space-y-2 text-sm text-gray-700 mb-4">
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>技术原理深度剖析</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>架构设计思路分享</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>与其他方案的技术对比</span>
+                  </p>
+                  <p className="flex items-start">
+                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                    <span>未来发展趋势预测</span>
+                  </p>
+                </div>
+                <div className="flex items-center justify-between pt-3 border-t border-gray-200">
+                  <span className="text-xs text-orange-600 bg-orange-50 px-3 py-1 rounded-full">推荐指数 ⭐⭐⭐⭐</span>
+                  <span className="text-xs text-gray-500">专业度高</span>
+                </div>
               </div>
             </div>
           </div>
           
-          {/* 发文技巧 */}
-          <div className="mt-8 bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-6">
+          {/* 写作技巧 */}
+          <div className="mt-8 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-6 border border-indigo-200">
             <h4 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
               <i className="fas fa-lightbulb text-yellow-500 mr-2"></i>
-              推特发文技巧
+              优质文章写作技巧
             </h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <i className="fas fa-hashtag text-white"></i>
+                  <i className="fas fa-database text-white"></i>
                 </div>
-                <h5 className="font-bold text-gray-900 mb-2">使用标签</h5>
-                <p className="text-gray-600 text-sm">#ESA征文 #EdgeComputing #CDN #WebPerformance</p>
+                <h5 className="font-bold text-gray-900 mb-2">数据说话</h5>
+                <p className="text-gray-600 text-sm">用真实测试数据支撑观点，增加可信度</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <i className="fas fa-chart-bar text-white"></i>
+                  <i className="fas fa-images text-white"></i>
                 </div>
-                <h5 className="font-bold text-gray-900 mb-2">突出数据</h5>
-                <p className="text-gray-600 text-sm">分享具体的性能测试数据和对比结果</p>
+                <h5 className="font-bold text-gray-900 mb-2">图文并茂</h5>
+                <p className="text-gray-600 text-sm">配合截图、图表，让内容更直观易懂</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <i className="fas fa-link text-white"></i>
+                  <i className="fas fa-code text-white"></i>
                 </div>
-                <h5 className="font-bold text-gray-900 mb-2">附上链接</h5>
-                <p className="text-gray-600 text-sm">包含活动链接和你的详细文章链接</p>
+                <h5 className="font-bold text-gray-900 mb-2">代码示例</h5>
+                <p className="text-gray-600 text-sm">提供完整可运行的代码，方便读者实践</p>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <i className="fas fa-bullseye text-white"></i>
+                </div>
+                <h5 className="font-bold text-gray-900 mb-2">结论明确</h5>
+                <p className="text-gray-600 text-sm">给出清晰的使用建议和适用场景</p>
               </div>
             </div>
           </div>
