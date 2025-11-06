@@ -160,12 +160,12 @@ function Rules() {
                   <img 
                     src={platform.icon} 
                     alt={platform.name} 
-                    className={`mx-auto mb-2 object-contain ${platform.name === 'InfoQ' ? 'w-10 h-10' : platform.name === '51CTO' ? 'w-10 h-10' : platform.name === '知乎专栏' ? 'w-10 h-10' : 'w-8 h-8'}`} 
+                    className={`mx-auto object-contain ${platform.name === 'InfoQ' ? 'w-10 h-10 mb-1' : platform.name === '51CTO' ? 'w-10 h-10 mb-2' : platform.name === '知乎专栏' ? 'w-10 h-10 mb-2' : 'w-8 h-8 mb-2'}`} 
                   />
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 )}
-                <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900">{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
+                <div className={`text-sm font-medium text-gray-700 group-hover:text-gray-900 ${platform.name === 'InfoQ' ? 'mt-1' : ''}`}>{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
               </a>
             ))}
           </div>
