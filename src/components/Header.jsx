@@ -29,10 +29,10 @@ function Header() {
           </div>
           
           <nav className="hidden lg:flex space-x-6 xl:space-x-8 flex-1 justify-center">
-            {['活动介绍', '奖项设置', '参与规则', '文章展示'].map((item) => (
+            {['活动介绍', '奖项设置', '参与规则'].map((item) => (
               <a
                 key={item}
-                href={item === '文章展示' ? '#参与征文活动文章' : `#${item}`}
+                href={`#${item}`}
                 className={`font-medium transition-colors duration-300 whitespace-nowrap ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-blue-600' 
