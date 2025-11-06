@@ -139,7 +139,7 @@ function Rules() {
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
               { name: 'SegmentFault', icon: 'https://static.segmentfault.com/main_site_next/0dc4bace/touch-icon.png', url: 'https://segmentfault.com', isImage: true },
-              { name: 'InfoQ', icon: 'fas fa-info-circle', url: 'https://www.infoq.cn' },
+              { name: 'InfoQ', icon: 'https://static.infoq.cn/public_image/logo-big.png', url: 'https://www.infoq.cn', isImage: true },
               { name: 'Linux', icon: 'fab fa-linux', url: 'https://linux.cn' },
               { name: 'Golang中文社区', icon: 'fas fa-code-branch', url: 'https://studygolang.com' },
               { name: '博客园', icon: 'fas fa-leaf', url: 'https://www.cnblogs.com' },
