@@ -132,7 +132,7 @@ function Rules() {
             {[
               { name: '个人博客', icon: 'fas fa-blog', url: '#' },
               { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
-              { name: 'V2EX', icon: 'https://cdn.v2ex.com/site/logo@2x.png', url: 'https://www.v2ex.com', isImage: true },
+              { name: 'V2EX', icon: 'fas fa-comments', url: 'https://www.v2ex.com' },
               { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
               { name: '掘金', icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg', url: 'https://juejin.cn', isImage: true },
               { name: '知乎专栏', icon: 'fab fa-zhihu', url: 'https://zhuanlan.zhihu.com' },
