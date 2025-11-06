@@ -63,6 +63,7 @@ function Rules() {
                   >
                     https://developer.aliyun.com
                   </a>
+                  <span className="ml-2">步骤：发布 — 写文章</span>
                 </p>
               )}
             </div>
