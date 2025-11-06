@@ -422,33 +422,6 @@ function Rules() {
               </div>
             </div>
           </div>
-          
-          {/* 投稿入口 */}
-          <div className="mt-8 text-center">
-            <div className="bg-white rounded-2xl p-6 max-w-2xl mx-auto">
-              <h4 className="text-xl font-bold text-gray-900 mb-4">
-                <i className="fas fa-plus-circle text-indigo-600 mr-2"></i>
-                分享你的ESA文章
-              </h4>
-              <p className="text-gray-600 mb-6">
-                已经发布了ESA相关文章？快来分享你的链接，让更多人看到你的优质内容！
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <input 
-                  type="url" 
-                  placeholder="请输入你的文章链接" 
-                  className="flex-1 max-w-md px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                />
-                <button className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
-                  <i className="fas fa-paper-plane mr-2"></i>
-                  提交文章
-                </button>
-              </div>
-              <p className="text-xs text-gray-500 mt-3">
-                提交后我们会审核并展示在活动页面，优质内容将获得更多曝光机会
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
