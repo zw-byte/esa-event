@@ -159,7 +159,11 @@ function Prizes() {
                 <i className="fas fa-share-alt text-white text-2xl"></i>
               </div>
               <h4 className="text-lg font-bold text-gray-900 mb-2">署名转载</h4>
-              <p className="text-gray-600 text-sm">内容被官方账号署名转发，扩大影响力</p>
+              <p className="text-gray-600 text-sm">
+                内容被官方账号署名转发
+                <br />
+                扩大影响力
+              </p>
             </div>
             
             <div className="text-center">
