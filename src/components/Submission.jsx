@@ -28,7 +28,7 @@ function Submission() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            立即参与ESA征文
+            立即参与 ESA 征文
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             分享你的ESA使用体验，与主流边缘加速产品对比，用数据说话获得丰厚奖励
