@@ -7,16 +7,35 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* 品牌信息 */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <i className="fas fa-shield-alt text-white text-xl"></i>
+            <div className="flex items-start justify-between">
+              <div>
+                <div className="flex items-center space-x-3 mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <i className="fas fa-shield-alt text-white text-xl"></i>
+                  </div>
+                  <span className="text-2xl font-bold">ESA有奖征文活动</span>
+                </div>
+                <p className="text-gray-300 mb-6 max-w-md">
+                  阿里云ESA边缘安全加速平台，依托3200+全球边缘节点，
+                  为各行业提供网络加速、安全防护与边缘计算的一体化能力。
+                </p>
               </div>
-              <span className="text-2xl font-bold">ESA有奖征文活动</span>
+              
+              {/* 快速链接 - 移到右侧并与文字顶端对齐 */}
+              <div className="hidden md:block">
+                <h3 className="text-lg font-bold mb-4">快速链接</h3>
+                <div>
+                  <a
+                    href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=5176.30371578.J_XmGx2FZCDAeIy2ZCWL7sW.32.e939154aTprw9p&scm=20140722.S_help@@%E6%96%87%E6%A1%A3@@2794340._.RL_esa-LOC_2024NSHelpLink-OR_ser-PAR1_213e052917623133331917157e44c6-V_4-P0_0-P1_0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white transition-colors duration-300"
+                  >
+                    ESA介绍
+                  </a>
+                </div>
+              </div>
             </div>
-            <p className="text-gray-300 mb-6 max-w-md">
-              阿里云ESA边缘安全加速平台，依托3200+全球边缘节点，
-              为各行业提供网络加速、安全防护与边缘计算的一体化能力。
-            </p>
             <div className="flex space-x-4">
               {[
                 { icon: 'fas fa-brain', color: 'hover:text-blue-500', url: 'https://bailian.console.aliyun.com/?spm=5176.29597918.J_SEsSjsNv72yRuRFS2VknO.2.6b947b08LeiXzS&tab=mcp#/mcp-market/detail/aliyun-esa', title: '阿里云百炼' },
@@ -34,21 +53,6 @@ function Footer() {
                   </a>
                 </div>
               ))}
-            </div>
-          </div>
-          
-          {/* 快速链接 */}
-          <div className="col-span-1">
-            <h3 className="text-lg font-bold mb-4">快速链接</h3>
-            <div>
-              <a
-                href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=5176.30371578.J_XmGx2FZCDAeIy2ZCWL7sW.32.e939154aTprw9p&scm=20140722.S_help@@%E6%96%87%E6%A1%A3@@2794340._.RL_esa-LOC_2024NSHelpLink-OR_ser-PAR1_213e052917623133331917157e44c6-V_4-P0_0-P1_0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white transition-colors duration-300"
-              >
-                ESA介绍
-              </a>
             </div>
           </div>
         </div>
