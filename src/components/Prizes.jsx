@@ -176,7 +176,7 @@ function Prizes() {
             
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-star text-white text-2xl"></i>
+                <i className="fas fa-crown text-white text-2xl"></i>
               </div>
               <h4 className="text-lg font-bold text-gray-900 mb-2">更多特权</h4>
               <p className="text-gray-600 text-sm">
