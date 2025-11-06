@@ -47,7 +47,7 @@ function Rules() {
               {/* 参考标注 */}
               {index === 0 && (
                 <p className="text-xs text-gray-400 mt-3 leading-relaxed">
-                  参考标注：本文参与"「 玩透 ESA 」有奖征文活动"，活动详情见：<a href="https://esa-website.40154c26.er.aliyun-esa.net/?spm=5176.29099518.0.0.25a12067rM25wn" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 underline">&lt;官方活动页面链接&gt;</a>
+                  参考标注：本文参与"「 玩透 ESA 」有奖征文活动"，活动详情见：&lt;官方活动页面链接&gt;
                 </p>
               )}
             </div>
