@@ -366,7 +366,11 @@ function Rules() {
                   <i className="fas fa-code text-white"></i>
                 </div>
                 <h5 className="font-bold text-gray-900 mb-2">代码示例</h5>
-                <p className="text-gray-600 text-sm">提供完整可运行的代码，方便读者实践</p>
+                <p className="text-gray-600 text-sm">
+                  提供完整可运行的代码
+                  <br />
+                  方便读者实践
+                </p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
