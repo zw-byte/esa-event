@@ -165,7 +165,7 @@ function Rules() {
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 )}
-                <div className={`text-sm font-medium text-gray-700 group-hover:text-gray-900 ${platform.name === 'InfoQ' ? '-mt-1' : ''}`}>{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
+                <div className={`text-sm font-medium text-gray-700 group-hover:text-gray-900 ${platform.name === 'InfoQ' ? '-mt-1' : platform.name === '51CTO' ? '-mt-1' : ''}`}>{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
               </a>
             ))}
           </div>
