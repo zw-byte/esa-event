@@ -135,7 +135,7 @@ function Rules() {
               { name: 'V2EX', icon: 'https://www.v2ex.com/static/img/icon_rayps_64.png', url: 'https://www.v2ex.com', isImage: true },
               { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
               { name: '掘金', icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg', url: 'https://juejin.cn', isImage: true },
-              { name: '知乎专栏', icon: 'fas fa-question-circle', url: 'https://zhuanlan.zhihu.com' },
+              { name: '知乎专栏', icon: 'https://static.zhihu.com/heifetz/favicon.ico', url: 'https://zhuanlan.zhihu.com', isImage: true },
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
               { name: 'SegmentFault', icon: 'fas fa-terminal', url: 'https://segmentfault.com' },
