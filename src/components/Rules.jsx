@@ -147,7 +147,7 @@ function Rules() {
               { name: 'YouTube', icon: 'fab fa-youtube', url: 'https://www.youtube.com' },
               { name: 'Twitter/X', icon: 'fab fa-twitter', url: 'https://twitter.com' },
               { name: 'Facebook', icon: 'fab fa-facebook', url: 'https://www.facebook.com' },
-              { name: '开源中国', icon: 'fas fa-laptop-code', url: 'https://www.oschina.net' }
+              { name: '开源中国', icon: 'https://static.oschina.net/new-osc/img/logo_new.svg', url: 'https://www.oschina.net', isImage: true }
             ].map((platform, index) => (
               <a 
                 key={index} 
