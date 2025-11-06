@@ -151,7 +151,7 @@ function Rules() {
             ].map((platform, index) => (
               <a 
                 key={index} 
-                href={platform.url}
+                href={platform.name === 'Linux.do' ? 'https://linux.do/' : platform.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
