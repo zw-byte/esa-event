@@ -134,7 +134,7 @@ function Rules() {
               { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
               { name: 'V2EX', icon: 'fas fa-comments', url: 'https://www.v2ex.com' },
               { name: 'CSDN', icon: 'fas fa-code', url: 'https://blog.csdn.net' },
-              { name: '掘金', icon: 'fas fa-gem', url: 'https://juejin.cn' },
+              { name: '掘金', icon: 'fas fa-code', url: 'https://juejin.cn' },
               { name: '知乎专栏', icon: 'fas fa-question-circle', url: 'https://zhuanlan.zhihu.com' },
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
