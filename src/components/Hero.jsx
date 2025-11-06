@@ -69,10 +69,15 @@ function Hero() {
         
         {/* ESA技术标识 */}
         <div className="mb-12">
-          <div className="inline-flex items-center bg-white bg-opacity-20 rounded-full px-8 py-3 backdrop-blur-sm">
+          <a 
+            href="https://help.aliyun.com/zh/edge-security-acceleration/esa/user-guide/what-is-functions-and-pages/?spm=5176.29099518.console-base_help.dexternal.52bc2067xwzsF7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-white bg-opacity-20 rounded-full px-8 py-3 backdrop-blur-sm hover:bg-opacity-30 transition-all duration-300 cursor-pointer"
+          >
             <i className="fas fa-bolt text-yellow-400 mr-3 text-xl"></i>
             <span className="text-white font-semibold text-lg">本站点由 AI 生成，部署在 ESA 函数和 Pages</span>
-          </div>
+          </a>
         </div>
         
         {/* 统计数据 */}
