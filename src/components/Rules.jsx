@@ -138,7 +138,7 @@ function Rules() {
               { name: '知乎专栏', icon: 'https://static.zhihu.com/heifetz/favicon.ico', url: 'https://zhuanlan.zhihu.com', isImage: true },
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
-              { name: 'SegmentFault', icon: 'https://cdn.segmentfault.com/v-5e67172c/global/img/touch-icon.png', url: 'https://segmentfault.com', isImage: true },
+              { name: 'SegmentFault', icon: 'https://static.segmentfault.com/main_site_next/0dc4bace/touch-icon.png', url: 'https://segmentfault.com', isImage: true },
               { name: 'InfoQ', icon: 'fas fa-info-circle', url: 'https://www.infoq.cn' },
               { name: 'Linux', icon: 'fab fa-linux', url: 'https://linux.cn' },
               { name: 'Golang中文社区', icon: 'fas fa-code-branch', url: 'https://studygolang.com' },
