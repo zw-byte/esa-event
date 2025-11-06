@@ -139,7 +139,7 @@ function Rules() {
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
               { name: 'SegmentFault', icon: 'fas fa-code', url: 'https://segmentfault.com' },
-              { name: 'InfoQ', icon: 'https://static.infoq.cn/public_image/logo-big.png', url: 'https://www.infoq.cn', isImage: true },
+              { name: 'InfoQ', icon: 'fas fa-info-circle', url: 'https://www.infoq.cn' },
               { name: 'Linux', icon: 'fab fa-linux', url: 'https://linux.cn' },
               { name: 'Golang中文社区', icon: 'fas fa-code-branch', url: 'https://studygolang.com' },
               { name: '博客园', icon: 'fas fa-leaf', url: 'https://www.cnblogs.com' },
@@ -156,15 +156,7 @@ function Rules() {
                 rel="noopener noreferrer"
                 className="text-center bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer group"
               >
-                {platform.isImage ? (
-                  <img 
-                    src={platform.icon} 
-                    alt={platform.name}
-                    className="w-8 h-8 mx-auto mb-2"
-                  />
-                ) : (
-                  <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
-                )}
+                <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900">{platform.name}</div>
               </a>
             ))}
