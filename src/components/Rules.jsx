@@ -53,7 +53,7 @@ function Rules() {
               
               {/* 阿里云社区链接 */}
               {index === 1 && (
-                <p className="text-sm text-gray-500 mt-3">
+                <p className="text-xs text-gray-400 mt-3 leading-relaxed">
                   阿里云社区：
                   <a 
                     href="https://developer.aliyun.com/?spm=5176.28200048.nav-v2-dropdown-menu-3.d_main_3.6c0a1832UgpgFi"
