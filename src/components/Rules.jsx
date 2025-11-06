@@ -136,7 +136,7 @@ function Rules() {
               { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
               { name: '掘金', icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg', url: 'https://juejin.cn', isImage: true },
               { name: '知乎专栏', icon: 'fab fa-zhihu', url: 'https://zhuanlan.zhihu.com' },
-              { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
+              { name: 'B站专栏', icon: 'https://1d-static.alibaba-inc.com/oneday/source/a5724285-292e-4146-bc17-134de178bd1b.PNG', url: 'https://www.bilibili.com/read/home', isImage: true },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
               { name: 'SegmentFault', icon: 'https://1d-static.alibaba-inc.com/oneday/source/452722ee-4659-468a-9b00-0780d0dc3b78.JPG', url: 'https://segmentfault.com', isImage: true },
               { name: 'InfoQ', icon: 'https://1d-static.alibaba-inc.com/oneday/source/e656dcd9-0d86-47e3-872c-e957f5d9257e.PNG', url: 'https://www.infoq.cn', isImage: true },
