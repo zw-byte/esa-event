@@ -143,7 +143,7 @@ function Rules() {
               { name: 'Linux', icon: 'fab fa-linux', url: 'https://linux.cn' },
               { name: 'Golang中文社区', icon: 'fas fa-code-branch', url: 'https://studygolang.com' },
               { name: '博客园', icon: 'fas fa-leaf', url: 'https://www.cnblogs.com' },
-              { name: '51CTO', icon: 'fas fa-graduation-cap', url: 'https://blog.51cto.com' },
+              { name: '51CTO', icon: 'https://1d-static.alibaba-inc.com/oneday/source/d4fe9016-8a58-46e1-ae34-b1506af6892e.PNG', url: 'https://blog.51cto.com', isImage: true },
               { name: 'YouTube', icon: 'fab fa-youtube', url: 'https://www.youtube.com' },
               { name: 'Twitter/X', icon: 'fab fa-twitter', url: 'https://twitter.com' },
               { name: 'Facebook', icon: 'fab fa-facebook', url: 'https://www.facebook.com' },
