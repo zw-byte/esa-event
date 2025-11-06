@@ -133,7 +133,7 @@ function Rules() {
               { name: '个人博客', icon: 'fas fa-blog', url: '#' },
               { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
               { name: 'V2EX', icon: 'https://www.v2ex.com/static/img/icon_rayps_64.png', url: 'https://www.v2ex.com', isImage: true },
-              { name: 'CSDN', icon: 'fas fa-code', url: 'https://blog.csdn.net' },
+              { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
               { name: '掘金', icon: 'fas fa-gem', url: 'https://juejin.cn' },
               { name: '知乎专栏', icon: 'fas fa-question-circle', url: 'https://zhuanlan.zhihu.com' },
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
