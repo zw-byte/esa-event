@@ -127,9 +127,6 @@ function Footer() {
               <a href="#" className="hover:text-white transition-colors duration-300">
                 服务条款
               </a>
-              <a href="#" className="hover:text-white transition-colors duration-300">
-                Cookie政策
-              </a>
             </div>
           </div>
         </div>
