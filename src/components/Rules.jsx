@@ -131,7 +131,7 @@ function Rules() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {[
               { name: '个人博客', icon: 'fas fa-blog', url: '#' },
-              { name: '微信公众号', icon: 'https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png', url: 'https://mp.weixin.qq.com', isImage: true },
+              { name: '微信公众号', icon: 'https://mmbiz.qpic.cn/mmbiz_png/PiajxSqBRaEIQxibpLbyuSK9XkjDgZoL0xHM6eF0tTJRMvqYJkZIw8GbVLkzVmqZnALqBxJiaQVqXiaJzjXYGZuLzg/0?wx_fmt=png', url: 'https://mp.weixin.qq.com', isImage: true },
               { name: 'V2EX', icon: 'https://cdn.v2ex.com/site/logo@2x.png', url: 'https://www.v2ex.com', isImage: true },
               { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
               { name: '掘金', icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg', url: 'https://juejin.cn', isImage: true },
