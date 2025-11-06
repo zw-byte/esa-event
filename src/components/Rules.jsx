@@ -133,8 +133,8 @@ function Rules() {
               { name: '个人博客', icon: 'fas fa-blog', url: '#' },
               { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
               { name: 'V2EX', icon: 'https://www.v2ex.com/static/img/icon_rayps_64.png', url: 'https://www.v2ex.com', isImage: true },
-              { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
-              { name: '掘金', icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg', url: 'https://juejin.cn', isImage: true },
+              { name: 'CSDN', icon: 'fas fa-code', url: 'https://blog.csdn.net' },
+              { name: '掘金', icon: 'fas fa-gem', url: 'https://juejin.cn' },
               { name: '知乎专栏', icon: 'fas fa-question-circle', url: 'https://zhuanlan.zhihu.com' },
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
@@ -161,7 +161,6 @@ function Rules() {
                     src={platform.icon} 
                     alt={platform.name}
                     className="w-8 h-8 mx-auto mb-2"
-                    style={{ filter: 'brightness(0) saturate(100%) invert(38%) sepia(98%) saturate(1789%) hue-rotate(201deg) brightness(95%) contrast(101%)' }}
                   />
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
