@@ -140,7 +140,7 @@ function Rules() {
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
               { name: 'SegmentFault', icon: 'https://1d-static.alibaba-inc.com/oneday/source/452722ee-4659-468a-9b00-0780d0dc3b78.JPG', url: 'https://segmentfault.com', isImage: true },
               { name: 'InfoQ', icon: 'https://1d-static.alibaba-inc.com/oneday/source/e656dcd9-0d86-47e3-872c-e957f5d9257e.PNG', url: 'https://www.infoq.cn', isImage: true },
-              { name: 'Linux', icon: 'fab fa-linux', url: 'https://linux.cn' },
+              { name: 'Linux.do', icon: 'fab fa-linux', url: 'https://linux.cn' },
               { name: 'Golang中文社区', icon: 'fas fa-code-branch', url: 'https://studygolang.com' },
               { name: '博客园', icon: 'https://1d-static.alibaba-inc.com/oneday/source/b27b75a4-2d29-4c26-9f7c-7e6e3c9edce3.JPG', url: 'https://www.cnblogs.com', isImage: true },
               { name: '51CTO', icon: 'https://1d-static.alibaba-inc.com/oneday/source/d4fe9016-8a58-46e1-ae34-b1506af6892e.PNG', url: 'https://blog.51cto.com', isImage: true },
