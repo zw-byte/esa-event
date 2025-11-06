@@ -116,8 +116,8 @@ function Footer() {
         
         {/* 分割线 */}
         <div className="border-t border-gray-800 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 text-sm">
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <div className="text-gray-400 text-sm text-center">
               本站点由AI生成，并部署在 ESA 函数和 Pages
             </div>
           </div>
