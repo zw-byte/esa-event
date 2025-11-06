@@ -57,18 +57,16 @@ function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">快速链接</h3>
             <ul className="space-y-2">
-              {['ESA介绍', '快速参与'].map((link) => (
-                <li key={link}>
-                  <a
-                    href={link === 'ESA介绍' ? 'https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=5176.30371578.J_XmGx2FZCDAeIy2ZCWL7sW.32.e939154aTprw9p&scm=20140722.S_help@@%E6%96%87%E6%A1%A3@@2794340._.RL_esa-LOC_2024NSHelpLink-OR_ser-PAR1_213e052917623133331917157e44c6-V_4-P0_0-P1_0' : `#${link}`}
-                    target={link === 'ESA介绍' ? '_blank' : undefined}
-                    rel={link === 'ESA介绍' ? 'noopener noreferrer' : undefined}
-                    className="text-gray-300 hover:text-white transition-colors duration-300"
-                  >
-                    {link}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a
+                  href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=5176.30371578.J_XmGx2FZCDAeIy2ZCWL7sW.32.e939154aTprw9p&scm=20140722.S_help@@%E6%96%87%E6%A1%A3@@2794340._.RL_esa-LOC_2024NSHelpLink-OR_ser-PAR1_213e052917623133331917157e44c6-V_4-P0_0-P1_0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors duration-300"
+                >
+                  ESA介绍
+                </a>
+              </li>
             </ul>
           </div>
           
