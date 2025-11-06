@@ -49,7 +49,7 @@ function Prizes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            ESA征文奖励机制
+            ESA 征文奖励机制
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             用数据说话，优质内容获得丰厚奖励。每位作者可投稿多篇，多劳多得
