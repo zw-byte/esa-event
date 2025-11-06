@@ -120,11 +120,6 @@ function Footer() {
             <div className="text-gray-400 text-sm">
               本站点由AI生成，并部署在 ESA 函数和 Pages
             </div>
-            <div className="flex space-x-6 text-sm text-gray-400 mt-4 md:mt-0">
-              <a href="#" className="hover:text-white transition-colors duration-300">
-                隐私政策
-              </a>
-            </div>
           </div>
         </div>
       </div>
