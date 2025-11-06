@@ -53,25 +53,6 @@ function Footer() {
               </li>
             </ul>
           </div>
-          
-          {/* 联系方式 */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">联系我们</h3>
-            <div className="space-y-3">
-              <div className="flex items-center text-gray-300">
-                <i className="fas fa-envelope mr-3 text-blue-400"></i>
-                <span>support@esa-contest.com</span>
-              </div>
-              <div className="flex items-center text-gray-300">
-                <i className="fas fa-phone mr-3 text-green-400"></i>
-                <span>400-123-4567</span>
-              </div>
-              <div className="flex items-center text-gray-300">
-                <i className="fas fa-map-marker-alt mr-3 text-red-400"></i>
-                <span>北京市朝阳区科技园</span>
-              </div>
-            </div>
-          </div>
         </div>
         
         {/* 微信二维码区域 */}
