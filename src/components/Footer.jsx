@@ -94,7 +94,7 @@ function Footer() {
         </div>
         
         {/* 微信二维码区域 */}
-        <div className="border-t border-gray-800 pt-8 pb-8">
+        <div id="esa-contact" className="border-t border-gray-800 pt-8 pb-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-white mb-6">
               <i className="fab fa-weixin text-green-400 mr-3"></i>

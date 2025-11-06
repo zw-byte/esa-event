@@ -57,9 +57,7 @@ function Hero() {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
           <a 
-            href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/how-to-get-esa-for-free?spm=5176.29099518.console-base_help.dexternal.52bc20670w9iXX#1846164d47wbq"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#esa-contact"
             className="btn-primary text-lg px-10 py-4 inline-flex items-center"
           >
             <i className="fas fa-pen-fancy mr-2"></i>
