@@ -133,7 +133,7 @@ function Rules() {
               { name: '个人博客', icon: 'fas fa-blog', url: '#' },
               { name: '微信公众号', icon: 'https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png', url: 'https://mp.weixin.qq.com', isImage: true },
               { name: 'V2EX', icon: 'https://www.v2ex.com/static/img/icon_rayps_64.png', url: 'https://www.v2ex.com', isImage: true },
-              { name: 'CSDN', icon: 'https://img-home.csdnimg.cn/images/20201124032511.png', url: 'https://blog.csdn.net', isImage: true },
+              { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
               { name: '掘金', icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg', url: 'https://juejin.cn', isImage: true },
               { name: '知乎专栏', icon: 'https://static.zhihu.com/heifetz/favicon.ico', url: 'https://zhuanlan.zhihu.com', isImage: true },
               { name: 'B站专栏', icon: 'fab fa-bilibili', url: 'https://www.bilibili.com/read/home' },
