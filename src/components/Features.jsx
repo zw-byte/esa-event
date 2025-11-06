@@ -92,11 +92,11 @@ function Features() {
                 <h4 className="font-bold text-gray-900 mb-2">全栈开发</h4>
                 <p className="text-gray-600 text-sm">前端性能优化工程师</p>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <i className="fas fa-graduation-cap text-purple-500 text-2xl mb-3"></i>
-                <h4 className="font-bold text-gray-900 mb-2">高校学生</h4>
-                <p className="text-gray-600 text-sm">IT从业人员</p>
-              </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm">
+              <i className="fas fa-graduation-cap text-purple-500 text-2xl mb-3"></i>
+              <h4 className="font-bold text-gray-900 mb-2">高校学生</h4>
+              <p className="text-gray-600 text-sm">计算机及相关专业</p>
+            </div>
               <div className="bg-white rounded-xl p-6 shadow-sm">
                 <i className="fas fa-heart text-red-500 text-2xl mb-3"></i>
                 <h4 className="font-bold text-gray-900 mb-2">科技爱好者</h4>
