@@ -58,8 +58,8 @@ function Header() {
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center text-sm md:text-base px-4 md:px-6 py-2 md:py-3 flex-shrink-0"
             >
-              <span className="hidden sm:inline">立即参与</span>
-              <span className="sm:hidden">参与</span>
+              <span className="hidden sm:inline">立即加群参与</span>
+              <span className="sm:hidden">加群参与</span>
             </a>
           </div>
         </div>
