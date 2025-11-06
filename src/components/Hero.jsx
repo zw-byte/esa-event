@@ -43,14 +43,9 @@ function Hero() {
           </p>
           
           <div className="space-y-4 max-w-5xl mx-auto bg-white bg-opacity-10 backdrop-blur-md rounded-3xl p-8 border border-white border-opacity-20 shadow-2xl">
-            <a 
-              href="https://www.aliyun.com/product/esa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-2xl md:text-3xl text-yellow-300 leading-relaxed font-bold tracking-wide hover:text-yellow-200 transition-colors duration-300"
-            >
-              阿里云ESA边缘安全加速
-            </a>
+            <h3 className="text-2xl md:text-3xl text-yellow-300 leading-relaxed font-bold tracking-wide">
+              阿里云 ESA 边缘安全加速
+            </h3>
             <p className="text-xl md:text-2xl text-blue-100 leading-snug font-semibold">
               一站式边缘安全 · 极速加速 · 全面防护
             </p>
