@@ -139,7 +139,7 @@ function Rules() {
               { name: 'B站专栏', icon: 'https://1d-static.alibaba-inc.com/oneday/source/a5724285-292e-4146-bc17-134de178bd1b.PNG', url: 'https://www.bilibili.com/read/home', isImage: true },
               { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com' },
               { name: 'SegmentFault', icon: 'https://1d-static.alibaba-inc.com/oneday/source/452722ee-4659-468a-9b00-0780d0dc3b78.JPG', url: 'https://segmentfault.com', isImage: true },
-              { name: 'InfoQ', icon: 'https://1d-static.alibaba-inc.com/oneday/source/e656dcd9-0d86-47e3-872c-e957f5d9257e.PNG', url: 'https://www.infoq.cn', isImage: true },
+              { name: 'InfoQ', icon: 'https://1d-static.alibaba-inc.com/oneday/source/e656dcd9-0d86-47e3-872c-e957f5d9257e.PNG', url: 'https://www.infoq.cn', isImage: true, alignBottom: true },
               { name: 'Linux.do', icon: 'https://1d-static.alibaba-inc.com/oneday/source/2d84cf50-e6a9-4c65-bb1b-cd0ad7a28159.JPG', url: 'https://linux.cn', isImage: true },
               { name: 'Golang中文社区', icon: 'fas fa-code-branch', url: 'https://studygolang.com' },
               { name: '博客园', icon: 'https://1d-static.alibaba-inc.com/oneday/source/b27b75a4-2d29-4c26-9f7c-7e6e3c9edce3.JPG', url: 'https://www.cnblogs.com', isImage: true },
@@ -165,7 +165,7 @@ function Rules() {
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 )}
-                <div className="text-sm font-medium text-gray-700 group-hover:text-gray-900 flex items-end h-10">{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
+                <div className={`text-sm font-medium text-gray-700 group-hover:text-gray-900 ${platform.alignBottom ? 'flex items-end h-10' : ''}`}>{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
               </a>
             ))}
           </div>
