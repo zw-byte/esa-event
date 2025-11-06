@@ -21,8 +21,7 @@ function Footer() {
               {[
                 { icon: 'fab fa-weixin', color: 'hover:text-green-400', hasQR: true },
                 { icon: 'fas fa-brain', color: 'hover:text-blue-500', url: 'https://bailian.console.aliyun.com/?spm=5176.29597918.J_SEsSjsNv72yRuRFS2VknO.2.6b947b08LeiXzS&tab=mcp#/mcp-market/detail/aliyun-esa', title: '阿里云百炼' },
-                { icon: 'fab fa-bilibili', color: 'hover:text-pink-400', url: 'https://space.bilibili.com/3632312197581781', title: 'B站' },
-                { icon: 'fab fa-twitter', color: 'hover:text-blue-400' }
+                { icon: 'fab fa-bilibili', color: 'hover:text-pink-400', url: 'https://space.bilibili.com/3632312197581781', title: 'B站' }
               ].map((social, index) => (
                 <div key={index} className="relative group">
                   <a
