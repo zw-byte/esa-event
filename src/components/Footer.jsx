@@ -20,13 +20,16 @@ function Footer() {
             <div className="flex space-x-4">
               {[
                 { icon: 'fab fa-weixin', color: 'hover:text-green-400', hasQR: true },
-                { icon: 'fab fa-weibo', color: 'hover:text-red-400' },
+                { icon: 'fas fa-brain', color: 'hover:text-blue-500', url: 'https://bailian.console.aliyun.com/?spm=5176.29597918.J_SEsSjsNv72yRuRFS2VknO.2.6b947b08LeiXzS&tab=mcp#/mcp-market/detail/aliyun-esa', title: '阿里云百炼' },
                 { icon: 'fab fa-github', color: 'hover:text-gray-400' },
                 { icon: 'fab fa-twitter', color: 'hover:text-blue-400' }
               ].map((social, index) => (
                 <div key={index} className="relative group">
                   <a
-                    href="#"
+                    href={social.url || '#'}
+                    target={social.url ? '_blank' : undefined}
+                    rel={social.url ? 'noopener noreferrer' : undefined}
+                    title={social.title || ''}
                     className={`w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center transition-colors duration-300 ${social.color}`}
                   >
                     <i className={`${social.icon} text-lg`}></i>
