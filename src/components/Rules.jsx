@@ -377,7 +377,11 @@ function Rules() {
                   <i className="fas fa-bullseye text-white"></i>
                 </div>
                 <h5 className="font-bold text-gray-900 mb-2">结论明确</h5>
-                <p className="text-gray-600 text-sm">给出清晰的使用建议和适用场景</p>
+                <p className="text-gray-600 text-sm">
+                  给出清晰的使用建议和适用场景
+                  <br />
+                  佐证文章观点
+                </p>
               </div>
             </div>
           </div>
