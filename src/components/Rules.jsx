@@ -456,7 +456,7 @@ function Rules() {
               <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                 分享在实际项目中使用ESA的配置经验和性能优化技巧，包含踩坑记录...
               </p>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mt-4">
                 <span className="text-xs text-purple-600 bg-purple-50 px-2 py-1 rounded-full">知乎</span>
                 <span className="text-xs text-gray-500">阅读量: 756</span>
               </div>
