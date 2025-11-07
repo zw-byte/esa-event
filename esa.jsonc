@@ -1,5 +1,5 @@
 {
-  "name": "ESA",’
+  "name": "esa-event",
   "entry": "./src/index.js",
   "installCommand": "npm install",
   "buildCommand": "npm run build",
