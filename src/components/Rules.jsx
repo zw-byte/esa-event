@@ -78,9 +78,20 @@ function Rules() {
             </div>
             <div>
               <h3 className="text-lg font-bold text-orange-900 mb-2">稿件说明</h3>
-              <p className="text-orange-800 leading-relaxed">
-                同篇文章跨平台发布仅计数为1篇，按平台总数据参与评审，活动时间内发布的所有文章内容重复度需低于80%，否则不予累计数量。
-              </p>
+              <div className="text-orange-800 leading-relaxed space-y-2">
+                <p className="flex items-start">
+                  <span className="w-2 h-2 bg-orange-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  同篇文章跨平台发布仅计数为1篇，按平台总数据参与评审。
+                </p>
+                <p className="flex items-start">
+                  <span className="w-2 h-2 bg-orange-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  文章需为2025年11月7日（含）之后发布的文章。
+                </p>
+                <p className="flex items-start">
+                  <span className="w-2 h-2 bg-orange-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  文章内容应为作者原创。一经发现侵权行为，取消活动参与资格。
+                </p>
+              </div>
             </div>
           </div>
         </div>
