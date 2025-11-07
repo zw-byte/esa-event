@@ -4,7 +4,7 @@ function Features() {
   const features = [
     {
       icon: 'fas fa-balance-scale',
-      title: '横向对比',
+      title: 'ESA使用教程',
       description: '与业界主流边缘加速解决方案的全维度对比测试,用数据说话',
       color: 'from-orange-500 to-orange-600'
     },
