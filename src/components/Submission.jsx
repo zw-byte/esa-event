@@ -76,7 +76,7 @@ function Submission() {
                 </div>
                 <div className="flex items-center">
                   <i className="fas fa-share-alt mr-3"></i>
-                  <span className="text-sm">分享活动到社交平台也可得 50TB ESA基础版加量包</span>
+                  <span className="text-sm">分享活动到社交平台也可得 50GB ESA基础版加量包</span>
                 </div>
               </div>
             </div>
