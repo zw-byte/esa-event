@@ -6,7 +6,7 @@ function Features() {
       icon: 'fas fa-book-open',
       title: 'ESA使用教程',
       description: 'ESA产品相关的使用教程，从入门到进阶的完整实践指南',
-      color: 'from-orange-500 to-orange-600'
+      color: 'from-blue-500 to-blue-600'
     },
     {
       icon: 'fas fa-code',
