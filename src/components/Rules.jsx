@@ -199,31 +199,31 @@ function Rules() {
               </h4>
             <div className="bg-white rounded-xl p-5 shadow-sm">
               <h5 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">
-                ESA vs XX CDN 全维度性能对比测试报告
+                ESA边缘安全加速从入门到实战
               </h5>
               <div className="space-y-2 text-sm text-gray-700 mb-4">
                 <p className="flex items-start">
                   <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
-                  <span>通过真实数据对比ESA与XX CDN在全球节点延迟、安全防护、成本效益等方面的表现...</span>
+                  <span>完整的配置步骤（截图+代码）</span>
                 </p>
-                  <p className="flex items-start">
-                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
-                    <span>多维度性能指标对比（延迟、吞吐量、稳定性）</span>
-                  </p>
-                  <p className="flex items-start">
-                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
-                    <span>真实数据图表展示（折线图、柱状图）</span>
-                  </p>
-                  <p className="flex items-start">
-                    <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
-                    <span>客观分析优劣势，给出使用建议</span>
-                  </p>
-                </div>
-                <div className="flex items-center justify-between pt-3 border-t border-gray-200">
-                  <span className="text-xs text-blue-600 bg-blue-50 px-3 py-1 rounded-full">推荐指数 ⭐⭐⭐⭐⭐</span>
-                  <span className="text-xs text-gray-500">阅读量易达标</span>
-                </div>
+                <p className="flex items-start">
+                  <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                  <span>常见问题解决方案</span>
+                </p>
+                <p className="flex items-start">
+                  <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                  <span>性能优化技巧分享</span>
+                </p>
+                <p className="flex items-start">
+                  <i className="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                  <span>实际效果对比（优化前后）</span>
+                </p>
               </div>
+              <div className="flex items-center justify-between mt-8">
+                <span className="text-xs text-green-600 bg-green-50 px-2 py-1 rounded-full">掘金</span>
+                <span className="text-xs text-gray-500">阅读量: 890</span>
+              </div>
+            </div>
             </div>
             
             {/* 实战教程类 */}
