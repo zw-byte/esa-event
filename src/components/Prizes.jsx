@@ -94,7 +94,8 @@ function Prizes() {
                     </>
                   ) : prize.rank === '官方转载+代金券' ? (
                     <>
-                      <div>10TB ESA基础版加量包</div>
+                      <div>10TB ESA基础版</div>
+                      <div>加量包</div>
                       <div className="text-xs text-gray-500 mb-2">
                         （有效期：1年）
                       </div>
