@@ -83,7 +83,8 @@ function Prizes() {
                 <div className="text-2xl font-bold text-gray-900 mb-2">
                   {prize.rank === '先锋成员+代金券' ? (
                     <>
-                      <div>1TB ESA基础版加量包</div>
+                      <div>1TB ESA基础版</div>
+                      <div>加量包</div>
                       {prize.rank === '先锋成员+代金券' && (
                         <div className="text-xs text-gray-500 mb-2">
                           （有效期：1年）
