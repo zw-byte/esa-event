@@ -3,10 +3,10 @@ import React from 'react';
 function Features() {
   const features = [
     {
-      icon: 'fas fa-book',
-      title: 'ESA使用教程',
-      description: 'ESA产品相关的使用教程，从入门到进阶的完整实践指南',
-      color: 'from-blue-500 to-blue-600'
+      icon: 'fas fa-balance-scale',
+      title: '横向对比',
+      description: '与业界主流边缘加速解决方案的全维度对比测试,用数据说话',
+      color: 'from-orange-500 to-orange-600'
     },
     {
       icon: 'fas fa-code',
