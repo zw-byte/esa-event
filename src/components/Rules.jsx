@@ -380,7 +380,7 @@ function Rules() {
                 <p className="text-gray-600 text-sm">
                   给出清晰的使用建议和适用场景
                   <br />
-                  佐证文章观点
+                  明确文章观点
                 </p>
               </div>
             </div>
