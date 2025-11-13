@@ -85,6 +85,10 @@ function Rules() {
                 </p>
                 <p className="flex items-start">
                   <span className="w-2 h-2 bg-orange-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  不同篇文章发布，按篇数获得参与奖励，可投递多篇。
+                </p>
+                <p className="flex items-start">
+                  <span className="w-2 h-2 bg-orange-600 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   文章需为2025年11月7日（含）之后发布的文章。
                 </p>
                 <p className="flex items-start">
