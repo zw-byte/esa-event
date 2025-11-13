@@ -16,7 +16,7 @@ function Prizes() {
       rank: '流量包代金券',
       count: '阅读量≥500',
       prize: '500GB ESA基础版加量包',
-      bonus: '精美实物礼品',
+      bonus: '',
       icon: 'fas fa-ticket-alt',
       color: 'from-green-400 to-green-600',
       bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50',
@@ -113,17 +113,19 @@ function Prizes() {
                   )}
                 </div>
                 
-                <div className="text-sm text-gray-600 leading-relaxed">
-                  {prize.bonus === '只要发布便可得，多劳多得' ? (
-                    <>
-                      只要发布便可得
-                      <br />
-                      多劳多得
-                    </>
-                  ) : (
-                    prize.bonus
-                  )}
-                </div>
+                {prize.bonus && (
+                  <div className="text-sm text-gray-600 leading-relaxed">
+                    {prize.bonus === '只要发布便可得，多劳多得' ? (
+                      <>
+                        只要发布便可得
+                        <br />
+                        多劳多得
+                      </>
+                    ) : (
+                      prize.bonus
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           ))}
