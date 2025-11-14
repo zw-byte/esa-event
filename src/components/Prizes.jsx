@@ -20,18 +20,20 @@ function Prizes() {
       icon: 'fas fa-ticket-alt',
       color: 'from-green-400 to-green-600',
       bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50',
-      borderColor: 'border-green-300'
+      borderColor: 'border-green-300',
+      countColor: 'text-green-600'
     },
-            {
-              rank: '先锋成员+代金券',
-              count: '阅读量≥1000',
-              prize: '1TB ESA基础版加量包+定制礼品',
-              bonus: '成为ESA先锋成员',
-              icon: 'fas fa-star',
-              color: 'from-purple-400 to-purple-600',
-              bgColor: 'bg-gradient-to-br from-purple-50 to-violet-50',
-              borderColor: 'border-purple-300'
-            },
+    {
+      rank: '先锋成员+代金券',
+      count: '阅读量≥5000',
+      prize: '1TB ESA基础版加量包+定制礼品',
+      bonus: '成为ESA先锋成员',
+      icon: 'fas fa-star',
+      color: 'from-purple-400 to-purple-600',
+      bgColor: 'bg-gradient-to-br from-purple-50 to-violet-50',
+      borderColor: 'border-purple-300',
+      countColor: 'text-purple-600'
+    },
     {
       rank: '官方转载+代金券',
       count: '阅读量≥10000',
@@ -40,7 +42,8 @@ function Prizes() {
       icon: 'fas fa-crown',
       color: 'from-yellow-400 to-yellow-600',
       bgColor: 'bg-gradient-to-br from-yellow-50 to-orange-50',
-      borderColor: 'border-yellow-300'
+      borderColor: 'border-yellow-300',
+      countColor: 'text-yellow-500'
     }
   ];
 
@@ -72,11 +75,7 @@ function Prizes() {
                   <i className={`${prize.icon} text-white text-3xl`}></i>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                  {prize.rank}
-                </h3>
-                
-                <div className="text-lg text-gray-600 mb-4">
+                <div className={`text-lg font-bold mb-4 ${prize.countColor || 'text-blue-600'}`}>
                   {prize.count}
                 </div>
                 
@@ -90,7 +89,7 @@ function Prizes() {
                           （有效期：1年）
                         </div>
                       )}
-                      <div>定制礼品</div>
+                      <div>先锋成员</div>
                     </>
                   ) : prize.rank === '官方转载+代金券' ? (
                     <>
@@ -115,20 +114,57 @@ function Prizes() {
                 
                 {prize.bonus && (
                   <div className="text-sm text-gray-600 leading-relaxed">
-                    {prize.bonus === '只要发布便可得，多劳多得' ? (
+                    {prize.bonus === '只要发布便可得,多劳多得' ? (
                       <>
                         只要发布便可得
                         <br />
                         多劳多得
+                      </>
+                    ) : prize.bonus === '成为ESA先锋成员' ? (
+                      <>
+                        成为ESA先锋成员
+                      </>
+                    ) : prize.bonus === '官方账号署名转发' ? (
+                      <>
+                        官方账号署名转发
                       </>
                     ) : (
                       prize.bonus
                     )}
                   </div>
                 )}
+                
+                {prize.rank === '先锋成员+代金券' && (
+                  <>
+                    <div className="text-2xl text-gray-700 font-semibold leading-relaxed mt-3">
+                      定制礼品
+                    </div>
+                    <div className="text-sm text-gray-600 leading-relaxed mt-1">
+                      阿里云周边
+                    </div>
+                  </>
+                )}
+                
+                {prize.rank === '官方转载+代金券' && (
+                  <>
+                    <div className="text-2xl text-gray-700 font-semibold leading-relaxed mt-3">
+                      定制礼品
+                    </div>
+                    <div className="text-sm text-gray-600 leading-relaxed mt-1">
+                      阿里云周边
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           ))}
+        </div>
+        
+        {/* 阶梯式规则说明 */}
+        <div className="text-center mb-8">
+          <p className="text-blue-600 font-semibold text-base bg-blue-50 py-3 px-6 rounded-lg inline-block">
+            奖励获取遵循"阶梯式"规则。参与者达成既定条件后,即可解锁并领取相应阶梯的奖励。
+          </p>
         </div>
         
         {/* ESA先锋成员特权 */}
@@ -187,6 +223,19 @@ function Prizes() {
                 持续享受更多专属特权
                 <br />
                 优先服务
+              </p>
+            </div>
+          </div>
+          
+          <div className="mt-8 text-center">
+            <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-6 inline-block border-2 border-yellow-300">
+              <p className="text-lg font-bold text-gray-900">
+                <i className="fas fa-star text-yellow-500 mr-2"></i>
+                <span className="text-yellow-600">「发文阅读量大于5000」</span>
+                <span className="mx-2 text-gray-600">或</span>
+                <span className="text-yellow-600">「进ESA交流群提10个被采纳建议」</span>
+                <br />
+                <span className="mt-2 inline-block"><span className="text-gray-900">也可以单独</span><span className="text-yellow-600">获得"先锋成员"称号</span></span>
               </p>
             </div>
           </div>
