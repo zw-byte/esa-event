@@ -145,7 +145,7 @@ function Rules() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {[
-              { name: '个人博客', icon: 'fas fa-blog', url: '#' },
+              { name: '极术社区', icon: 'https://1d-static.alibaba-inc.com/oneday/source/97475541-9657-4da9-aff4-3fb4262b1f27.PNG', url: 'https://aijishu.com/', isImage: true },
               { name: '微信公众号', icon: 'fab fa-weixin', url: 'https://mp.weixin.qq.com' },
               { name: 'V2EX', icon: 'https://www.v2ex.com/static/img/icon_rayps_64.png', url: 'https://www.v2ex.com', isImage: true },
               { name: 'CSDN', icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico', url: 'https://blog.csdn.net', isImage: true },
@@ -175,12 +175,12 @@ function Rules() {
                   <img 
                     src={platform.icon} 
                     alt={platform.name} 
-                    className={`mx-auto object-contain ${platform.name === 'InfoQ' ? 'w-10 h-10 mb-1' : platform.name === '51CTO' ? 'w-10 h-10 mb-2' : platform.name === '知乎专栏' ? 'w-10 h-10 mb-2' : 'w-8 h-8 mb-2'}`} 
+                    className={`mx-auto object-contain ${platform.name === 'InfoQ' ? 'w-10 h-10 mb-1' : platform.name === '51CTO' ? 'w-10 h-10 mb-2' : platform.name === '知乎专栏' ? 'w-10 h-10 mb-2' : platform.name === '极术社区' ? 'w-8 h-8 mb-2' : 'w-8 h-8 mb-2'}`} 
                   />
                 ) : (
                   <i className={`${platform.icon} text-2xl text-blue-600 group-hover:text-blue-700 mb-2 transition-colors`}></i>
                 )}
-                <div className={`text-sm font-medium text-gray-700 group-hover:text-gray-900 ${platform.name === 'InfoQ' ? '-mt-1' : platform.name === '51CTO' ? '-mt-2' : ''}`}>{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name}</div>
+                <div className={`text-sm font-medium text-gray-700 group-hover:text-gray-900 ${platform.name === 'InfoQ' ? '-mt-1' : platform.name === '51CTO' ? '-mt-2' : ''}`}>{platform.name === 'Linux.do' ? 'LINUX DO' : platform.name === '极术社区' ? '极术社区' : platform.name}</div>
               </a>
             ))}
           </div>
