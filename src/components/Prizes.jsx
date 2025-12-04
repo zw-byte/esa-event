@@ -119,6 +119,8 @@ function Prizes() {
                         只要发布便可得
                         <br />
                         多劳多得
+                        <br />
+                        <span className="text-xs text-gray-500">参与奖励每周限领1次</span>
                       </>
                     ) : prize.bonus === '成为ESA先锋成员' ? (
                       <>
