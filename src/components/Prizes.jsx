@@ -114,13 +114,10 @@ function Prizes() {
                 
                 {prize.bonus && (
                   <div className="text-sm text-gray-600 leading-relaxed">
-                    {prize.bonus === '只要发布便可得,多劳多得' ? (
+                    {prize.bonus === '只要发布便可得，多劳多得' ? (
                       <>
-                        只要发布便可得
-                        <br />
-                        多劳多得
-                        <br />
-                        <span className="text-xs text-gray-500">参与奖励每周限领1次</span>
+                        <div>只要发布便可得，多劳多得</div>
+                        <div className="mt-1 text-blue-600 font-medium">参与奖励每周限领1次</div>
                       </>
                     ) : prize.bonus === '成为ESA先锋成员' ? (
                       <>
