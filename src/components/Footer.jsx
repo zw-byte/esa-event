@@ -69,7 +69,7 @@ function Footer() {
               <div className="bg-white rounded-2xl p-6 shadow-xl">
                 <div className="w-48 h-48 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
                   <img 
-                    src="https://1d-static.alibaba-inc.com/oneday/source/827c7c1d-447b-4301-b6b4-f8b7b77b64c6.png" 
+                    src="https://1d-static.alibaba-inc.com/oneday/source/454ac3c2-b6d3-4536-a171-ec6ec31e687c.png" 
                     alt="ESA交流群二维码" 
                     className="w-full h-full rounded-lg object-cover"
                   />
